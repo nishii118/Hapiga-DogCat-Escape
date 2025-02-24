@@ -42,4 +42,14 @@ public class Player : MonoBehaviour
             isDragging = false;
         }
     }
+
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "SuccessSpot")
+        {
+            Debug.Log("Success");
+            GameManager.Instance.LoadNextScene();
+        }
+    }
 }
