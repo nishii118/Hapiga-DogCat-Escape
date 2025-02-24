@@ -1,0 +1,834 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Table_Common_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 840c1f5e845aa8140a2024be7334084a, type: 2}
+  m_Metadata:
+    m_Items:
+      Array: []
+  m_TableData:
+  - m_Id: 415699670929408
+    m_Localized: CASSE LE MUR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699742232576
+    m_Localized: RÉCLAME
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426880
+    m_Localized: RÉCOLTE CECI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426881
+    m_Localized: CONTINUER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426882
+    m_Localized: Clique ici pour redémarrer
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426883
+    m_Localized: GLISSE POUR DÉPLACER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426884
+    m_Localized: DE L'ARGENT LIQUIDE !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426885
+    m_Localized: MANGE MOI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426886
+    m_Localized: ENTRE DANS LE PORTAIL
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426887
+    m_Localized: CADEAU GRATUIT
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426888
+    m_Localized: Incroyable !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426889
+    m_Localized: "Travail incroyable!\nTu es le meilleur!"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426890
+    m_Localized: Génial !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426891
+    m_Localized: Plus de chance la prochaine fois !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426892
+    m_Localized: Brillant !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426893
+    m_Localized: Pouvez-vous faire mieux la prochaine fois ?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426894
+    m_Localized: Revenez dans
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426895
+    m_Localized: Revenez plus tard.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426896
+    m_Localized: Cool !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426897
+    m_Localized: Gagnez de la nourriture
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426898
+    m_Localized: Suffisamment de nourriture collectée!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426899
+    m_Localized: Fantastique !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426900
+    m_Localized: Nourrir
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621184
+    m_Localized: Nourrissez votre chat !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621185
+    m_Localized: L'heure du repas est passée !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621186
+    m_Localized: Nourrissez complètement le chat avant que le chronomètre ne s'épuise !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621187
+    m_Localized: Bon travail !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621188
+    m_Localized: Excellent !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621189
+    m_Localized: Maintenir pour nourrir
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621190
+    m_Localized: J'ai faim!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621191
+    m_Localized: Nourrissons-la
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621192
+    m_Localized: Nourrissons votre chat !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621193
+    m_Localized: C'est parti !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621194
+    m_Localized: Suivant
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621195
+    m_Localized: Prochaine heure du repas dans
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621196
+    m_Localized: Prochain repas dans
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621197
+    m_Localized: C'est bien !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621198
+    m_Localized: OK
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621201
+    m_Localized: Si près du but !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621202
+    m_Localized: Tentez de mieux faire la prochaine fois !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621203
+    m_Localized: Bravo !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621204
+    m_Localized: Battez les niveaux
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621205
+    m_Localized: Gagnez plus de niveaux pour collecter de la nourriture
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621206
+    m_Localized: Vous avez besoin de plus de nourriture pour chats
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621207
+    m_Localized: Votre chat est bien nourri !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621208
+    m_Localized: Votre chat n'a pas faim pour l'instant.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621209
+    m_Localized: Votre chat a encore faim !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621210
+    m_Localized: Votre chat attend d'être nourri !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621211
+    m_Localized: Votre récompense !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621212
+    m_Localized: Génial !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621216
+    m_Localized: CONTINUE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621217
+    m_Localized: Nourrir
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621218
+    m_Localized: Nourrissez le chiot!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621219
+    m_Localized: J'ai faim!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621220
+    m_Localized: Le chiot est rassasié!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621221
+    m_Localized: Nourrissons-la
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621223
+    m_Localized: C'est parti !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621224
+    m_Localized: OK
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621225
+    m_Localized: Fini des niveaux pour ramasser plus de nourriture
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621226
+    m_Localized: Atteins le niveau _LVL_
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815490
+    m_Localized: Sauve le chiot dans le niveau _LVL_
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815491
+    m_Localized: Presse pour continuer
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815492
+    m_Localized: Tu as sauvé le chiot!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815493
+    m_Localized: SourceSansPro-Black SDF
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815494
+    m_Localized: SourceSansPro-Black Outline Orange
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815495
+    m_Localized: SourceSansPro-Black Outline
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815496
+    m_Localized: RECEVOIR!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815497
+    m_Localized: BON TRAVAIL!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815498
+    m_Localized: CACHE DEDANS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815499
+    m_Localized: Dernière Chance!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815500
+    m_Localized: À L'AIDE!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815501
+    m_Localized: Waf Waaf!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815502
+    m_Localized: Venge-toi!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815503
+    m_Localized: Offre à durée limitée
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815504
+    m_Localized: Pack Royal
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815505
+    m_Localized: "Supprimez les publicités agaçantes pour toujours\nConservez les publicités optionnelles pour des récompenses"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815506
+    m_Localized: '*Supprimez toutes les publicités pop-up. Conservez les publicités facultatives pour des récompenses.'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815507
+    m_Localized: Pas de publicités forcées*
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815508
+    m_Localized: Skin royal
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815509
+    m_Localized: Effet royal
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815510
+    m_Localized: AIMES-TU CET EFFET?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815511
+    m_Localized: PERDS LA
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815512
+    m_Localized: Essayons encore
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815513
+    m_Localized: Niveau
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815514
+    m_Localized: Plus les niveaux sont à venir avec la prochaine mise à jour!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815515
+    m_Localized: NOUVEAU SKIN
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815516
+    m_Localized: Cadeau surprise!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815517
+    m_Localized: OH NON!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815518
+    m_Localized: OPTIONS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815519
+    m_Localized: PREMIUM
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815520
+    m_Localized: ALLUME LE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815521
+    m_Localized: 'TEMPS RESTANT:'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815522
+    m_Localized: Abandonne-le.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815523
+    m_Localized: Sauver
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815524
+    m_Localized: Sauve le chiot?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815525
+    m_Localized: Restaure l'achat
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815526
+    m_Localized: Restauration d'achat réussie!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815527
+    m_Localized: SÉLECTIONNER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815528
+    m_Localized: TIRE ICI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815529
+    m_Localized: TIRE LES BOUTONS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815530
+    m_Localized: SKINS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815531
+    m_Localized: SKINS & EFFETS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815532
+    m_Localized: PASSER LE NIVEAU
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815533
+    m_Localized: OFFRE SPÉCIALE!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815534
+    m_Localized: ARRÊTE ICI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815535
+    m_Localized: ARRÊTE POUR TIRER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815536
+    m_Localized: TOUCHE POUR COMMENCER!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815537
+    m_Localized: "EFFET\nDÉBLOQUÉ"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815538
+    m_Localized: EFFETS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815539
+    m_Localized: ÉTEINS LE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815540
+    m_Localized: Joue maintenant ou ton chien ne t'aimera plus! 😠
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815541
+    m_Localized: Ton chien se sent seul 😢
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815542
+    m_Localized: Aide ton chien à s'échapper! 😏
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815543
+    m_Localized: Les gardes se moquent de toi! 👮
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815544
+    m_Localized: débloquer
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815545
+    m_Localized: TU AS SAUVÉ LE CHIEN !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450880997527552
+    m_Localized: Doublez les pièces du puzzle pendant les 5 prochaines minutes !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470592
+    m_Localized: DOUBLE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470593
+    m_Localized: Obtenez uniquement les skins que vous n'avez pas débloqués
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470594
+    m_Localized: OBTENIR PLUS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470595
+    m_Localized: PACK DE PUZZLES !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470596
+    m_Localized: Jouez à des niveaux pour collecter des pièces de puzzle !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470597
+    m_Localized: Complétez les puzzles !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470598
+    m_Localized: CHASSE AUX PUZZLES
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470599
+    m_Localized: COMPRIS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470600
+    m_Localized: Débloquez des récompenses exclusives!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470601
+    m_Localized: DERNIÈRE CHANCE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470602
+    m_Localized: Dernière chance de les obtenir tous
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470603
+    m_Localized: Dernière chance de les obtenir tous
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470604
+    m_Localized: TEMPS ÉCOULÉ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470605
+    m_Localized: Événement terminé !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 7617357122269184
+    m_Localized: COMPLÉTEZ VOS PUZZLES !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470607
+    m_Localized: PIÈCE DE PUZZLE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470608
+    m_Localized: PAS ASSEZ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470609
+    m_Localized: "Supprimez les interruptions causées par les publicités et les bannières. \n\nLes publicités vidéo récompensées seront toujours disponibles."
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470610
+    m_Localized: Obtenez 15 pièces de puzzle!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470611
+    m_Localized: POUR TOUJOURS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470612
+    m_Localized: MEILLEUR PRIX
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470613
+    m_Localized: OFFRE À DURÉE LIMITÉE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470614
+    m_Localized: PLUS DE PUBLICITÉ POUR TOUJOURS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470615
+    m_Localized: Non merci
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470616
+    m_Localized: PIÈCES DE PUZZLE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470617
+    m_Localized: CHASSE AUX PUZZLES
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470618
+    m_Localized: Pas maintenant
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470619
+    m_Localized: ALLONS-Y!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470620
+    m_Localized: Utilisez-les avant la fin du temps imparti !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470623
+    m_Localized: TEMPS ÉCOULÉ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470624
+    m_Localized: DERNIÈRE CHANCE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470625
+    m_Localized: Obtenez uniquement les skins que vous n'avez pas débloqués
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470626
+    m_Localized: UTILISER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470627
+    m_Localized: Tu as débloqué le dernier skin de la Chasse aux Puzzles!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470628
+    m_Localized: FÉLICITATIONS!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470629
+    m_Localized: OBTENEZ 2
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470630
+    m_Localized: COMPLÉTEZ LE PUZZLE POUR DÉBLOQUER LE SKIN
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 7617357151629312
+    m_Localized: 'TU AS:'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9051782759583744
+    m_Localized: TRANSFORME L'ENVIRONNEMENT DU NIVEAU
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621230
+    m_Localized: SAUVE-MOI!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027108466688
+    m_Localized: Supprimer les publicités
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021120
+    m_Localized: Jouez sans interruption !
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021121
+    m_Localized: Débarrassez-vous des publicités!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021122
+    m_Localized: Regardez des pubs uniquement pour des récompenses supplémentaires
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 20368315875581952
+    m_Localized: PLACARD
+    m_Metadata:
+      m_Items:
+        Array: []
+  references:
+    version: 2
+    RefIds: []

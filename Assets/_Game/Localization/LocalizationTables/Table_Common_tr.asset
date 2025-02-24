@@ -1,0 +1,834 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Table_Common_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 840c1f5e845aa8140a2024be7334084a, type: 2}
+  m_Metadata:
+    m_Items:
+      Array: []
+  m_TableData:
+  - m_Id: 415699670929408
+    m_Localized: DUVARI KIR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699742232576
+    m_Localized: AL
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426880
+    m_Localized: BUNU TOPLA
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426881
+    m_Localized: DEVAM ET
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426882
+    m_Localized: Yeniden başlatmak için buraya dokun
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426883
+    m_Localized: HAREKET ETMEK İÇİN SÜRÜKLE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426884
+    m_Localized: PARA KAZAN!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426885
+    m_Localized: BUNU YE!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426886
+    m_Localized: PORTAL'A GIR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426887
+    m_Localized: HEDİYE
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426888
+    m_Localized: Harika!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426889
+    m_Localized: "Harika iş!\nEn iyisi sensin!"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426890
+    m_Localized: Müthiş!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426891
+    m_Localized: Bir dahaki sefere iyi şanslar!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426892
+    m_Localized: Mükemmel!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426893
+    m_Localized: Bir dahaki sefere daha iyisini yapabilir misin?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426894
+    m_Localized: Tekrar gel
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426895
+    m_Localized: Daha sonra gel.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426896
+    m_Localized: Havalı!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426897
+    m_Localized: Mama Kazan
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426898
+    m_Localized: Yeterince mama toplandı!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426899
+    m_Localized: Fantastik!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426900
+    m_Localized: Besle
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621184
+    m_Localized: Kedinizi Besleyin!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621185
+    m_Localized: Beslenme zamanı bitti!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621186
+    m_Localized: Zaman dolmadan önce kediyi besleyin!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621187
+    m_Localized: İyi işti!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621188
+    m_Localized: Harika!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621189
+    m_Localized: Beslemek için Basılı Tutun
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621190
+    m_Localized: Açım!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621191
+    m_Localized: Onu Besleyelim
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621192
+    m_Localized: Kedinizi besleyelim!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621193
+    m_Localized: Hadi gidelim!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621194
+    m_Localized: Sonraki
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621195
+    m_Localized: Bir sonraki besleme zamanı
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621196
+    m_Localized: Sonraki Öğün
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621197
+    m_Localized: Güzel!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621198
+    m_Localized: Tamam
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621201
+    m_Localized: Çok yakın!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621202
+    m_Localized: Bir dahaki sefere daha sıkı çalış!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621203
+    m_Localized: İyi işti!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621204
+    m_Localized: Kazanma Seviyeleri
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621205
+    m_Localized: Yiyecek toplamak için daha fazla seviye kazanın
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621206
+    m_Localized: Daha fazla kedi mamasına ihtiyacın var
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621207
+    m_Localized: Kedinizin karnı doydu!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621208
+    m_Localized: Kediniz şu an aç değil.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621209
+    m_Localized: Kedin hala aç!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621210
+    m_Localized: Kediniz beslenmeyi bekliyor!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621211
+    m_Localized: Ödülünüz!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621212
+    m_Localized: Müthiş!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621216
+    m_Localized: DEVAM ET
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621217
+    m_Localized: Besle
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621218
+    m_Localized: Köpüşü besle!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621219
+    m_Localized: Karnım aç!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621220
+    m_Localized: Köpüş doydu!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621221
+    m_Localized: Onu besle!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621223
+    m_Localized: Hadi gidelim!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621224
+    m_Localized: Tamam
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621225
+    m_Localized: Daha fazla mama toplamak için oynamaya devam et.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621226
+    m_Localized: _LVL_. bölüme ulaş.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815490
+    m_Localized: _LVL_. bölümdeki köpüşü kurtar.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815491
+    m_Localized: Devam etmek için dokun
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815492
+    m_Localized: Köpüşü kurtardın!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815493
+    m_Localized: SourceSansPro-Black SDF
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815494
+    m_Localized: SourceSansPro-Black Outline Orange
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815495
+    m_Localized: SourceSansPro-Black Outline
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815496
+    m_Localized: AL!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815497
+    m_Localized: AFERİN!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815498
+    m_Localized: BURAYA SAKLAN!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815499
+    m_Localized: Son Şans!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815500
+    m_Localized: İMDAT!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815501
+    m_Localized: Hav Hav!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815502
+    m_Localized: İntikam al!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815503
+    m_Localized: Sınırlı Süreli Teklif
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815504
+    m_Localized: Kraliyet Paketi
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815505
+    m_Localized: "Rahatsız edici reklamları sonsuza kadar kaldırın\nÖdüller için isteğe bağlı reklamlara devam edin"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815506
+    m_Localized: '*Tüm açılır reklamları kaldırın. Ödüller için isteğe bağlı reklamları tutun.'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815507
+    m_Localized: Zorunlu reklam yok*
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815508
+    m_Localized: Kraliyet Kostümü
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815509
+    m_Localized: Kraliyet İzi
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815510
+    m_Localized: İZİ BEĞENDİN Mİ?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815511
+    m_Localized: FIRSATI KAÇIR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815512
+    m_Localized: Tekrar dene
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815513
+    m_Localized: Bölüm
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815514
+    m_Localized: Yakında daha fazla bölüm geliyor!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815515
+    m_Localized: YENİ KOSTÜM
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815516
+    m_Localized: Sürpriz Hediye!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815517
+    m_Localized: TÜH BE!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815518
+    m_Localized: AYARLAR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815519
+    m_Localized: PREMİUM
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815520
+    m_Localized: İT!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815521
+    m_Localized: 'KALAN ZAMAN:'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815522
+    m_Localized: Onu terk et.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815523
+    m_Localized: Kurtar
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815524
+    m_Localized: Köpüşü Kurtar?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815525
+    m_Localized: Satın almayı geri yükle
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815526
+    m_Localized: Satın almayı gerı yükleme başarılı!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815527
+    m_Localized: SEÇ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815528
+    m_Localized: BURAYA ATEŞ ET
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815529
+    m_Localized: DÜĞMELERE ATEŞ ET
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815530
+    m_Localized: KOSTÜMLER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815531
+    m_Localized: KOSTÜMLER VE İZLER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815532
+    m_Localized: BÖLÜMÜ GEÇ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815533
+    m_Localized: ÖZEL TEKLİF
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815534
+    m_Localized: BURADA DUR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815535
+    m_Localized: ATEŞ ETMEK İÇİN DUR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815536
+    m_Localized: BAŞLAMAK IÇIN DOKUN!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815537
+    m_Localized: İZ AÇILDI!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815538
+    m_Localized: İZLER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815539
+    m_Localized: KAPAT
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815540
+    m_Localized: Oynamazsan köpeğin sana küsecek! 😠
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815541
+    m_Localized: Köpeğin yalnız hissediyor 😢
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815542
+    m_Localized: Köpeğinin kaçmasına yardım et! 😏
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815543
+    m_Localized: Güvenlikler sana gülüyor! 👮
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815544
+    m_Localized: Kilidi aç
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815545
+    m_Localized: KÖPEĞİ KURTARDIN!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450880997527552
+    m_Localized: Önümüzdeki 5 dakika için çift puzzle parçaları!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470592
+    m_Localized: ÇİFT
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470593
+    m_Localized: Sadece kilidini açmadığınız görünümleri al
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470594
+    m_Localized: DAHA FAZLASINI AL
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470595
+    m_Localized: YAPBOZ PAKETİ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470596
+    m_Localized: Yapbozun parçalarını toplamak için seviyeleri oyna!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470597
+    m_Localized: Yapbozları tamamla!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470598
+    m_Localized: YAPBOZ AVI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470599
+    m_Localized: ANLAŞILDI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470600
+    m_Localized: Benzersiz ödüllerin kilidini aç!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470601
+    m_Localized: SON ŞANS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470602
+    m_Localized: Hepsini elde etmek için son şans
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470603
+    m_Localized: Hepsini elde etmek için son şans
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470604
+    m_Localized: SÜRE DOLDU!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470605
+    m_Localized: Etkinlik tamamlandı!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 7617357122269184
+    m_Localized: YAPBOZLARINIZI TAMAMLAYIN!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470607
+    m_Localized: YAPBOZ PARÇASI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470608
+    m_Localized: YETERLİ DEĞİL
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470609
+    m_Localized: "Reklamlar ve afişler tarafından yapılan kesintileri kaldırın. \n\nÖdüllü video reklamları hala mevcut olacak."
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470610
+    m_Localized: 15 yapboz parçası al!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470611
+    m_Localized: SONSUZA KADAR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470612
+    m_Localized: HARİKA DEĞER
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470613
+    m_Localized: SINIRLI SÜRELİ TEKLİF
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470614
+    m_Localized: ZORUNLU REKLAM YOK
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470615
+    m_Localized: Hayır, teşekkürler
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470616
+    m_Localized: YAPBOZ PARÇALARI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470617
+    m_Localized: YAPBOZ AVI
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470618
+    m_Localized: Şimdi değil
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470619
+    m_Localized: Hadi gidelim!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470620
+    m_Localized: Zaman dolmadan kullanın!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470623
+    m_Localized: SÜRE DOLDU!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470624
+    m_Localized: SON ŞANS
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470625
+    m_Localized: Sadece kilidini açmadığınız görünümleri alın
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470626
+    m_Localized: KULLAN
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470627
+    m_Localized: Yapboz Avı'nın son kostümünün kilidini açtınız!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470628
+    m_Localized: TEBRİKLER!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470629
+    m_Localized: 2 AL
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470630
+    m_Localized: KOSTÜM KİLİDİNİ AÇMAK İÇİN BULMACAYI TAMAMLAYIN
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 7617357151629312
+    m_Localized: 'VAR:'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9051782759583744
+    m_Localized: BÖLÜM GÖRSELLERİNİ DEĞİŞTİR
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621230
+    m_Localized: BENİ KURTAR!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027108466688
+    m_Localized: Reklamları Kaldır
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021120
+    m_Localized: Kesintisiz oynayın!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021121
+    m_Localized: Rahatsız edici reklamlardan kurtulun
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021122
+    m_Localized: Sadece ekstra ödüller için videoları izleyin
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 20368315875581952
+    m_Localized: GARDIROP
+    m_Metadata:
+      m_Items:
+        Array: []
+  references:
+    version: 2
+    RefIds: []

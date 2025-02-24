@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1711152329, guid: be88b841867d5c44c7198fb77a7f18db, type: 3}
+  m_Name: ExitDoorPairCollection
+  m_EditorClassIdentifier:
+  originalPrefab: {fileID: 1153317648659917, guid: 118d47348aff50d4b833355cb64ee253, type: 2}
+  fxPrefab: {fileID: 1591072745833619, guid: 6ec0aac082e4699469ab4c01c17ed330, type: 2}
+  collection:
+  - requiredSkin: {fileID: 11400000, guid: e89ae99ec3552dc47a5b944334c1a440, type: 2}
+    prefabVariant: {fileID: 1460017862754654, guid: 7ad239e4fc159e24d972d401dfb1e723, type: 2}
+  showFxOnlyOnEnter: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 947776574, guid: a9735a0cc0061ea2c4adb46f51855888, type: 3}
+  m_Name: PH_06_SquidGameSkin
+  m_EditorClassIdentifier:
+  sprite: {fileID: 21300000, guid: b3f5d2e7858e44647ac35c3a876ca705, type: 2}
+  type: 1
+  material: {fileID: 2100000, guid: 3488eca700d528446846fc0a2b9be22e, type: 2}
+  puzzleHuntCard: {fileID: 21300000, guid: 0d38f43ad64dca14ba64bd1a4b4df6c1, type: 2}
+  boxIcon: {fileID: 21300000, guid: e53b972296f62714fb1c438664ca5c91, type: 2}
+  lidIcon: {fileID: 21300000, guid: a84935e6aa8692e4a831414e810705a4, type: 2}
+  lockedColor: {r: 0.6313726, g: 0.40000004, b: 0.5529412, a: 1}
+  shopCard: {fileID: 114424870560318531, guid: 00afaf730f2149f4eb9f3ed2d78f0da5, type: 2}

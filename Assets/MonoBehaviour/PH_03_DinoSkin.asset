@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 947776574, guid: a9735a0cc0061ea2c4adb46f51855888, type: 3}
+  m_Name: PH_03_DinoSkin
+  m_EditorClassIdentifier:
+  sprite: {fileID: 21300000, guid: f7e0ecb31daa62640bcdd71f5c4166f3, type: 2}
+  type: 1
+  material: {fileID: 2100000, guid: aa13273c2a965bf4fb59ebf9ea2e8a42, type: 2}
+  puzzleHuntCard: {fileID: 21300000, guid: 86d80de3438f8d24b8232ddf298abc9a, type: 2}
+  boxIcon: {fileID: 21300000, guid: 247c74c226d59074c8ec56b6aee6aa9c, type: 2}
+  lidIcon: {fileID: 21300000, guid: c78e87c77b22cfa4ba4f89bd89accc82, type: 2}
+  lockedColor: {r: 0.37254903, g: 0.57254905, b: 0.3529412, a: 1}
+  shopCard: {fileID: 114424870560318531, guid: 00afaf730f2149f4eb9f3ed2d78f0da5, type: 2}

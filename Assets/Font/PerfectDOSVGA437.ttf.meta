@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 439d3a69bca536b40baa10a29365dba0
+timeCreated: 1740403508
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Perfect DOS VGA 437
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 2
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

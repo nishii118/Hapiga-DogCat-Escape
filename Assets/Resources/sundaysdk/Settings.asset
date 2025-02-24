@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 807866307, guid: 7f405c3e36673c99ba2d9aee60b4fa07, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  facebookAppID: 1386360668645362
+  facebookClientToken: 40bc86ad32cead16fc4f19fad7ec2d22
+  justTrackAndroidToken: prod-0cf1c9fa569c36d570b26b3177aa55c2d3a825d0be6f880d2f1fa702c3c60936
+  justTrackIOSToken: prod-607026f583ce9ec7f8f3f0afd3b6a1a277e73db6705dc541d0556b41013d1654
+  isFirebaseRemoteConfigEnabled: 1
+  editorTestGroupID: 2
+  useEditorTestGroupSettingsOnBuild: 0
+  testGroup1Settings:
+    isAdQualitySDKEnabled: 0
+    isBannerEnabled: 1
+    isInterstitialEnabled: 1
+    interstitialCooldown: 30
+    isRewardedVideoEnabled: 1
+    isAppOpenEnabled: 0
+    isOfferwallEnabled: 1
+    isAdmobOnlyBanner: 0
+    isTwoAdsPlacementEnabled: 0
+    isInternetConnectionCheckEnabled: 0
+    shouldCheckInternetOnInitialization: 0
+    shouldCheckInternetOnLevelEvents: 0
+    isPreAttRequestPanelEnabled: 0
+  testGroup2Settings:
+    isAdQualitySDKEnabled: 0
+    isBannerEnabled: 1
+    isInterstitialEnabled: 1
+    interstitialCooldown: 30
+    isRewardedVideoEnabled: 1
+    isAppOpenEnabled: 0
+    isOfferwallEnabled: 1
+    isAdmobOnlyBanner: 0
+    isTwoAdsPlacementEnabled: 0
+    isInternetConnectionCheckEnabled: 0
+    shouldCheckInternetOnInitialization: 0
+    shouldCheckInternetOnLevelEvents: 0
+    isPreAttRequestPanelEnabled: 0
+  testGroup3Settings:
+    isAdQualitySDKEnabled: 0
+    isBannerEnabled: 1
+    isInterstitialEnabled: 1
+    interstitialCooldown: 30
+    isRewardedVideoEnabled: 1
+    isAppOpenEnabled: 0
+    isOfferwallEnabled: 1
+    isAdmobOnlyBanner: 0
+    isTwoAdsPlacementEnabled: 0
+    isInternetConnectionCheckEnabled: 0
+    shouldCheckInternetOnInitialization: 0
+    shouldCheckInternetOnLevelEvents: 0
+    isPreAttRequestPanelEnabled: 0
+  admobSettings:
+    AppIdAndroid: ca-app-pub-2263848806414587~1801010091
+    bannerPlacementIdAndroid:
+    interstitialPlacementIdAndroid:
+    interstitialHighPricePlacementIdAndroid:
+    rewardedVideoPlacementIdAndroid:
+    appOpenPlacementIdAndroid:
+    AppIdIOS: ca-app-pub-2263848806414587~5545198422
+    bannerPlacementIdIOS:
+    interstitialPlacementIdIOS:
+    interstitialHighPricePlacementIdiOS:
+    rewardedVideoPlacementIdIOS:
+    appOpenPlacementIdIOS:
+  maxSettings:
+    AppIdAndroid: siQOgP1OODl1EQnR290CEV_IVqnb07g1BrzEhwmNUBHPi5np7MgGvSEm-qelpTAzTMtG5Es5CsXXnkmQ4wux-t
+    bannerPlacementIdAndroid: 3007384d45b9c380
+    interstitialPlacementIdAndroid: ef283df3f6f87ba4
+    interstitialHighPricePlacementIdAndroid:
+    rewardedVideoPlacementIdAndroid: 7b90c4ffe9664f46
+    appOpenPlacementIdAndroid:
+    AppIdIOS: siQOgP1OODl1EQnR290CEV_IVqnb07g1BrzEhwmNUBHPi5np7MgGvSEm-qelpTAzTMtG5Es5CsXXnkmQ4wux-t
+    bannerPlacementIdIOS: 1bcb468297f03485
+    interstitialPlacementIdIOS: ceb661e21c8631e8
+    interstitialHighPricePlacementIdiOS:
+    rewardedVideoPlacementIdIOS: 1267ab8ef1a39431
+    appOpenPlacementIdIOS: 069cc49ee4a27623
+  amazonSettings:
+    AppIdAndroid: b93330b3-4aaf-4b36-89f5-bb25ac30d629
+    bannerPlacementIdAndroid: 8aada882-e514-4bf4-a93d-4b0819ee4a05
+    interstitialPlacementIdAndroid: f52e7b2c-f54f-4336-970d-7b5dcb141c35
+    interstitialHighPricePlacementIdAndroid:
+    rewardedVideoPlacementIdAndroid: dbb7963d-812e-42ae-aa8b-bc342a4ddb90
+    appOpenPlacementIdAndroid:
+    AppIdIOS: 'f190a615-c0d2-4111-a879-bb44f3bca83d '
+    bannerPlacementIdIOS: f436082b-7b2c-4ee0-8b32-a8e0a866ba53
+    interstitialPlacementIdIOS: d1f76b60-aee3-488b-a397-9005f15ed74f
+    interstitialHighPricePlacementIdiOS:
+    rewardedVideoPlacementIdIOS: 6e1521fc-fbfb-483e-a738-29934a3b2aed
+    appOpenPlacementIdIOS:
+  isAmazonEnabled: 1
+  isDebuggingEnabled: 0
+  internetConnectionSettings:
+    internetConnectionPanelTitle:
+    internetConnectionPanelDescription:
+    isUsingCustomPrefab: 0
+    customInternetConnectionPanelPrefab: {fileID: 0}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1711152329, guid: be88b841867d5c44c7198fb77a7f18db, type: 3}
+  m_Name: BackgroundVisualsPairCollection
+  m_EditorClassIdentifier:
+  originalPrefab: {fileID: 1019270889396144, guid: 4eba711fe9838c740a9e144952d887d0, type: 2}
+  fxPrefab: {fileID: 1626786288350558, guid: b6039bde21d154649a88edb8899e2ef9, type: 2}
+  collection:
+  - requiredSkin: {fileID: 11400000, guid: e89ae99ec3552dc47a5b944334c1a440, type: 2}
+    prefabVariant: {fileID: 1568923644429387, guid: 1660cb1dbf9fba442816880233b6377d, type: 2}
+  showFxOnlyOnEnter: 1

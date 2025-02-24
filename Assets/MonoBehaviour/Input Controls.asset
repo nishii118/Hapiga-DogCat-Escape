@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 330670497, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: Input Controls
+  m_EditorClassIdentifier:
+  m_ActionMaps:
+  - m_Name: MouseAndTouch
+    m_Id: 77fcc091-74d6-4825-a19e-78f1bf9c3fce
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: MousePosition
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: d4488531-ad67-421b-af56-67e7d6062622
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: TouchPosition
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 68fcbfea-308c-4674-93d6-37cb0e822ad5
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: TouchPress
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 5aa11285-7646-4da0-8618-b3d3afbb5c26
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    m_Bindings:
+    - m_Name:
+      m_Id: 5228befa-c4a9-4748-acf6-a36ece577b79
+      m_Path: '<Mouse>/position'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: MousePosition
+      m_Flags: 0
+    - m_Name:
+      m_Id: 8b6625d7-7b21-440b-b143-cf0ea555dc99
+      m_Path: '<Touchscreen>/Press'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: TouchPress
+      m_Flags: 0
+    - m_Name:
+      m_Id: 2ecc1c1c-5745-4627-b851-b1d90bb3a266
+      m_Path: '<Touchscreen>/position'
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: TouchPosition
+      m_Flags: 0
+  m_ControlSchemes: []

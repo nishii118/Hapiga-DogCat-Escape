@@ -1,0 +1,834 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Table_Common_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 840c1f5e845aa8140a2024be7334084a, type: 2}
+  m_Metadata:
+    m_Items:
+      Array: []
+  m_TableData:
+  - m_Id: 415699670929408
+    m_Localized: "СЛОМАТЬ\nСТЕНУ"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699742232576
+    m_Localized: ПРИНЯТЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426880
+    m_Localized: СОБИРИ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426881
+    m_Localized: ПРОДОЛЖАТЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426882
+    m_Localized: Нажмите здесь, чтобы перезапустить
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426883
+    m_Localized: ПЕРЕТАСКИВАТЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426884
+    m_Localized: ДЕНЬГИ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426885
+    m_Localized: СЪЕШЬ МЕНЯ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426886
+    m_Localized: "ВОЙТИ В\nПОРТАЛ"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426887
+    m_Localized: ПОДАРОК ​​БЕСПЛАТНО
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426888
+    m_Localized: Потрясающе!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426889
+    m_Localized: "Потрясающая работа!\nТы лучший!"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426890
+    m_Localized: Здорово!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426891
+    m_Localized: Удачи в следующий раз!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426892
+    m_Localized: Блестяще!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426893
+    m_Localized: А можешь лучше?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426894
+    m_Localized: Вернись через
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426895
+    m_Localized: Приходите позже.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426896
+    m_Localized: Круто!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426897
+    m_Localized: Зарабатывай корм
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426898
+    m_Localized: Еды достаточно!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426899
+    m_Localized: Фантастика!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699746426900
+    m_Localized: Кормить
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621184
+    m_Localized: Накорми котейку!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621185
+    m_Localized: Время кормления закончилось!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621186
+    m_Localized: Накорми кошку до истечения таймера!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621187
+    m_Localized: Отличная работа!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621188
+    m_Localized: Отлично!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621189
+    m_Localized: Зажми для кормёшки
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621190
+    m_Localized: Я хочу кушать!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621191
+    m_Localized: Накормить
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621192
+    m_Localized: Давай накормим кошку!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621193
+    m_Localized: Поехали!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621194
+    m_Localized: Дальше
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621195
+    m_Localized: Время еды через
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621196
+    m_Localized: Следующий прием пищи
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621197
+    m_Localized: Неплохо!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621198
+    m_Localized: OK
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621201
+    m_Localized: Почти получилось!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621202
+    m_Localized: Попробуй ещё раз!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621203
+    m_Localized: Отлично!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621204
+    m_Localized: Проходи уровни
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621205
+    m_Localized: Пройди больше уровней, чтобы собрать корм
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621206
+    m_Localized: Нужно больше корма
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621207
+    m_Localized: Кошка наелась!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621208
+    m_Localized: Ваша кошка сейчас не голодна.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621209
+    m_Localized: Кошка все еще голодна!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621210
+    m_Localized: Кошка ждёт когда её покормят!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621211
+    m_Localized: Твоя награда!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621212
+    m_Localized: Здорово!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621216
+    m_Localized: ПРОДОЛЖАТЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621217
+    m_Localized: Кормить
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621218
+    m_Localized: Покормите щенка!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621219
+    m_Localized: Я хочу кушать!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621220
+    m_Localized: Щенок полон!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621221
+    m_Localized: Накормить
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621223
+    m_Localized: Поехали!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621224
+    m_Localized: OK
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621225
+    m_Localized: Проходи уровни чтобы собрать еду
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621226
+    m_Localized: Доберись до уровня _LVL_
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815490
+    m_Localized: Спаси щенка на уровне _LVL_
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815491
+    m_Localized: Коснись чтобы продолжить
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815492
+    m_Localized: Щенок спасён!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815493
+    m_Localized: SourceSansPro-Black SDF
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815494
+    m_Localized: SourceSansPro-Black Outline Orange
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815495
+    m_Localized: SourceSansPro-Black Outline
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815496
+    m_Localized: ВОЗЬМИ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815497
+    m_Localized: МОЛОДЕЦ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815498
+    m_Localized: СПРЯТАТЬСЯ ЗДЕСЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815499
+    m_Localized: Последний шанс!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815500
+    m_Localized: ПОМОГИ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815501
+    m_Localized: Гав Гав!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815502
+    m_Localized: Отомсти!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815503
+    m_Localized: Ограниченное по времени предложение
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815504
+    m_Localized: Королевский набор
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815505
+    m_Localized: "Удалите надоедливую рекламу навсегда\nОставьте опциональную рекламу для вознаграждений"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815506
+    m_Localized: '*Удалите все всплывающие объявления. Сохраните необязательную рекламу для вознаграждений.'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815507
+    m_Localized: Без принудительной рекламы*
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815508
+    m_Localized: Королевский ВИД
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815509
+    m_Localized: Королевский след
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815510
+    m_Localized: Тебе нравится этот след?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815511
+    m_Localized: ПОТЕРЯЙ ЕГО.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815512
+    m_Localized: Давай попробуем снова
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815513
+    m_Localized: Уровень
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815514
+    m_Localized: Больше уровней с каждым обновлением!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815515
+    m_Localized: НОВАЯ КОЖА
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815516
+    m_Localized: Сюрприз-подарок!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815517
+    m_Localized: О НЕТ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815518
+    m_Localized: ПАРАМЕТРЫ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815519
+    m_Localized: ПРЕМИАЛЬНЫЙ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815520
+    m_Localized: ТОЛКНИ ЭТО
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815521
+    m_Localized: 'ОСТАВШЕЕСЯ ВРЕМЯ:'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815522
+    m_Localized: Оставь его.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815523
+    m_Localized: Спасать
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815524
+    m_Localized: Спасите щенка?
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815525
+    m_Localized: Bосстановить покупку
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815526
+    m_Localized: Восстановление покупки прошло успешно!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815527
+    m_Localized: ВЫБРАТЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815528
+    m_Localized: СТРЕЛЯЙ ЗДЕСЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815529
+    m_Localized: ЗБЕЙ КНОПКИ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815530
+    m_Localized: СКИНЫ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815531
+    m_Localized: ВИДЫ И СЛЕДЫ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815532
+    m_Localized: ПРОПУСТИТЬ УРОВЕНЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815533
+    m_Localized: СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815534
+    m_Localized: ОСТАНОВИСЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815535
+    m_Localized: ОСТАНОВИСЬ ДЛЯ СТРЕЛЬБЫ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815536
+    m_Localized: НАЖМИ, ЧТОБЫ НАЧАТЬ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815537
+    m_Localized: СЛЕДЫ РАЗБЛОКИРОВАНЫ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815538
+    m_Localized: СЛЕДЫ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815539
+    m_Localized: ВЫКЛЮЧИ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815540
+    m_Localized: Играй сейчас, или твоя собака разлюбит тебя! 😠
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815541
+    m_Localized: Твоя собака чувствует себя брошенной 😢
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815542
+    m_Localized: Помоги своей собаке сбежать! 😏
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815543
+    m_Localized: Охранники смеются над тобой! 👮
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815544
+    m_Localized: разблокировать
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699754815545
+    m_Localized: ТЫ СПАС СОБАКУ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450880997527552
+    m_Localized: Двойные элементы пазла на следующие 5 минут!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470592
+    m_Localized: ДВОЙНОЙ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470593
+    m_Localized: Получите только те скины, которые вы не разблокировали
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470594
+    m_Localized: ПОЛУЧИТЬ БОЛЬШЕ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470595
+    m_Localized: НАБОР ГОЛОВОЛОМОК!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470596
+    m_Localized: Проходите уровни и собирайте части пазла!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470597
+    m_Localized: Соберите пазлы!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470598
+    m_Localized: ОХОТА ЗА ГОЛОВОЛОМКАМИ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470599
+    m_Localized: ПОНЯЛ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470600
+    m_Localized: Получи уникальные награды!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470601
+    m_Localized: ПОСЛЕДНИЙ ШАНС
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470602
+    m_Localized: Последний шанс получить их все
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470603
+    m_Localized: Последний шанс получить их все
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470604
+    m_Localized: ВРЕМЯ КОНЧИЛОСЬ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470605
+    m_Localized: Событие завершено!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 7617357122269184
+    m_Localized: РЕШАЙТЕ СВОИ ГОЛОВОЛОМКИ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470607
+    m_Localized: ЧАСТЬ ГОЛОВОЛОМКИ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470608
+    m_Localized: НЕДОСТАТОЧНО
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470609
+    m_Localized: "Уберите помехи от рекламы и баннеров. \n\nВидеореклама с вознаграждением останется доступной."
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470610
+    m_Localized: Получите 15 кусочков головоломки!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470611
+    m_Localized: НАВСЕГДА
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470612
+    m_Localized: ОТЛИЧНАЯ ЦЕННОСТЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470613
+    m_Localized: ПРЕДЛОЖЕНИЕ ОГРАНИЧЕННОЕ ПО ВРЕМЕНИ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470614
+    m_Localized: НИКАКОЙ РЕКЛАМЫ НАВСЕГДА
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470615
+    m_Localized: Нет, спасибо
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470616
+    m_Localized: КУСОЧКИ ПАЗЛА
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470617
+    m_Localized: ОХОТА ЗА ГОЛОВОЛОМКАМИ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470618
+    m_Localized: Не сейчас
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470619
+    m_Localized: ПОЙДЕМ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470620
+    m_Localized: Используйте их, пока не истекло время!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470623
+    m_Localized: ВРЕМЯ КОНЧИЛОСЬ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470624
+    m_Localized: ПОСЛЕДНИЙ ШАНС
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470625
+    m_Localized: Получите только те скины, которые вы не разблокировали
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470626
+    m_Localized: ИСПОЛЬЗОВАТЬ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470627
+    m_Localized: Ты разблокировал последний скин в «Охоте за головоломками»!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470628
+    m_Localized: ПОЗДРАВЛЯЕМ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470629
+    m_Localized: ПОЛУЧИТЬ 2
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1450881039470630
+    m_Localized: ЗАВЕРШИТЕ ГОЛОВОЛОМКУ, ЧТОБЫ РАЗБЛОКИРОВАТЬ ОБЛИК
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 7617357151629312
+    m_Localized: 'У ВАС ЕСТЬ:'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9051782759583744
+    m_Localized: ИЗМЕНИ ОБСТАНОВКУ НА УРОВНЕ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 415699750621230
+    m_Localized: СПАСИ МЕНЯ!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027108466688
+    m_Localized: Удалить рекламу
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021120
+    m_Localized: Играйте без перерывов!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021121
+    m_Localized: Избавьтесь от раздражающей рекламы
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9067027142021122
+    m_Localized: Смотрите видео только для получения дополнительных наград
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 20368315875581952
+    m_Localized: ШКАФ
+    m_Metadata:
+      m_Items:
+        Array: []
+  references:
+    version: 2
+    RefIds: []

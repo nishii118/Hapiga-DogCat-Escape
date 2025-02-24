@@ -1,0 +1,2255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 967700971, guid: b58199b12f955ed64c63112d164ed168, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier:
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: BREAK THE WALL
+      TermType: 0
+      Languages:
+      - "BREAK\nTHE WALL"
+      - DURCHBRICH DIE WAND
+      - CASSE LE MUR
+      - "СЛОМАТЬ\nСТЕНУ"
+      - DUVARI KIR
+      - ROMPE LA PARED
+      - QUEBRAR A PAREDE
+      - 打破砖墙
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: CONTINUE
+      TermType: 0
+      Languages:
+      - CONTINUE
+      - WEITER
+      - CONTINUER
+      - ПРОДОЛЖАТЬ
+      - DEVAM ET
+      - CONTINUAR
+      - CONTINUAR
+      - 继续
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Click here to restart
+      TermType: 0
+      Languages:
+      - Click here to restart
+      - Tippe, um neu zu starten
+      - Clique ici pour redémarrer
+      - Нажмите здесь, чтобы перезапустить
+      - Yeniden başla
+      - Haga clic aquí para reiniciar
+      - Clique aqui para reiniciar
+      - 重新开始
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: DRAG TO MOVE
+      TermType: 0
+      Languages:
+      - DRAG TO MOVE
+      - ZIEHEN ZUM BEWEGEN
+      - GLISSE POUR DÉPLACER
+      - ПЕРЕТАСКИВАТЬ
+      - BAŞLAMAK IÇIN SÜRÜKLE
+      - ARRASTRE PARA MOVER
+      - ARRASTE PARA MOVER
+      - 拖动以移动
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: EAT ME
+      TermType: 0
+      Languages:
+      - EAT ME
+      - ISS MICH
+      - MANGE MOI
+      - СЪЕШЬ МЕНЯ
+      - BUNU YE!
+      - CÓMEME
+      - COMA-O
+      - 来吃猫粮
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: ENTER PORTAL
+      TermType: 0
+      Languages:
+      - "ENTER \nPORTAL"
+      - PORTAL BETRETEN
+      - ENTRE DANS LE PORTAIL
+      - "ВОЙТИ В\nПОРТАЛ"
+      - PORTAL'A GIR
+      - ENTRAR AL PORTAL
+      - ENTRAR PORTAL
+      - 进入传送门
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: GET IT!
+      TermType: 0
+      Languages:
+      - GET IT!
+      - HOL'S DIR!
+      - TU PIGES!
+      - ВОЗЬМИ!
+      - KIYAFET SENIN OLSUN!
+      - ¡CONSÍGUELO!
+      - PEGUE!
+      - 收下！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: GOOD JOB!
+      TermType: 0
+      Languages:
+      - GOOD JOB!
+      - TOLL GEMACHT
+      - BON TRAVAIL!
+      - МОЛОДЕЦ!
+      - AFERIN!
+      - ¡BUEN TRABAJO!
+      - BEM FEITO
+      - 很棒哦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: HIDE IN HERE
+      TermType: 0
+      Languages:
+      - "HIDE IN\nHERE"
+      - HIER DRIN VERSTECKEN
+      - CACHE DEDANS
+      - СПРЯТАТЬСЯ ЗДЕСЬ
+      - BURAYA SAKLAN!
+      - ESCÓNDETE DENTRO
+      - ESCONDER DENTRO
+      - 藏在这里
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: LOSE IT.
+      TermType: 0
+      Languages:
+      - LOSE IT.
+      - VERLIER ES.
+      - PERDS LA
+      - ПОТЕРЯЙ ЕГО.
+      - FIRSATI KAÇIR
+      - PIÉRDELO
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Let's try again
+      TermType: 0
+      Languages:
+      - Let's try again
+      - Nochmal versuchen
+      - Essayons encore
+      - Давай попробуем снова
+      - Tekrar dene
+      - Intentemoslo de nuevo
+      - Vamos tentar de novo
+      - 再试一次
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Level
+      TermType: 0
+      Languages:
+      - Level
+      - Level
+      - Niveau
+      - Уровень
+      - Bölüm
+      - Nivel
+      - Nível
+      - 等级
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: NEW SKIN
+      TermType: 0
+      Languages:
+      - NEW SKIN
+      - NEUER SKIN
+      - NOUVEAU SKIN
+      - НОВАЯ КОЖА
+      - YENİ CİLT
+      - NUEVA SKIN
+      - NOVA PELE
+      - 新皮肤
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: NEW SKIN!
+      TermType: 0
+      Languages:
+      - Surprise Gift!
+      - Überraschungsgeschenk!
+      - Cadeau surprise!
+      - Сюрприз-подарок!
+      - Sürpriz Hediye!
+      - ¡Regalo sorpresa!
+      - Presente surpresa!
+      - 惊喜礼物!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: OH NO!
+      TermType: 0
+      Languages:
+      - OH NO!
+      - OH NEIN!
+      - OH NON!
+      - О НЕТ!
+      - TÜH BE!
+      - ¡OH NO!
+      - AH NÃO!
+      - 糟糕!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: OPTIONS
+      TermType: 0
+      Languages:
+      - OPTIONS
+      - OPTIONEN
+      - OPTIONS
+      - ПАРАМЕТРЫ
+      - AYARLAR
+      - OPCIONES
+      - OPÇÕES
+      - 设置
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PREMIUM
+      TermType: 0
+      Languages:
+      - PREMIUM
+      - PREMIUM
+      - PRIME
+      - ПРЕМИАЛЬНЫЙ
+      - ÇOK ÖZEL
+      - PREMIUM
+      - PRÊMIO
+      - 奖励皮肤
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PUSH IT
+      TermType: 0
+      Languages:
+      - PUSH IT
+      - DRÜCKEN
+      - ALLUME LE
+      - ТОЛКНИ ЭТО
+      - BAS!
+      - PRESIONALO
+      - EMPURRE-O
+      - 推一下
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SELECT
+      TermType: 0
+      Languages:
+      - SELECT
+      - AUSWÄHLEN
+      - SÉLECTIONNER
+      - ВЫБРАТЬ
+      - SEÇ
+      - SELECCIONE
+      - SELECIONAR
+      - 选择
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SKINS
+      TermType: 0
+      Languages:
+      - SKINS
+      - SKINS
+      - PEAUX
+      - ВИД
+      - KIYAFETLER
+      - PIELES
+      - PELES
+      - 皮肤
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SKINS & TRAILS
+      TermType: 0
+      Languages:
+      - SKINS & TRAILS
+      - SKINS & TRAILS
+      - PEAUX & SENTIERS
+      - ВИДЫ И СЛЕДЫ
+      - KIYAFET VE İZLER
+      - PIELES Y EFECTOS
+      - PELES E TRILHAS
+      - 皮肤 & 尾迹
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: TOUCH TO START!
+      TermType: 0
+      Languages:
+      - TOUCH TO START!
+      - TIPPEN ZUM STARTEN
+      - TOUCHE POUR COMMENCER!
+      - НАЖМИ, ЧТОБЫ НАЧАТЬ!
+      - BAŞLAMAK IÇIN DOKUN!
+      - TOQUE PARA EMPEZAR!
+      - TOQUE PARA COMEÇAR!
+      - 点击开始！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: TRAIL UNLOCKED
+      TermType: 0
+      Languages:
+      - "TRAIL\nUNLOCKED"
+      - "TRAIL\nFREIGESCHALTET"
+      - "SENTIER\nDEBLOQUE"
+      - СЛЕДЫ РАЗБЛОКИРОВАНЫ
+      - İZ AÇILDI!
+      - EFECTO DESBLOQUEADO
+      - "TRILHA\nDESBLOQUEADO"
+      - 解锁新尾迹
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: TRAILS
+      TermType: 0
+      Languages:
+      - TRAILS
+      - TRAILS
+      - LES SENTIERS
+      - СЛЕДЫ
+      - İZLER
+      - EFECTOS
+      - TRILHAS
+      - 尾迹
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: TURN IT OFF
+      TermType: 0
+      Languages:
+      - "TURN IT\nOFF"
+      - AUSSCHALTEN
+      - ÉTEINS LE
+      - ВЫКЛЮЧИ
+      - KAPAT
+      - APAGALO
+      - VIRE-O FORA
+      - 关闭它
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: YOU SAVED THE CAT!
+      TermType: 0
+      Languages:
+      - YOU SAVED THE DOG!
+      - DU HAST DEN HUND GERETTET
+      - TU AS SAUVÉ LE CHIEN !
+      - ТЫ СПАС СОБАКУ!
+      - KÖPEĞİNİ KURTARDIN!
+      - SALVASTE AL PERRO!
+      - VOCÊ SALVOU O CÃO!
+      - 你成功救了小狗！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: COLLECT THIS
+      TermType: 0
+      Languages:
+      - COLLECT THIS
+      - SAMMLE DAS AUF
+      - RÉCOLTE CECI
+      - СОБИРИ
+      - BUNU AL
+      - RECOGE ESTO
+      - ESTE COLLECT
+      - 点击获取
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: STOP HERE
+      TermType: 0
+      Languages:
+      - STOP HERE
+      - HALTE HIER
+      - ARRÊTE ICI
+      - ОСТАНОВИСЬ
+      - BURADA DUR
+      - ¡PARA AQUÍ!
+      - PARE AQUI
+      - 停在这里
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Headline PN 24 hours
+      TermType: 0
+      Languages:
+      - 'HELP! '
+      - 'HILFE! '
+      - À L'AIDE!
+      - ПОМОГИ!
+      - IMDAT!
+      - ¡AYUDA!
+      - SOCORRO!
+      - 救命啊!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Text PN 24 hours
+      TermType: 0
+      Languages:
+      - Your dog feels lonely 😢
+      - Dein Hund fühlt sich allein gelassen 😢
+      - Ton chien se sent seul 😢
+      - Твоя собака чувствует себя брошенной 😢
+      - Köpeğin yalnız hissediyor 😢
+      - Tu perro se siente solito 😢
+      - Seu cão se sente sozinho 😢
+      - 你的狗感到孤独 😢
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Headline PN 48 hours
+      TermType: 0
+      Languages:
+      - Wooof!
+      - Wau Wauu!
+      - Waf Waaf!
+      - Гав Гав!
+      - Hav Hav!
+      - ¡Guau Guau!
+      - Uau Uau!
+      - 纬!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Text PN 48 hours
+      TermType: 0
+      Languages:
+      - Help your dog escape! 😏
+      - Hilf deinem Hund zu entkommen! 😏
+      - Aide ton chien à s'échapper! 😏
+      - Помоги своей собаке сбежать! 😏
+      - Köpeğinin kaçmasına yardım et! 😏
+      - ¡Ayuda a escapar a tu perrito! 😏
+      - Ajuda o seu cão para escapar! 😏
+      - 你还在等什么？快来和你的狗狗一起逃走吧! 😏
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Headline PN 72 hours
+      TermType: 0
+      Languages:
+      - 'Take revenge! '
+      - Nimm Rache!
+      - Venge-toi!
+      - Отомсти!
+      - İntikam zamanı!
+      - Véngate!
+      - Vingar-se!
+      - 开始游戏，救救孩子!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Text PN 72 hours
+      TermType: 0
+      Languages:
+      - The guards are laughing at you! 👮
+      - Die Wächter lachen über dich! 👮
+      - Les gardes se moquent de toi! 👮
+      - Охранники смеются над тобой! 👮
+      - Güvenlikler sana gülüyor! 👮
+      - ¡Los guardias se están riendo de ti! 👮
+      - Os guardas estão rindo de você! 👮
+      - 救喵失败，惨遭嘲讽，快来一雪前耻! 👮
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Headline PN 120 hours
+      TermType: 0
+      Languages:
+      - 'Last Chance! '
+      - Letzte Chance!
+      - Dernière Chance!
+      - Последний шанс!
+      - Son şans!
+      - Ultima oportunidad!
+      - Última chance!
+      - 走过路过不要错过，云吸猫倒计时
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Text PN 120 hours
+      TermType: 0
+      Languages:
+      - Play now or your dog won't like you anymore! 😠
+      - Spiele jetzt oder dein Hund mag dich nicht mehr! 😠
+      - Joue maintenant ou ton chien ne t'aimera plus! 😠
+      - Играй сейчас, или твоя собака разлюбит тебя! 😠
+      - Oynamazsan köpeğin sana küsecek! 😠
+      - Juega con el perrito o el no querra juagar más contigo 😠
+      - Jogue agora ou o seu cão não vai gostar mais de você! 😠
+      - 现在玩，不然你的狗再也不会喜欢你了！😠
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: STOP TO SHOOT
+      TermType: 0
+      Languages:
+      - STOP TO SHOOT
+      - STOPPE ZUM SCHIESSEN
+      - ARRÊTE POUR TIRER
+      - ОСТАНОВИСЬ ДЛЯ СТРЕЛЬБЫ
+      - ATEŞ ETMEK İÇİN DUR
+      - DETENTE PARA DISPARAR
+      - PARE DE TIRO
+      - 停下并开炮
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SHOOT HERE
+      TermType: 0
+      Languages:
+      - SHOOT HERE
+      - SCHIESSE DAS AB
+      - TIRE ICI
+      - СТРЕЛЯЙ ЗДЕСЬ
+      - BURAYA ATEŞ ET
+      - DISPARA AQUí
+      - TIRO AQUI
+      - 向此处射击
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SHOOT THE BUTTONS
+      TermType: 0
+      Languages:
+      - SHOOT THE BUTTONS
+      - SCHIESSE DIE KNOEPFE AB
+      - TIRE LES BOUTONS
+      - ЗБЕЙ КНОПКИ
+      - DÜĞMELERE ATEŞ ET
+      - DISPARA A LOS BOTONES
+      - ATIRE OS BOTÕES
+      - 射击按钮
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: CLAIM
+      TermType: 0
+      Languages:
+      - CLAIM
+      - ANNEHMEN
+      - RÉCLAME
+      - ПРИНЯТЬ
+      - SAHİP OL
+      - RECOGE
+      - AFIRMAÇÃO
+      - 获取
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: REMAINING TIME
+      TermType: 0
+      Languages:
+      - 'REMAINING TIME:'
+      - VERBLEIBENDE ZEIT
+      - 'TEMPS RESTANT:'
+      - ОСТАВШЕЕСЯ ВРЕМЯ
+      - KALAN ZAMAN
+      - TIEMPO RESTANTE
+      - 'TEMPO RESTANTE:'
+      - 剩余时间：
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FREE GIFT
+      TermType: 0
+      Languages:
+      - FREE GIFT
+      - GRATIS GESCHENK
+      - CADEAU GRATUIT
+      - ПОДАРОК ​​БЕСПЛАТНО
+      - HEDİYE
+      - REGALO
+      - PRESENTE GRATUITO
+      - 免费礼物
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SPECIAL OFFER
+      TermType: 0
+      Languages:
+      - SPECIAL OFFER!
+      - SONDERANGEBOT
+      - OFFRE SPÉCIALE!
+      - СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ
+      - ÖZEL TEKLİF
+      - OFERTA ESPECIAL
+      - OFERTA ESPECIAL!
+      - 特价！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Restore Purchase
+      TermType: 0
+      Languages:
+      - Restore Purchase
+      - Kauf Wiederherstellen
+      - Restaure l'achat
+      - 'Bосстановить покупку '
+      - Satın almayı geri yükle
+      - Restaurar la compra
+      - Restaurar compra
+      - 恢复购买
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: LIKE THIS TRAIL?
+      TermType: 0
+      Languages:
+      - LIKE THIS TRAIL?
+      - Gefaellt dir dieser Trail?
+      - AIMES-TU CE TRIAL?
+      - Тебе нравится этот след?
+      - İZİ BEĞENDİN Mİ?
+      - ¿TE GUSTA ESTE EFECTO?
+      - GOSTA DESSA TRILHA?
+      - 喜欢这个尾迹吗？
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Restore purchase successful!
+      TermType: 0
+      Languages:
+      - Restore purchase successful!
+      - Wiederherstellung des Kaufes war erfolgreich!
+      - Restauration d'achat réussie!
+      - Восстановление покупки прошло успешно!
+      - Satın almayı gerı yükleme başarılı!
+      - ¡Compra restaurada!
+      - Compra restaurada
+      - 恢复购买成功！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: More levels coming soon
+      TermType: 0
+      Languages:
+      - More levels coming with the next update!
+      - Mehr Levels mit jedem Update!
+      - Plus les niveaux sont à venir avec la prochaine mise à jour!
+      - Больше уровней с каждым обновлением!
+      - Yakında daha fazla bölüm geliyor!
+      - ¡No te desesperes! Pronto habrá más niveles.
+      - Mais níveis estão vindo com a próxima atualização!
+      - 下次更新会有更多级别哟！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Font
+      TermType: 0
+      Languages:
+      - SourceSansPro-Black SDF
+      - SourceSansPro-Black SDF
+      - SourceSansPro-Black SDF
+      - SourceSansPro-Black SDF
+      - SourceSansPro-Black SDF
+      - SourceSansPro-Black SDF
+      - SourceSansPro-Black SDF
+      - Fonts & Materials/AdobeHeitiStd-Regular SDF
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Font Orange Outline
+      TermType: 0
+      Languages:
+      - SourceSansPro-Black Outline Orange
+      - SourceSansPro-Black Outline Orange
+      - SourceSansPro-Black Outline Orange
+      - SourceSansPro-Black Outline Orange
+      - SourceSansPro-Black Outline Orange
+      - SourceSansPro-Black Outline Orange
+      - SourceSansPro-Black Outline Orange
+      - Fonts & Materials/AdobeHeitiStd-Regular SDF Outline Orange
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Font Outline
+      TermType: 0
+      Languages:
+      - SourceSansPro-Black Outline
+      - SourceSansPro-Black Outline
+      - SourceSansPro-Black Outline
+      - SourceSansPro-Black Outline
+      - SourceSansPro-Black Outline
+      - SourceSansPro-Black Outline
+      - SourceSansPro-Black Outline
+      - Fonts & Materials/AdobeHeitiStd-Regular SDF Outline
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: EARN CASH!
+      TermType: 0
+      Languages:
+      - EARN CASH!
+      - GELD!
+      - DE L'ARGENT LIQUIDE !
+      - ДЕНЬГИ!
+      - PARA KAZAN!
+      - DINERO!
+      - DINHEIRO!
+      - 赚钱！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: SKIP LEVEL
+      TermType: 0
+      Languages:
+      - SKIP LEVEL
+      - LEVEL ÜBERSPRINGEN
+      - PASSER LE NIVEAU
+      - ПРОПУСТИТЬ УРОВЕНЬ
+      - BÖLÜMÜ GEÇ
+      - PASAR DE NIVEL
+      - PULAR NÍVEL
+      - 跳过关卡
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC IM HUNGRY
+      TermType: 0
+      Languages:
+      - I'm Hungry!
+      - Ich habe Hunger!
+      - J'ai faim!
+      - Я хочу кушать!
+      - Açım!
+      - Tengo hambre!
+      - Tenho fome!
+      - 我饿啦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC FEED YOUR CAT
+      TermType: 0
+      Languages:
+      - Feed Your Cat!
+      - Fütter deine Kaze!
+      - Nourrissez votre chat !
+      - Накорми котейку!
+      - Kedinizi Besleyin!
+      - Alimenta a tu gata!
+      - Alimente o seu gato!
+      - 快来喂养你的猫咪！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC GOOD JOB
+      TermType: 0
+      Languages:
+      - Good Job!
+      - Gute Arbeit!
+      - Bon travail !
+      - Отличная работа!
+      - İyi işti!
+      - Buen trabajo!
+      - Bom trabalho!
+      - 棒极啦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC LETS FEED HER
+      TermType: 0
+      Languages:
+      - Let's Feed Her
+      - Füttern wir sie
+      - Nourrissons-la
+      - Накормить
+      - Onu Besleyelim
+      - Alimentémosla
+      - Vamos dar-lhe de comer
+      - 快来喂她吧！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC WIN LEVELS
+      TermType: 0
+      Languages:
+      - Win Levels
+      - Gewinne die Level!
+      - Battez les niveaux
+      - Проходи уровни
+      - Kazanma Seviyeleri
+      - Gana niveles
+      - Ganhe níveis
+      - 完成关卡
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC EARN FOOD
+      TermType: 0
+      Languages:
+      - Earn Food
+      - Verdiene Essen!
+      - Gagnez de la nourriture
+      - Зарабатывай корм
+      - Yemek Kazanın
+      - Gana comida
+      - Ganhar comida
+      - 赚取食物
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC LETS GO
+      TermType: 0
+      Languages:
+      - Let's Go!
+      - Los geht's!
+      - C'est parti !
+      - Поехали!
+      - Hadi gidelim!
+      - ¡Vamos!
+      - Vamos lá!
+      - 出发！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC FULLY FEED BEFORE TIMER
+      TermType: 0
+      Languages:
+      - Fully feed the cat before the timer runs out!
+      - Füttere die Katze vollständig, bevor der Timer abläuft!
+      - Nourrissez complètement le chat avant que le chronomètre ne s'épuise !
+      - Накорми кошку до истечения таймера!
+      - Zaman dolmadan önce kediyi besleyin!
+      - Alimenta a la gata antes de que se acabe el tiempo.
+      - Alimenta o gato antes que o tempo acabe.
+      - 在计时器计时结束前喂饱猫咪！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC OK
+      TermType: 0
+      Languages:
+      - OK
+      - OK
+      - OK
+      - OK
+      - Tamam
+      - OK
+      - OK
+      - 很棒！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC LETS FEED YOUR CAT
+      TermType: 0
+      Languages:
+      - Let's feed your cat!
+      - Lass uns deine Katze füttern!
+      - Nourrissons votre chat !
+      - Давай накормим кошку!
+      - Kedinizi besleyelim!
+      - ¡Alimentemos a tu gata!
+      - Vamos alimentar o seu gato!
+      - 快来喂猫呀！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC YOU NEED MORE CAT FOOD
+      TermType: 0
+      Languages:
+      - You need more cat food
+      - Du brauchst mehr Katzenfutter
+      - Vous avez besoin de plus de nourriture pour chats
+      - Нужно больше корма
+      - Daha fazla kedi mamasına ihtiyacın var
+      - Necesitas más comida para gatos
+      - Precisas de mais comida para gatos
+      - 你需要更多的猫粮
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC WIN MORE LEVELS TO COLLECT FOOD
+      TermType: 0
+      Languages:
+      - Win more levels to collect food
+      - Gewinne mehr Level, um Nahrung zu sammeln
+      - Gagnez plus de niveaux pour collecter de la nourriture
+      - Пройди больше уровней, чтобы собрать корм
+      - Yiyecek toplamak için daha fazla seviye kazanın
+      - Gana más niveles para obtener comida
+      - Ganhar mais níveis para obter comida
+      - 赢得更多关卡来收集食物哦
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC YOUR REWARD
+      TermType: 0
+      Languages:
+      - Your Reward!
+      - Deine Belohnung!
+      - Votre récompense !
+      - Твоя награда!
+      - Ödülünüz!
+      - Su recompensa!
+      - A sua recompensa!
+      - 你的奖励！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC FEED
+      TermType: 0
+      Languages:
+      - Feed
+      - Füttern!
+      - Nourrir
+      - Кормить
+      - Besle
+      - Alimentar
+      - Alimentação
+      - 喂食
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC NEXT
+      TermType: 0
+      Languages:
+      - Next
+      - Weiter
+      - Suivant
+      - Дальше
+      - Sonraki
+      - Siguiente
+      - Seguinte
+      - 继续
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC FANTASTIC
+      TermType: 0
+      Languages:
+      - Fantastic!
+      - Fantastisch!
+      - Fantastique !
+      - Фантастика!
+      - Harika!
+      - ¡Fantástico!
+      - Fantástico!
+      - 太棒啦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC BRILLIANT
+      TermType: 0
+      Languages:
+      - Brilliant!
+      - Hervorragend!
+      - Brillant !
+      - Блестяще!
+      - Dahice!
+      - ¡Brillante!
+      - Brilhante!
+      - 真聪明！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC AMAZING
+      TermType: 0
+      Languages:
+      - Amazing!
+      - Erstaunlich!
+      - Incroyable !
+      - Потрясающе!
+      - İnanılmaz!
+      - ¡Increíble!
+      - Inacreditável!
+      - 太神奇了!
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC NICE
+      TermType: 0
+      Languages:
+      - Nice!
+      - Schön!
+      - C'est bien !
+      - Неплохо!
+      - Güzel!
+      - ¡Muy bien!
+      - Muito bom!
+      - 很棒！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC GREAT
+      TermType: 0
+      Languages:
+      - Great!
+      - Großartig!
+      - Excellent !
+      - Отлично!
+      - Harika!
+      - ¡Estupendo!
+      - Ótimo!
+      - 好极了！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC AWESOME
+      TermType: 0
+      Languages:
+      - Awesome!
+      - Fantastisch!
+      - Génial !
+      - Здорово!
+      - Harika!
+      - Asombroso!
+      - Espetacular!
+      - 棒极了！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC COOL
+      TermType: 0
+      Languages:
+      - Cool!
+      - Cool!
+      - Cool !
+      - Круто!
+      - Havalı!
+      - ¡Genial!
+      - Fixe!
+      - 酷毙了！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC HOLD TO FEED
+      TermType: 0
+      Languages:
+      - Hold to Feed
+      - Gedrückthalten zum Füttern
+      - Maintenir pour nourrir
+      - Зажми для кормёшки
+      - Beslemek için Basılı Tutun
+      - Presiona para alimentar
+      - Premir para alimentar
+      - 长按喂食
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC FEEDING TIME IS OVER
+      TermType: 0
+      Languages:
+      - Feeding time is over!
+      - Die Fütterungszeit ist vorbei!
+      - L'heure du repas est passée !
+      - Время кормления закончилось!
+      - Beslenme zamanı bitti!
+      - ¡Se acabó la hora de comer!
+      - A hora do almoço acabou!
+      - 喂食时间结束了！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC YOUR CAT IS STILL HUNGRY
+      TermType: 0
+      Languages:
+      - Your cat is still hungry!
+      - Deine Katze ist immer noch hungrig!
+      - Votre chat a encore faim !
+      - Кошка все еще голодна!
+      - Kedin hala aç!
+      - ¡Tu gato sigue hambriento!
+      - O teu gato ainda tem fome!
+      - 你的猫还饿着肚子呢！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC TRY HARDER NEXT TIME
+      TermType: 0
+      Languages:
+      - Try harder next time!
+      - Streng dich mehr an beim nächsten Mal!
+      - Tentez de mieux faire la prochaine fois !
+      - Попробуй ещё раз!
+      - Bir dahaki sefere daha sıkı çalış!
+      - Esfuérzate más la próxima vez.
+      - Para a próxima, esforça-te mais!
+      - 下次再努力吧！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC COME BACK AGAIN IN
+      TermType: 0
+      Languages:
+      - Come back again in
+      - Komm gerne wieder in
+      - Revenez dans
+      - Вернись через
+      - Tekrar gel
+      - Vuelve en
+      - Regresso em
+      - 距离下次机会还有
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC SO CLOSE
+      TermType: 0
+      Languages:
+      - So Close!
+      - So nah dran!
+      - Si près du but !
+      - Почти получилось!
+      - Çok yakın!
+      - ¡Estuviste cerca!
+      - Estiveste perto!
+      - 就差一点点！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC BETTER LUCK NEXT TIME
+      TermType: 0
+      Languages:
+      - Better luck next time!
+      - Mehr Glück beim nächsten Mal!
+      - Plus de chance la prochaine fois !
+      - Удачи в следующий раз!
+      - Bir dahaki sefere iyi şanslar!
+      - ¡Más suerte la próxima vez!
+      - Melhor sorte para a próxima!
+      - 下次好运哦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC WELL DONE
+      TermType: 0
+      Languages:
+      - Well Done!
+      - Gut gemacht!
+      - Bravo !
+      - Отлично!
+      - İyi işti!
+      - Bien hecho!
+      - Muito bem!
+      - 干得好！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC CAN YOU DO BETTER NEXT TIME
+      TermType: 0
+      Languages:
+      - Can you do better next time?
+      - Versuch beim nächsten Mal besser zu sein.
+      - Pouvez-vous faire mieux la prochaine fois ?
+      - А можешь лучше?
+      - Bir dahaki sefere daha iyisini yapabilir misin?
+      - ¿Podrás hacerlo mejor la próxima vez?
+      - Para a próxima vez, pode fazer melhor?
+      - 下次更努力一些好吗？
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC YOUR CAT IS FULLY FED
+      TermType: 0
+      Languages:
+      - Your cat is fully fed!
+      - Deine Katze ist voll!
+      - Votre chat est bien nourri !
+      - Кошка наелась!
+      - Kedinizin karnı doydu!
+      - ¡Tu gato está bien alimentado!
+      - O seu gato está bem alimentado!
+      - 你的猫咪已经吃饱啦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC NEXT FEEDING TIME IN
+      TermType: 0
+      Languages:
+      - Next feeding time in
+      - Nächste Fütterungszeit in
+      - Prochaine heure du repas dans
+      - Время еды через
+      - Bir sonraki besleme zamanı
+      - Próxima hora de comer en
+      - Próxima hora de almoço em
+      - 距离下次喂食时间还有
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC ENOUGH FOOD COLLECTED
+      TermType: 0
+      Languages:
+      - Enough food collected!
+      - Genügend Lebensmittel gesammelt!
+      - Suffisamment de nourriture collectée!
+      - Еды достаточно!
+      - Yeterince yiyecek toplandı!
+      - Recogiste suficiente comida!
+      - Recolheu alimentos suficientes!
+      - 收集到足够多的食物啦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC YOUR CAT IS WAITING TO BE FED
+      TermType: 0
+      Languages:
+      - Your cat is waiting to be fed!
+      - Deine Katze wartet darauf gefüttert zu werden.
+      - Votre chat attend d'être nourri !
+      - Кошка ждёт когда её покормят!
+      - Kediniz beslenmeyi bekliyor!
+      - Tu gato está esperando a que le den de comer.
+      - O seu gato está à espera de ser alimentado.
+      - 你的猫咪正等着您喂它呢！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC YOUR CAT IS NOT HUNGRY NOW
+      TermType: 0
+      Languages:
+      - Your cat is not hungry now.
+      - Deine Katze ist jetzt nicht hungrig.
+      - Votre chat n'a pas faim pour l'instant.
+      - Ваша кошка сейчас не голодна.
+      - Kediniz şu an aç değil.
+      - Tu gato no tiene hambre ahora.
+      - O seu gato não tem fome agora.
+      - 你的猫咪现在还不饿哦，
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC COME BACK LATER
+      TermType: 0
+      Languages:
+      - Come back later.
+      - Komm später wieder.
+      - Revenez plus tard.
+      - Приходите позже.
+      - Daha sonra gel.
+      - Vuelve más tarde.
+      - Volta mais tarde.
+      - 晚点再来吧！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC NEXT MEAL IN
+      TermType: 0
+      Languages:
+      - Next Meal in
+      - Nächste Mahlzeit in
+      - Prochain repas dans
+      - Следующий прием пищи
+      - Sonraki Öğün
+      - Próxima comida en
+      - 'Próxima refeição em '
+      - 距离下次喂食时间还有
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC AMAZING JOB YOURE THE BEST
+      TermType: 0
+      Languages:
+      - "Amazing job!\nYou're the best!"
+      - "Toller Job!\nDu bist der beste!"
+      - "Travail incroyable!\nTu es le meilleur!"
+      - "Потрясающая работа!\nТы лучший!"
+      - "Harika iş!\nEn iyisi sensin!"
+      - "¡Excelente trabajo!\n¡Usted es el mejor!"
+      - "Trabalho incrível!\nVocê é o melhor!"
+      - "太了不起了！\n你是最棒的！"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: YOUR CAT WILL BE HUNGRY AGAIN IN
+      TermType: 0
+      Languages:
+      - Your cat will be hungry again in
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC SAVE THE KITTY
+      TermType: 0
+      Languages:
+      - Save the kitty!
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTC RESCUE THE TRAPPED KITTY IN LEVEL
+      TermType: 0
+      Languages:
+      - Rescue the trapped kitty in level 11 to unlock
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK COMPLETE LEVEL _LVL_ TO UNLOCK
+      TermType: 0
+      Languages:
+      - Complete level _LVL_ to unlock
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK SAVE THE KITTY
+      TermType: 0
+      Languages:
+      - Save the kitty!
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK RESCUE THE TRAPPED KITTY IN LEVEL
+      TermType: 0
+      Languages:
+      - Rescue the trapped puppy in level _LVL_ to unlock
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK AWESOME
+      TermType: 0
+      Languages:
+      - AWESOME!
+      - Fantastisch!
+      - Génial !
+      - Здорово!
+      - Harika!
+      - Asombroso!
+      - Espetacular!
+      - 棒极了！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK YOU RESCUED A KITTY
+      TermType: 0
+      Languages:
+      - You rescued the Puppy!
+      - Du hast das Hündchen gerettet!
+      - Tu as sauvé le chiot!
+      - Щенок спасён!
+      - Köpüşü kurtardin!
+      - ¡Rescataste al cachorro!
+      - Você resgatou o cachorrinho!
+      - 你救了小狗！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK LETS GO
+      TermType: 0
+      Languages:
+      - Let's Go!
+      - Los geht's!
+      - C'est parti !
+      - Поехали!
+      - Hadi gidelim!
+      - ¡Vamos!
+      - Vamos lá!
+      - 出发！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK LETS FEED YOUR KITTY
+      TermType: 0
+      Languages:
+      - Let's feed your kitty!
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK OK
+      TermType: 0
+      Languages:
+      - OK
+      - OK
+      - OK
+      - OK
+      - Tamam
+      - OK
+      - OK
+      - 很棒！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK SAVE ME
+      TermType: 0
+      Languages:
+      - SAVE ME!
+      - "\rRETTE MICH!"
+      - SAUVE-MOI!
+      - СПАСИ МЕНЯ!
+      - BENİ KURTAR!
+      - ¡SÁLVAME!
+      - "\rME SALVE!"
+      - 救我！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK IM HUNGRY
+      TermType: 0
+      Languages:
+      - I'm Hungry!
+      - Ich habe Hunger!
+      - J'ai faim!
+      - Я хочу кушать!
+      - Açım!
+      - Tengo hambre!
+      - Tenho fome!
+      - 我饿啦！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK LETS FEED HER
+      TermType: 0
+      Languages:
+      - Let's Feed Her!
+      - Füttern wir sie
+      - Nourrissons-la
+      - Накормить
+      - Onu Besleyelim
+      - Alimentémosla
+      - Vamos alimentá-lo!
+      - 快来喂她吧！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK RESCUE THE KITTY
+      TermType: 0
+      Languages:
+      - Rescue the Kitty!
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK COME BACK TO FEED AGAIN TO
+      TermType: 0
+      Languages:
+      - "Come back to feed again\nto keep her happy!"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK COLLECT MORE FOOD IN LEVELS
+      TermType: 0
+      Languages:
+      - Collect more food in levels
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK KITTY IS FULL
+      TermType: 0
+      Languages:
+      - The Puppy is full!
+      - Das Hündchen ist satt!
+      - Le chiot est rassasié!
+      - Щенок полон!
+      - Köpüş doydu!
+      - ¡El cachorro está satisfecho!
+      - O cachorrinho está satisfeito
+      - 小狗很开心！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK TAP TO CONTINUE
+      TermType: 0
+      Languages:
+      - Tap to continue
+      - Tippe um fortzufahren
+      - Presse pour continuer
+      - Коснись чтобы продолжить
+      - Devam etmek için tıkla
+      - Toca para continuar
+      - Toque para continuar
+      - 点击继续
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK CONTINUE
+      TermType: 0
+      Languages:
+      - CONTINUE
+      - WEITER
+      - CONTINUE
+      - ПРОДОЛЖАТЬ
+      - DEVAM ET
+      - CONTINUAR
+      - CONTINUAR
+      - 继续
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK REACH THE KITTY IN LEVEL X
+      TermType: 0
+      Languages:
+      - "Reach the Kitty\nin level _LVL_"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK SAVE THE KITTY IN LEVEL X
+      TermType: 0
+      Languages:
+      - "Save the Puppy\nin Level _LVL_"
+      - Rette das Hündchen in Level _LVL_
+      - Sauve le chiot dans le niveau _LVL_
+      - Спаси щенка на уровне _LVL_
+      - Level _LVL_'deki köpüşü kurtar
+      - Salva al cachorro en el Nivel _LVL_
+      - Salve o cachorrinho no nível _LVL_
+      - 在_LVL_关卡中拯救小狗 !
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK PLAY LEVELS TO COLLECT MORE FOOD
+      TermType: 0
+      Languages:
+      - Play levels to collect more food
+      - Schließe Levels ab um Futter zu sammeln
+      - Fini des niveaux pour ramasser plus de nourriture
+      - Проходи уровни чтобы собрать еду
+      - Daha fazla yemek toplamak için oynamaya devam et
+      - Juega niveles para obtener más comida
+      - Jogue para coletar mais comida
+      - 玩游戏关卡收集更多食物
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK FEED THE KITTY
+      TermType: 0
+      Languages:
+      - Feed the Puppy!
+      - Füttere das Hündchen!
+      - Nourrissez le chiot!
+      - Покормите щенка!
+      - Köpüşü besle
+      - ¡Alimenta al cachorro!
+      - Alimente o cachorro!
+      - 喂小狗 !
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK REACH LEVEL X
+      TermType: 0
+      Languages:
+      - Reach Level _LVL_
+      - Erreiche Level _LVL_
+      - Atteins le niveau _LVL_
+      - Доберись до уровня _LVL_
+      - Level _LVL_'e ulaş
+      - Llega al Nivel _LVL_
+      - Alcance o Nível _LVL_
+      - 达到第_LVL_级
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: FTK FEED
+      TermType: 0
+      Languages:
+      - Feed
+      - Füttern!
+      - Nourrir
+      - Кормить
+      - Besle
+      - Alimentar
+      - Alimentação
+      - 喂食
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IAP_Reward_NoAds_Name
+      TermType: 0
+      Languages:
+      - No Forced Ads*
+      - Keine erzwungene Werbung*
+      - Pas de publicités forcées*
+      - Без принудительной рекламы*
+      - Zorunlu reklam yok*
+      - Sin anuncios forzados*
+      - Sem anúncios forçados*
+      - 无强制广告*
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IAP_Reward_NoAds_Description
+      TermType: 0
+      Languages:
+      - "Remove annoying ads forever\nKeep optional ads for rewards"
+      - "Entferne nervige Werbung für immer\nBehalte optionale Werbung für Belohnungen"
+      - "Supprimez les publicités agaçantes pour toujours\nConservez les publicités optionnelles pour des récompenses"
+      - "Удалите надоедливую рекламу навсегда\nОставьте опциональную рекламу для вознаграждений"
+      - "Rahatsız edici reklamları sonsuza kadar kaldırın\nÖdüller için isteğe bağlı reklamlara devam edin"
+      - "Elimina los anuncios molestos para siempre \nMantén los anuncios opcionales para obtener recompensas"
+      - "Remova os anúncios irritantes para sempre\nMantenha anúncios opcionais para recompensas"
+      - "永久移除烦人的广告。\n保留可选广告以获取奖励"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IAP_Reward_RoyalSkin_Name
+      TermType: 0
+      Languages:
+      - Royal Skin
+      - Königlicher Skin
+      - Peau royale
+      - Королевский ВИД
+      - Kraliyet KIYAFET
+      - Piel real
+      - Pele real
+      - 皇家皮肤
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IAP_Reward_RoyalTrail_Title
+      TermType: 0
+      Languages:
+      - Royal Trail
+      - Königlicher Trail
+      - Trial royal
+      - Королевский след
+      - Kraliyet İZİ
+      - Efecto real
+      - Trilha real
+      - 皇家足迹
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IAP_Product_StarterPackPackBundle_Name
+      TermType: 0
+      Languages:
+      - Royal Bundle
+      - Königliches Paket
+      - Pack Royal
+      - Королевский набор
+      - Kraliyet Paketi
+      - Paquete Real
+      - Pacote Real
+      - 皇家礼包
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IAP_Product_LimitedTimeOffer
+      TermType: 0
+      Languages:
+      - Limited Time Offer
+      - Angebot fuer begrenzte Zeit
+      - Offre à durée limitée
+      - Ограниченное по времени предложение
+      - Sınırlı Süreli Teklif
+      - Oferta por tiempo limitado
+      - Oferta por tempo limitado
+      - 限时优惠
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: IAP_Reward_NoAds_Explanation
+      TermType: 0
+      Languages:
+      - '*Remove all pop-up ads. Keep optional ads for rewards.'
+      - '*Alle Pop-up-Werbung entfernen. Behalte optionale Werbung für Belohnungen.'
+      - '*Supprimez toutes les publicités pop-up. Conservez les publicités facultatives pour des récompenses.'
+      - '*Удалите все всплывающие объявления. Сохраните необязательную рекламу для вознаграждений.'
+      - '*Tüm açılır reklamları kaldırın. Ödüller için isteğe bağlı reklamları tutun.'
+      - '*Elimina todos los anuncios emergentes. Mantén los anuncios opcionales para obtener recompensas.'
+      - '*Remova todos os anúncios pop-up. Mantenha os anúncios opcionais para recompensas.'
+      - '*删除所有弹出广告。保留可选广告以获取奖励'
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: UNLOCK
+      TermType: 0
+      Languages:
+      - Unlock
+      - freischalten
+      - débloquer
+      - разблокировать
+      - kilidini açmak
+      - desbloquear
+      - desbloquear
+      - 解锁
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PuzzleHunt_SkinPuzzleView_Tooltip
+      TermType: 0
+      Languages:
+      - COMPLETE THE PUZZLE TO UNLOCK SKIN
+      - LÖSE DAS PUZZLE, UM DEN SKIN FREIZUSCHALTEN
+      - COMPLÉTEZ LE PUZZLE POUR DÉBLOQUER LE SKIN
+      - ЗАВЕРШИТЕ ГОЛОВОЛОМКУ, ЧТОБЫ РАЗБЛОКИРОВАТЬ ОБЛИК
+      - CİLT KİLİDİNİ AÇMAK İÇİN BULMACAYI TAMAMLAYIN
+      - COMPLETA EL ROMPECABEZAS PARA DESBLOQUEAR LA SKIN
+      - COMPLETE O PUZZLE PARA DESBLOQUEAR A PELE
+      - 完成拼图以解锁皮肤
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Last Chance Button_IAP
+      TermType: 0
+      Languages:
+      - LAST CHANCE
+      - LETZTE CHANCE
+      - DERNIÈRE CHANCE
+      - ПОСЛЕДНИЙ ШАНС
+      - SON ŞANS
+      - ÚLTIMA OPORTUNIDAD
+      - ÚLTIMA CHANCE
+      - 最后机会
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Tooltip explanation_Last Chance IAP
+      TermType: 0
+      Languages:
+      - Get only the skins you didn't unlock!
+      - Hole nur die Skins, die du nicht freigeschaltet hast
+      - Obtenez uniquement les skins que vous n'avez pas débloqués
+      - Получите только те скины, которые вы не разблокировали
+      - Sadece kilidini açmadığınız görünümleri alın
+      - Obtén solo los aspectos que no hayas desbloqueado
+      - Obtenha apenas as skins que não desbloqueou
+      - 仅获取未解锁的皮肤
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Time Out text_Last chance IAP
+      TermType: 0
+      Languages:
+      - TIME OUT!
+      - ZEIT VORBEI!
+      - TEMPS ÉCOULÉ!
+      - ВРЕМЯ КОНЧИЛОСЬ!
+      - ZAMAN AŞIMI!
+      - ¡SE ACABÓ EL TIEMPO!
+      - TEMPO ESGOTADO!
+      - 暂停！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Last chance to get them all_Last chance IAP
+      TermType: 0
+      Languages:
+      - Last chance to get them all
+      - Letzte Chance alle zu bekommen
+      - Dernière chance de les obtenir tous
+      - Последний шанс получить их все
+      - Hepsini elde etmek için son şans
+      - Última oportunidad para conseguirlos todos
+      - Última oportunidade de os apanhar todos
+      - 获得全部内容的最后机会
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Reingagement Popup title
+      TermType: 0
+      Languages:
+      - COMPLETE YOUR PUZZLES!
+      - VERVOLLSTÄNDIGE DEINE PUZZLES!
+      - COMPLÉTEZ VOS PUZZLES !
+      - РЕШАЙТЕ СВОИ ГОЛОВОЛОМКИ!
+      - BULMACALARINIZI TAMAMLAYIN!
+      - ¡COMPLETA TUS PUZZLES!
+      - COMPLETE OS SEUS PUZZLES!
+      - 完成你的拼图！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: 'Puzzle Hunt_Reingagement Popup_You have:'
+      TermType: 0
+      Languages:
+      - 'YOU HAVE:'
+      - 'DU HAST:'
+      - 'TU AS:'
+      - 'У ВАС ЕСТЬ:'
+      - 'VAR:'
+      - 'TIENES:'
+      - 'TEM:'
+      - 你有：
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Reengagement Popup_Description text
+      TermType: 0
+      Languages:
+      - Use them before the time runs out!
+      - Nutze sie, bevor die Zeit abläuft!
+      - Utilisez-les avant la fin du temps imparti !
+      - Используйте их, пока не истекло время!
+      - Zaman dolmadan kullanın!
+      - ¡Úsalos antes de que se acabe el tiempo!
+      - Use-os antes que o tempo acabe!
+      - 在时间耗尽之前使用它们！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Reengagement Popup_Button text
+      TermType: 0
+      Languages:
+      - LET'S GO!
+      - LOS!
+      - ALLONS-Y!
+      - ПОЙДЕМ!
+      - Hadi gidelim!
+      - ¡VAMOS!
+      - VAMOS!
+      - 我们走吧！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Reengagement Popup_ Not now text
+      TermType: 0
+      Languages:
+      - Not now
+      - Nicht jetzt
+      - Pas maintenant
+      - Не сейчас
+      - Şimdi değil
+      - Ahora no
+      - Agora não
+      - 现在不要
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Double PP RV_Bodytext
+      TermType: 0
+      Languages:
+      - Double puzzle pieces for the next 5 minutes!
+      - Doppelte Puzzleteile für die nächsten 5 Minuten!
+      - Doublez les pièces du puzzle pendant les 5 prochaines minutes !
+      - Двойные элементы пазла на следующие 5 минут!
+      - Önümüzdeki 5 dakika için çift puzzle parçaları!
+      - ¡Piezas de puzzles dobles durante los próximos 5 minutos!
+      - Peças duplas do puzzle durante os próximos 5 minutos!
+      - 接下来的 5 分钟内拼图碎片加倍！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Double PP RV_Button text
+      TermType: 0
+      Languages:
+      - DOUBLE
+      - DOPPELT
+      - DOUBLE
+      - ДВОЙНОЙ
+      - ÇİFT
+      - DOBLE
+      - DUPLO
+      - 双倍的
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Main Screen_Header
+      TermType: 0
+      Languages:
+      - PUZZLE HUNT
+      - PUZZLEJAGD
+      - CHASSE AUX PUZZLES
+      - ОХОТА ЗА ГОЛОВОЛОМКАМИ
+      - BULMACA AVCILIĞI
+      - CAZA DE PUZZLES
+      - CAÇA AO PUZZLES
+      - 解谜寻宝
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Introduction Screen_1st Paragraph
+      TermType: 0
+      Languages:
+      - Play levels to collect puzzle pieces!
+      - Spiele Levels, um Puzzleteile zu sammeln!
+      - Jouez à des niveaux pour collecter des pièces de puzzle !
+      - Проходите уровни и собирайте части пазла!
+      - Bulmacanın parçalarını toplamak için seviyeleri oyna!
+      - ¡Juega niveles para recolectar piezas de puzzle!
+      - Joga níveis para recolher peças do puzzle!
+      - 玩关卡来收集拼图碎片！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Introduction Screen_2nd Paragraph
+      TermType: 0
+      Languages:
+      - Complete the puzzles!
+      - Löse die Puzzle!
+      - Complétez les puzzles !
+      - Соберите пазлы!
+      - Bulmacaları tamamla!
+      - ¡Completa los puzzles!
+      - Complete os puzzles!
+      - 完成拼图！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Introduction screen_3rd Paragraph
+      TermType: 0
+      Languages:
+      - Unlock exclusive rewards!
+      - Schalte exklusive Belohnungen frei!
+      - Débloquez des récompenses exclusives!
+      - Получи уникальные награды!
+      - Benzersiz ödüllerin kilidini açın!
+      - ¡Desbloquea recompensas exclusivas!
+      - Desbloqueie recompensas exclusivas!
+      - 解锁独家奖励！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Introduction Screen_Button text
+      TermType: 0
+      Languages:
+      - PUZZLE HUNT
+      - PUZZLEJAGD
+      - CHASSE AUX PUZZLES
+      - ОХОТА ЗА ГОЛОВОЛОМКАМИ
+      - BULMACA AVCILIĞI
+      - CAZA DE PUZZLES
+      - CAÇA AO PUZZLES
+      - 解谜寻宝
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Hunt header
+      TermType: 0
+      Languages:
+      - PUZZLE HUNT
+      - PUZZLEJAGD
+      - CHASSE AUX PUZZLES
+      - ОХОТА ЗА ГОЛОВОЛОМКАМИ
+      - BULMACA AVCILIĞI
+      - CAZA DE PUZZLES
+      - CAÇA AO PUZZLES
+      - 解谜寻宝
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Introduction Screen_ButtonText
+      TermType: 0
+      Languages:
+      - UNDERSTOOD
+      - VERSTANDEN
+      - COMPRIS
+      - ПОНЯЛ
+      - ANLAŞILDI
+      - ENTENDIDO
+      - COMPREENDIDO
+      - 明白
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Main Screen_Event completed
+      TermType: 0
+      Languages:
+      - Event completed!
+      - Event beendet!
+      - Événement terminé !
+      - Событие завершено!
+      - Etkinlik tamamlandı!
+      - ¡Evento completado!
+      - Evento concluído!
+      - 活动完成！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_GetMore Button
+      TermType: 0
+      Languages:
+      - GET MORE
+      - MEHR BEKOMMEN
+      - OBTENIR PLUS
+      - ПОЛУЧИТЬ БОЛЬШЕ
+      - DAHA FAZLASINI ALIN
+      - OBTÉN MÁS
+      - OBTENHA MAIS
+      - 获取更多信息
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Use Button
+      TermType: 0
+      Languages:
+      - USE
+      - VERWENDEN
+      - UTILISER
+      - ИСПОЛЬЗОВАТЬ
+      - KULLANMAK
+      - USAR
+      - USO
+      - 使用
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_MysteryBoxReward_EventReward
+      TermType: 0
+      Languages:
+      - PUZZLE PIECE
+      - PUZZLETEIL
+      - PIÈCE DE PUZZLE
+      - ЧАСТЬ ГОЛОВОЛОМКИ
+      - bulmaca parçası
+      - PIEZA DE PUZZLE
+      - PEÇA DO PUZZLE
+      - 拼图碎片
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_IAP_PUZZLE BUNDLE!
+      TermType: 0
+      Languages:
+      - PUZZLE BUNDLE!
+      - PUZZLE-PAKET!
+      - PACK DE PUZZLES !
+      - НАБОР ГОЛОВОЛОМОК!
+      - BULMACA PAKETİ!
+      - ¡PAQUETE DE PUZZLES!
+      - PACOTE PUZZLE!
+      - 拼图包！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_FOREVER
+      TermType: 0
+      Languages:
+      - FOREVER
+      - FÜR IMMER
+      - POUR TOUJOURS
+      - НАВСЕГДА
+      - SONSUZA KADAR
+      - PARA SIEMPRE
+      - PARA SEMPRE
+      - 永远
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_NO ADS FOREVER
+      TermType: 0
+      Languages:
+      - NO ADS FOREVER
+      - KEINE WERBUNG FÜR IMMER
+      - PLUS DE PUBLICITÉ POUR TOUJOURS
+      - НИКАКОЙ РЕКЛАМЫ НАВСЕГДА
+      - SONSUZ REKLAM YOK
+      - SIN PUBLICIDAD PARA SIEMPRE
+      - SEM ANÚNCIOS PARA SEMPRE
+      - 永远无广告
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_Description 1
+      TermType: 0
+      Languages:
+      - "Remove interruptions by ads and banners.\n\nRewarded video ads will still be available."
+      - "Beseitigen Sie Unterbrechungen durch Anzeigen und Banner. \n\nBelohnte Videoanzeigen sind weiterhin verfügbar."
+      - "Supprimez les interruptions causées par les publicités et les bannières. \n\nLes publicités vidéo récompensées seront toujours disponibles."
+      - "Уберите помехи от рекламы и баннеров. \n\nВидеореклама с вознаграждением останется доступной."
+      - "Reklamlar ve afişler tarafından yapılan kesintileri kaldırın. \n\nÖdüllü video reklamları hala mevcut olacak."
+      - "Eliminar las interrupciones de los anuncios y banners. \n\nLos anuncios de video con recompensas seguirán estando disponibles."
+      - "Remova interrupções por anúncios e banners. \n\nOs anúncios em vídeo premiados ainda estarão disponíveis."
+      - "消除广告和横幅的干扰。\n\n奖励视频广告仍可用。"
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_Puzzle Pieces
+      TermType: 0
+      Languages:
+      - PUZZLE PIECES
+      - PUZZELTEILE
+      - PIÈCES DE PUZZLE
+      - КУСОЧКИ ПАЗЛА
+      - PUZZLE PARÇALARI
+      - PIEZAS DE PUZZLE
+      - PEÇAS DO PUZZLE
+      - 拼图
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_Description 2
+      TermType: 0
+      Languages:
+      - Get 15 puzzle pieces!
+      - Erhalten Sie 15 Puzzleteile!
+      - Obtenez 15 pièces de puzzle!
+      - Получите 15 кусочков головоломки!
+      - 15 yapboz parçası alın!
+      - ¡Obtén 15 piezas de puzzle!
+      - Obtém 15 peças do puzzle!
+      - 获得 15 块拼图！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_Great Value
+      TermType: 0
+      Languages:
+      - GREAT VALUE
+      - BESTER PREIS
+      - MEILLEUR PRIX
+      - ОТЛИЧНАЯ ЦЕННОСТЬ
+      - BÜYÜK DEĞER
+      - MEJOR PRECIO
+      - MELHOR PREÇO
+      - 最佳价值
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_No thanks
+      TermType: 0
+      Languages:
+      - No, thanks
+      - Nein danke
+      - Non merci
+      - Нет, спасибо
+      - Hayır, teşekkürler
+      - No, gracias
+      - Não, obrigado
+      - 不，谢谢
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Puzzle Bundle_Limited time offer
+      TermType: 0
+      Languages:
+      - LIMITED TIME OFFER
+      - ZEITLICH BEGRENZTES ANGEBOT
+      - OFFRE À DURÉE LIMITÉE
+      - ПРЕДЛОЖЕНИЕ ОГРАНИЧЕННОЕ ПО ВРЕМЕНИ
+      - SINIRLI SÜRELİ TEKLİF
+      - OFERTA POR TIEMPO LIMITADO
+      - OFERTA POR TEMPO LIMITADO
+      - 限时优惠
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Even Finished_Tooltip message
+      TermType: 0
+      Languages:
+      - Get only the skins you didn't unlock
+      - Hole nur die Skins, die du nicht freigeschaltet hast
+      - Obtenez uniquement les skins que vous n'avez pas débloqués
+      - Получите только те скины, которые вы не разблокировали
+      - Sadece kilidini açmadığınız görünümleri alın
+      - Obtén solo los aspectos que no hayas desbloqueado
+      - Obtenha apenas as skins que não desbloqueou
+      - 仅获取未解锁的皮肤
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_Time out IAP_Last chance
+      TermType: 0
+      Languages:
+      - LAST CHANCE
+      - LETZTE CHANCE
+      - DERNIÈRE CHANCE
+      - ПОСЛЕДНИЙ ШАНС
+      - SON ŞANS
+      - ÚLTIMA OPORTUNIDAD
+      - ÚLTIMA CHANCE
+      - 最后机会
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_LastChanceIAP_Time Out
+      TermType: 0
+      Languages:
+      - TIME OUT!
+      - ZEIT VORBEI!
+      - TEMPS ÉCOULÉ!
+      - ВРЕМЯ КОНЧИЛОСЬ!
+      - ZAMAN AŞIMI!
+      - ¡SE ACABÓ EL TIEMPO!
+      - TEMPO ESGOTADO!
+      - 暂停！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_LastChanceIAP_Last chance message
+      TermType: 0
+      Languages:
+      - Last chance to get them all
+      - Letzte Chance alle zu bekommen
+      - Dernière chance de les obtenir tous
+      - Последний шанс получить их все
+      - Hepsini elde etmek için son şans
+      - Última oportunidad para conseguirlos todos
+      - Última oportunidade de os apanhar todos
+      - 获得全部内容的最后机会
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PuzzleHunt_FinalSkinScreen_Ribbon
+      TermType: 0
+      Languages:
+      - CONGRATS!
+      - GRATULIERE!
+      - FÉLICITATIONS!
+      - ПОЗДРАВЛЯЕМ!
+      - TEBRİKLER!
+      - ¡FELICIDADES!
+      - PARABÉNS!
+      - 祝贺你
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PuzzleHunt_FinalSkinScreen_Prompt
+      TermType: 0
+      Languages:
+      - You unlocked the final skin of the Puzzle Hunt!
+      - Du hast den letzten Skin der Puzzlejagd freigeschaltet!
+      - Tu as débloqué le dernier skin de la Chasse aux Puzzles!
+      - Ты разблокировал последний скин в «Охоте за головоломками»!
+      - Bulmaca Avı'nın son kostümünün kilidini açtınız!
+      - ¡Has desbloqueado la skin final de la Caza de Puzzles!
+      - Você desbloqueou a última skin da Caça ao Puzzles!
+      - 您解锁了谜题狩猎的最终皮肤！
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Puzzle Hunt_NotEnough button
+      TermType: 0
+      Languages:
+      - NOT ENOUGH
+      - NICHT GENUG
+      - PAS ASSEZ
+      - НЕДОСТАТОЧНО
+      - YETERLİ DEĞİL
+      - NO TIENES
+      - NÃO É SUFICIENTE
+      - 不够
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: RescuePet_Title
+      TermType: 0
+      Languages:
+      - Rescue the Puppy?
+      - Rette den Welpen?
+      - Sauve le chiot?
+      - Спасите щенка?
+      - Yavruyu Kurtar?
+      - ¿Rescata al cachorro?
+      - Resgate o filhote?
+      - 拯救小狗
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: RescuePet_Rescue
+      TermType: 0
+      Languages:
+      - Rescue
+      - Retten
+      - Sauver
+      - Спасать
+      - Kurtarmak
+      - Rescatar
+      - Resgatar
+      - 拯救
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: RescuePet_Abandon
+      TermType: 0
+      Languages:
+      - Abandon it.
+      - Lass ihn zurück.
+      - Abandonne-le.
+      - Оставь его.
+      - Onu terk et.
+      - Abandónalo.
+      - Abandona-o.
+      - 抛弃它。
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: PuzzleHunt_HangingPiece_Ribbon
+      TermType: 0
+      Languages:
+      - GET 2
+      - 2 ERHALTEN
+      - OBTENEZ 2
+      - ПОЛУЧИТЬ 2
+      - 2 AL
+      - OBTÉN 2
+      - OBTER 2
+      - 获取 2
+      Flags: 0000000000000000
+      Languages_Touch: []
+    - Term: Skin Effect Tooltip
+      TermType: 0
+      Languages:
+      - TRANSFORM THE LEVEL ENVIRONMENT
+      - VERWANDELE DIE LEVEL-UMGEBUNG
+      - TRANSFORME L'ENVIRONNEMENT DU NIVEAU
+      - ИЗМЕНИ ОБСТАНОВКУ НА УРОВНЕ
+      - BÖLÜM GÖRSELLERİNİ DEĞİŞTİR
+      - TRANSFORMA EL ENTORNO DEL NIVEL
+      - TRANSFORMA O AMBIENTE DO NÍVEL
+      - 改变关卡环境
+      Flags: 0000000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName:
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: Turkish
+      Code: tr
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    - Name: 'Chinese '
+      Code: zh
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/a/sunday.gg/macros/s/AKfycbzyhneDrQQMIplLq17qvdN0O8MMAzI1elNRJi43/exec
+    Google_SpreadsheetKey: 1L4BIxRjSYRXCx05FGDCC1jRete2EHEJ1xBe8NhWMkFI
+    Google_SpreadsheetName: I2Loc Cat Escape Localization
+    Google_LastUpdatedVersion: 1606400600845
+    GoogleUpdateFrequency: 1
+    GoogleInEditorCheckFrequency: 1
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []

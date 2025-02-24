@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2053556095, guid: be88b841867d5c44c7198fb77a7f18db, type: 3}
+  m_Name: PoliceMeshPairCollection
+  m_EditorClassIdentifier:
+  originalMesh: {fileID: 4300000, guid: fa27d492cb7f234459b01e129851e6b1, type: 2}
+  fxPrefab: {fileID: 1297222227673970, guid: f533ff5f08d8d524ab05851da4ff2343, type: 2}
+  collection:
+  - requiredSkin: {fileID: 11400000, guid: e89ae99ec3552dc47a5b944334c1a440, type: 2}
+    meshVariant: {fileID: 4300000, guid: 20f00cb1a3ca4304facd294e9735eb3e, type: 2}

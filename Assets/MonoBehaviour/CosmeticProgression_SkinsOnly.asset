@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -540628443, guid: 4d04c8898db51fb9fdf15d37ef06a391, type: 3}
+  m_Name: CosmeticProgression_SkinsOnly
+  m_EditorClassIdentifier:
+  cosmetics:
+  - {fileID: 11400000, guid: 1cbb6fec9e6b0584fbfbad2420237785, type: 2}
+  - {fileID: 11400000, guid: e89ae99ec3552dc47a5b944334c1a440, type: 2}
+  - {fileID: 11400000, guid: 5e551d88c89b5144991b9e89c6cc32ed, type: 2}
+  - {fileID: 11400000, guid: 237622350b1fc3b42b0a32ea78a0b519, type: 2}
+  - {fileID: 11400000, guid: aa7a5437f6a799c478588b4bf31c5cd9, type: 2}
+  - {fileID: 11400000, guid: 4f30f2483a29a9f4eaefccddabe54fcb, type: 2}
+  - {fileID: 11400000, guid: 9c1abadbf6219ab408b3f4cd125385c1, type: 2}
+  - {fileID: 11400000, guid: d574f2825882aa348bf3389b1c7e5176, type: 2}
+  - {fileID: 11400000, guid: 4d9ed23c3d9cc95468c5c3a75128efdc, type: 2}
+  - {fileID: 11400000, guid: 453c43cc7e6645f4983c5d75adf7cad9, type: 2}
+  - {fileID: 11400000, guid: cde4f6ae3c42bc448a16f730ef358b88, type: 2}
+  - {fileID: 11400000, guid: cf1d8a47387292d4290010a11101b156, type: 2}

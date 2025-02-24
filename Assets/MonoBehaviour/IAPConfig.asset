@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1954006632, guid: 2a9168b539f6f4843ecb88ccc2cef150, type: 3}
+  m_Name: IAPConfig
+  m_EditorClassIdentifier:
+  products:
+  - {fileID: 11400000, guid: 2bccec1a03bf24c42bea8b1d5244c29a, type: 2}
+  - {fileID: 11400000, guid: f16b93da26bbff84cbb08b3352c48006, type: 2}
+  - {fileID: 11400000, guid: a720d8a1d6706b442b7f1e592df16f2e, type: 2}
+  - {fileID: 11400000, guid: 79519c4d0d73de34cb9eee6d82f2e827, type: 2}
+  - {fileID: 11400000, guid: db8767fecd1e829478dc629cce33121e, type: 2}
+  environment: production

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1812771955, guid: a9735a0cc0061ea2c4adb46f51855888, type: 3}
+  m_Name: PuzzleHuntConfig
+  m_EditorClassIdentifier:
+  isFeatureEnabled: 1
+  eventCurrency: {fileID: 11400000, guid: 218aa999953ccd14ead6f962810151cc, type: 2}
+  allSkinsProduct: {fileID: 11400000, guid: db8767fecd1e829478dc629cce33121e, type: 2}
+  eventDurationDays: 7
+  boostDurationMinutes: 5
+  boostMultiplier: 2
+  puzzleCollectible: {fileID: 11400000, guid: 9bbd3ac9123d8ba47810bd37c348a464, type: 2}
+  puzzlePurchasable: {fileID: 11400000, guid: 23257bc866e97c6429c8fb05060c6be4, type: 2}
+  puzzlePieceCountPerSkin: 5
+  hangingPieceFirstLevel: 12
+  hangingPieceLevelsUntilNext: 3
+  hangingPieceCollectAmount: 2
+  reEngagementCollectedTimes: 3
+  puzzleHuntSkins:
+  - {fileID: 11400000, guid: c8dbe1ecf21ddd54ead7d1a2c022cc10, type: 2}
+  - {fileID: 11400000, guid: 8d2f5dc65ac225c47a6f9e94a3f2c7db, type: 2}
+  - {fileID: 11400000, guid: 6a32e97b6d3d3104b87a271105d18fdd, type: 2}
+  - {fileID: 11400000, guid: 14f4624cec2a96c448fd9535aa014e2d, type: 2}
+  - {fileID: 11400000, guid: 9bfae0f531a14274a80793cb0ecacdc6, type: 2}
+  finalRewardSkin: {fileID: 11400000, guid: cf1b38a4eec7e764d926fbfeba4e7c00, type: 2}
+  puzzlePieceProgression:
+  - skin: {fileID: 11400000, guid: c8dbe1ecf21ddd54ead7d1a2c022cc10, type: 2}
+    puzzlePieceIndex: 1
+  - skin: {fileID: 11400000, guid: 8d2f5dc65ac225c47a6f9e94a3f2c7db, type: 2}
+    puzzlePieceIndex: 2
+  - skin: {fileID: 11400000, guid: c8dbe1ecf21ddd54ead7d1a2c022cc10, type: 2}
+    puzzlePieceIndex: 3
+  - skin: {fileID: 11400000, guid: c8dbe1ecf21ddd54ead7d1a2c022cc10, type: 2}
+    puzzlePieceIndex: 0
+  - skin: {fileID: 11400000, guid: 6a32e97b6d3d3104b87a271105d18fdd, type: 2}
+    puzzlePieceIndex: 3
+  - skin: {fileID: 11400000, guid: c8dbe1ecf21ddd54ead7d1a2c022cc10, type: 2}
+    puzzlePieceIndex: 2
+  - skin: {fileID: 11400000, guid: c8dbe1ecf21ddd54ead7d1a2c022cc10, type: 2}
+    puzzlePieceIndex: 4
+  - skin: {fileID: 11400000, guid: 8d2f5dc65ac225c47a6f9e94a3f2c7db, type: 2}
+    puzzlePieceIndex: 1
+  - skin: {fileID: 11400000, guid: 6a32e97b6d3d3104b87a271105d18fdd, type: 2}
+    puzzlePieceIndex: 2
+  - skin: {fileID: 11400000, guid: 8d2f5dc65ac225c47a6f9e94a3f2c7db, type: 2}
+    puzzlePieceIndex: 4
+  - skin: {fileID: 11400000, guid: 14f4624cec2a96c448fd9535aa014e2d, type: 2}
+    puzzlePieceIndex: 0
+  - skin: {fileID: 11400000, guid: 8d2f5dc65ac225c47a6f9e94a3f2c7db, type: 2}
+    puzzlePieceIndex: 3
+  - skin: {fileID: 11400000, guid: 14f4624cec2a96c448fd9535aa014e2d, type: 2}
+    puzzlePieceIndex: 4
+  - skin: {fileID: 11400000, guid: 8d2f5dc65ac225c47a6f9e94a3f2c7db, type: 2}
+    puzzlePieceIndex: 0
+  - skin: {fileID: 11400000, guid: 6a32e97b6d3d3104b87a271105d18fdd, type: 2}
+    puzzlePieceIndex: 0
+  - skin: {fileID: 11400000, guid: 6a32e97b6d3d3104b87a271105d18fdd, type: 2}
+    puzzlePieceIndex: 4
+  - skin: {fileID: 11400000, guid: 6a32e97b6d3d3104b87a271105d18fdd, type: 2}
+    puzzlePieceIndex: 1
+  - skin: {fileID: 11400000, guid: 9bfae0f531a14274a80793cb0ecacdc6, type: 2}
+    puzzlePieceIndex: 3
+  - skin: {fileID: 11400000, guid: 14f4624cec2a96c448fd9535aa014e2d, type: 2}
+    puzzlePieceIndex: 3
+  - skin: {fileID: 11400000, guid: 14f4624cec2a96c448fd9535aa014e2d, type: 2}
+    puzzlePieceIndex: 2
+  - skin: {fileID: 11400000, guid: 9bfae0f531a14274a80793cb0ecacdc6, type: 2}
+    puzzlePieceIndex: 4
+  - skin: {fileID: 11400000, guid: 14f4624cec2a96c448fd9535aa014e2d, type: 2}
+    puzzlePieceIndex: 1
+  - skin: {fileID: 11400000, guid: 9bfae0f531a14274a80793cb0ecacdc6, type: 2}
+    puzzlePieceIndex: 1
+  - skin: {fileID: 11400000, guid: 9bfae0f531a14274a80793cb0ecacdc6, type: 2}
+    puzzlePieceIndex: 2
+  - skin: {fileID: 11400000, guid: 9bfae0f531a14274a80793cb0ecacdc6, type: 2}
+    puzzlePieceIndex: 0
+  collectSfx: PH_Collect
+  buyPieceSfx: PH_BuyPiece
+  eventCompleteSfx: PH_EventComplete
