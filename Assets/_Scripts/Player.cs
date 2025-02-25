@@ -10,10 +10,14 @@ public class Player : MonoBehaviour
     // // public Joystick joy; // Tham chiếu đến UI Joystick
     // Vector3 moveDirection;
 
-    // void Start()
-    // {
-    //     rb = GetComponent<Rigidbody>();
-    // }
+    void Start()
+    {
+        // rb = GetComponent<Rigidbody>();
+        if (JoystickMove.Instance != null)
+        {
+            JoystickMove.Instance.SetRigidbody(GetComponent<Rigidbody>());
+        }
+    }
 
     // void Update()
     // {

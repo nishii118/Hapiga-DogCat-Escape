@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JoystickMove : MonoBehaviour
+public class JoystickMove : Singleton<JoystickMove>
 {
     [SerializeField] private Joystick movementJoystick;
     public float playerSpeed;
@@ -22,5 +22,10 @@ public class JoystickMove : MonoBehaviour
         } else {
             rb.velocity = Vector3.zero;
         }
+    }
+
+    public void SetRigidbody(Rigidbody rigidbody)
+    {
+        rb = rigidbody;
     }
 }
