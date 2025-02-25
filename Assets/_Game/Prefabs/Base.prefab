@@ -423,9 +423,9 @@ GameObject:
   - component: {fileID: 4848881358578694342}
   - component: {fileID: 4606257340208261500}
   - component: {fileID: 5549983300785201030}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Success Spot
-  m_TagString: Success
+  m_TagString: SuccessSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

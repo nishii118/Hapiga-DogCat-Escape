@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CatDetection : MonoBehaviour
 {
@@ -23,8 +24,9 @@ public class CatDetection : MonoBehaviour
         {
             Debug.Log("Player detected");
             animator.SetBool("detected", true);
-
+            Time.timeScale = 0f;
             StartCoroutine(DetectDog());
+            GameManager.Instance.ReloadCurrentScene();
         }
     }
 
