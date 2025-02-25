@@ -1,55 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    private Vector3 startPos;
-    private Vector3 endPos;
-    private bool isDragging = false;
-    [SerializeField] private float moveSpeed = 5f;
-    // Start is called before the first frame update
+    public float moveSpeed = 5f;
+    private Rigidbody rb;
+    [SerializeField] private InputActionReference moveAction;
+    // public Joystick joy; // Tham chiếu đến UI Joystick
+    Vector3 moveDirection;
+
     void Start()
     {
-
+        rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        InputPlayer();
+        Vector2 input = moveAction.action.ReadValue<Vector2>();
+        moveDirection = new Vector3(input.x, 0, input.y).normalized;
     }
 
-    void InputPlayer()
+    void FixedUpdate()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        if (moveDirection.magnitude > 0.1f)
         {
-            startPos = Input.mousePosition;
-            isDragging = true;
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, 0.1f); // Làm mượt xoay
         }
-        else if (Input.GetMouseButton(0) && isDragging) 
-        {
-            endPos = Input.mousePosition;
-            Vector2 moveDirection = (endPos - startPos).normalized;
 
-            Vector3 moveXZ = new Vector3(moveDirection.x, 0, moveDirection.y); 
-            transform.position += moveXZ * moveSpeed * Time.deltaTime;
-            // startPos = endPos; 
-        }
-        else if (Input.GetMouseButtonUp(0)) 
-        {
-            
-            isDragging = false;
-        }
+        rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
     }
-
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "SuccessSpot")
+        if (other.gameObject.CompareTag("SuccessSpot"))
         {
-            Debug.Log("Success");
             GameManager.Instance.LoadNextScene();
         }
     }
+
+
+
+
+
+
+
+
 }
