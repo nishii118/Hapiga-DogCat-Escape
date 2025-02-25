@@ -10,11 +10,14 @@ public class Police : MonoBehaviour
     [SerializeField] private Transform bDestination;
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private Animator animator;
     private Transform targetPoint;
 
     void Start()
     {
         targetPoint = aDestination;
+        canMove = true;
+        animator.SetBool("canMove", true);
     }
 
     void Update()
