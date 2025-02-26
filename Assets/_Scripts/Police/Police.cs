@@ -6,14 +6,17 @@ using UnityEngine;
 public class Police : MonoBehaviour
 {
     [SerializeField] private bool canMove = false;
-    [SerializeField] private Transform aDestination;
-    [SerializeField] private Transform bDestination;
+    // [SerializeField] private Transform aDestination;
+    // [SerializeField] private Transform bDestination;
+    [SerializeField] private List<Transform> waypoints;
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Animator animator;
     private Transform targetPoint;
     
     [SerializeField] private bool canBeTriggeredByDoor = false;
+
+    private int currentWayPointIndex;
 
     void OnEnable()
     {
@@ -26,8 +29,13 @@ public class Police : MonoBehaviour
     }
     void Start()
     {
-        if(aDestination != null) targetPoint = aDestination;
+        // if(aDestination != null) targetPoint = aDestination;
         // canMove = true;
+
+
+        //init
+        currentWayPointIndex = 0;
+        if (waypoints.Count > 0) targetPoint = waypoints[currentWayPointIndex];
         if (canMove == true) animator.SetBool("canMove", true);
 
         Debug.Log("canMove: " + canMove);
@@ -35,7 +43,7 @@ public class Police : MonoBehaviour
 
     void Update()
     {
-        if (!canMove) return;
+        if (!canMove || waypoints.Count == 0) return;
 
         // Xoay nhân vật theo hướng di chuyển
         Vector3 direction = (targetPoint.position - transform.position).normalized;
@@ -50,7 +58,7 @@ public class Police : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!canMove) return;
+        if (!canMove || waypoints.Count == 0) return;
 
         // Tính toán hướng di chuyển
         Vector3 direction = (targetPoint.position - rb.position).normalized;
@@ -63,7 +71,10 @@ public class Police : MonoBehaviour
         if (Vector3.Distance(rb.position, targetPoint.position) < 0.5f)
         {
             Debug.Log("Change direction");
-            targetPoint = (targetPoint == aDestination) ? bDestination : aDestination;
+            // targetPoint = (targetPoint == aDestination) ? bDestination : aDestination;
+            currentWayPointIndex = (currentWayPointIndex + 1) % waypoints.Count;
+            targetPoint = waypoints[currentWayPointIndex];
+            Debug.Log(currentWayPointIndex);
         }
     }
 
