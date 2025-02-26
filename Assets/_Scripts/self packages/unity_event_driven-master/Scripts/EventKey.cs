@@ -4,4 +4,5 @@
     STARTGAME,
     ENDGAME,
     UPDATE_UI,
+    CABINET_DOOR_OPEN,
 }

@@ -12,12 +12,25 @@ public class Police : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Animator animator;
     private Transform targetPoint;
+    
+    [SerializeField] private bool canBeTriggeredByDoor = false;
 
+    void OnEnable()
+    {
+        Messenger.AddListener(EventKey.CABINET_DOOR_OPEN, OnCabinetDoorOpen);
+    }
+
+    void OnDisable()
+    {
+        Messenger.RemoveListener(EventKey.CABINET_DOOR_OPEN, OnCabinetDoorOpen);
+    }
     void Start()
     {
-        targetPoint = aDestination;
-        canMove = true;
-        animator.SetBool("canMove", true);
+        if(aDestination != null) targetPoint = aDestination;
+        // canMove = true;
+        if (canMove == true) animator.SetBool("canMove", true);
+
+        Debug.Log("canMove: " + canMove);
     }
 
     void Update()
@@ -51,6 +64,14 @@ public class Police : MonoBehaviour
         {
             Debug.Log("Change direction");
             targetPoint = (targetPoint == aDestination) ? bDestination : aDestination;
+        }
+    }
+
+
+    void OnCabinetDoorOpen() {
+        if (canBeTriggeredByDoor) {
+            canMove = true;
+            animator.SetBool("canMove", true);
         }
     }
 }

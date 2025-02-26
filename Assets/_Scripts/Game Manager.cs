@@ -34,6 +34,7 @@ public class GameManager : Singleton<GameManager>
         Scene currentScene = SceneManager.GetActiveScene();
         Debug.Log(currentScene.name);
         SceneManager.LoadScene(currentScene.name);
+        Time.timeScale = 1f;
     }
 
     public void LoadNextScene() {
