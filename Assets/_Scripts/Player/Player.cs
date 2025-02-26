@@ -1,14 +1,19 @@
 
+using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    // public float moveSpeed = 5f;
-    // private Rigidbody rb;
-    // [SerializeField] private InputActionReference moveAction;
-    // // public Joystick joy; // Tham chiếu đến UI Joystick
-    // Vector3 moveDirection;
+
+    void OnEnable()
+    {
+        Messenger.AddListener(EventKey.PLAYER_SCALE_UP, PlayerScaleUp);
+    }
+
+    void OnDisable()
+    {
+        Messenger.RemoveListener(EventKey.PLAYER_SCALE_UP, PlayerScaleUp);
+    }
 
     void Start()
     {
@@ -19,35 +24,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    // void Update()
-    // {
-    //     Vector2 input = moveAction.action.ReadValue<Vector2>();
-    //     moveDirection = new Vector3(input.x, 0, input.y).normalized;
-
-
-    //     // if (moveDirection.magnitude > 0.1f)
-    //     // {
-    //     //     Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-    //     //     rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, 0.1f); // Làm mượt xoay
-    //     // }
-
-    //     // rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
-    //     rb.velocity = new Vector3(moveDirection.x * moveSpeed, 0, moveDirection.z * moveSpeed);
-    //     Debug.Log(rb.velocity);
-    // }
-
-    // void FixedUpdate()
-    // {
-    //     // if (moveDirection.magnitude > 0.1f)
-    //     // {
-    //     //     Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
-    //     //     rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, 0.1f); // Làm mượt xoay
-    //     // }
-
-    //     // // rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
-    //     // rb.velocity = new Vector3(moveDirection.x * moveSpeed, 0, moveDirection.z * moveSpeed);
-    // }
-
     void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("SuccessSpot"))
@@ -56,7 +32,25 @@ public class Player : MonoBehaviour
         }
     }
 
+    void PlayerScaleUp()
+    {
+        StartCoroutine(ScaleUpOverTime(new Vector3(1.2f, 1.2f, 1.2f), 0.5f));
+    }
 
+    private IEnumerator ScaleUpOverTime(Vector3 targetScale, float duration)
+    {
+        Vector3 originalScale = transform.localScale;
+        float currentTime = 0.0f;
+
+        do
+        {
+            transform.localScale = Vector3.Lerp(originalScale, targetScale, currentTime / duration);
+            currentTime += Time.deltaTime;
+            yield return null;
+        } while (currentTime <= duration);
+
+        transform.localScale = targetScale;
+    }
 
 
 
