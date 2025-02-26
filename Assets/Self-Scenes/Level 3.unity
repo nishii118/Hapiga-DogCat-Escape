@@ -653,8 +653,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.45304853, y: 1.4017293, z: 2.6527762}
-  m_Center: {x: -0.079232216, y: -0.008283098, z: 1.3263887}
+  m_Size: {x: 0.45304853, y: 1.4017292, z: 1.9837974}
+  m_Center: {x: -0.07923216, y: -0.008283079, z: 0.9918993}
 --- !u!23 &267948975
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1269,6 +1269,14 @@ PrefabInstance:
       value: Police_A (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
+      propertyPath: canMove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
       propertyPath: aDestination
       value: 
       objectReference: {fileID: 33399678}
@@ -1276,6 +1284,10 @@ PrefabInstance:
       propertyPath: bDestination
       value: 
       objectReference: {fileID: 1681684684}
+    - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
+      propertyPath: canBeTriggeredByDoor
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1306,7 +1318,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688731697}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1dbbfba11d7ba7148b3922690bdacec5, type: 3}
   m_Name: 
@@ -1771,8 +1783,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.45304853, y: 1.4017293, z: 2.4877942}
-  m_Center: {x: -0.079232216, y: -0.008283098, z: 1.2438978}
+  m_Size: {x: 0.45304853, y: 1.4017292, z: 1.9837974}
+  m_Center: {x: -0.079232216, y: -0.008283079, z: 0.9918993}
 --- !u!23 &716961141
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1979,8 +1991,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.45304853, y: 1.4017293, z: 2.4877942}
-  m_Center: {x: -0.079232216, y: -0.008283098, z: 1.2438978}
+  m_Size: {x: 0.45304853, y: 1.4017292, z: 1.9837974}
+  m_Center: {x: -0.079232454, y: -0.008283079, z: 0.9918993}
 --- !u!23 &750876469
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2152,8 +2164,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.45304853, y: 1.4017293, z: 2.6527762}
-  m_Center: {x: -0.079232216, y: -0.008283098, z: 1.3263887}
+  m_Size: {x: 0.45304853, y: 1.4017292, z: 1.9837974}
+  m_Center: {x: -0.079232454, y: -0.008283079, z: 0.9918992}
 --- !u!23 &773804799
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3378,8 +3390,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.45304853, y: 1.4017293, z: 2.4877942}
-  m_Center: {x: -0.079232216, y: -0.008283098, z: 1.2438978}
+  m_Size: {x: 0.45304853, y: 1.4017292, z: 1.9837974}
+  m_Center: {x: -0.079232395, y: -0.008283079, z: 0.9918993}
 --- !u!23 &1482743820
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4090,6 +4102,18 @@ PrefabInstance:
     - target: {fileID: 7053289090937445898, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
       propertyPath: m_Layer
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
+      propertyPath: canMove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
+      propertyPath: canBeTriggeredByDoor
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7407502657833565254, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
       propertyPath: m_Layer
@@ -5167,8 +5191,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.45304853, y: 1.4017293, z: 2.6527762}
-  m_Center: {x: -0.079232216, y: -0.008283098, z: 1.3263887}
+  m_Size: {x: 0.45304853, y: 1.4017292, z: 1.9837974}
+  m_Center: {x: -0.079232216, y: -0.008283079, z: 0.9918993}
 --- !u!23 &2025994568
 MeshRenderer:
   m_ObjectHideFlags: 0
