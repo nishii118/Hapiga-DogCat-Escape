@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Self-Scenes/Level 7.unity
     guid: a10bd36bf95095a409bd7650b690110a
+  - enabled: 1
+    path: Assets/Self-Scenes/Level 8.unity
+    guid: ec2927f849c2a5540abf21a30dbae37c
+  - enabled: 1
+    path: Assets/Self-Scenes/Level 9.unity
+    guid: 810bde7d282fb434794a2772b37c66e9
   m_configObjects: {}
