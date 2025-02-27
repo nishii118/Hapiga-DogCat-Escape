@@ -85,4 +85,21 @@ public class Police : MonoBehaviour
             animator.SetBool("canMove", true);
         }
     }
+
+    public void PlayElectrizedAnimation() {
+        StartCoroutine(PlayElectrizedAnimationCoroutine());
+    }
+
+    IEnumerator PlayElectrizedAnimationCoroutine() {
+        animator.CrossFade("Electrized", 0.1f);
+        yield return null;
+        // yield return new WaitForSeconds(1f);
+        // animator.CrossFade("Idle", 0.1f);
+    }
+
+    public void StopPoliceMovement() {
+        canMove = false;
+        animator.SetBool("canMove", false);
+        rb.velocity = Vector3.zero;
+    }
 }

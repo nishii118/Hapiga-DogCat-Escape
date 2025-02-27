@@ -13,7 +13,7 @@ public class DoorOpenArea : MonoBehaviour
         {
             Debug.Log("Player entered door open area");
             // doorAnimator.SetBool("Open", true);
-            doorAnimator.CrossFade("Open", 0.1f);
+            doorAnimator.CrossFade("Opened", 0.1f);
 
             Messenger.Broadcast(EventKey.CABINET_DOOR_OPEN);
         }
@@ -25,7 +25,7 @@ public class DoorOpenArea : MonoBehaviour
         {
             Debug.Log("Player exited door open area");
             // doorAnimator.SetBool("Open", false);
-            doorAnimator.CrossFade("Close", 0.1f);
+            doorAnimator.CrossFade("Closed", 0.1f);
         }
     }
 }

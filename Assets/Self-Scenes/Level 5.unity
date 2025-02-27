@@ -3488,7 +3488,7 @@ PrefabInstance:
       objectReference: {fileID: 371447776}
     - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
       propertyPath: canBeTriggeredByDoor
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7395071544091745566, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
       propertyPath: waypoints.Array.size
