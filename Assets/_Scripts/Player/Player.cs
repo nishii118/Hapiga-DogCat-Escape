@@ -28,7 +28,9 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("SuccessSpot"))
         {
-            GameManager.Instance.LoadNextScene();
+            // GameManager.Instance.LoadNextScene();
+
+            Messenger.Broadcast(EventKey.LOAD_NEXT_LEVEL);
         }
     }
 

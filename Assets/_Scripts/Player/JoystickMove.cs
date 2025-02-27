@@ -15,6 +15,7 @@ public class JoystickMove : Singleton<JoystickMove>
     // Update is called once per frame
     void Update()
     {
+        if (rb == null) return;
         PlayerMovement();
     }
 

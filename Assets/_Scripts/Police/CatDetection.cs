@@ -36,10 +36,12 @@ public class CatDetection : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Player detected");
-            animator.SetBool("detected", true);
-            Time.timeScale = 0f;
+            // animator.SetBool("detected", true);
+            // Time.timeScale = 0f;
             StartCoroutine(DetectDog());
-            GameManager.Instance.ReloadCurrentScene();
+            // GameManager.Instance.ReloadCurrentScene();
+            // LevelManager.Instance.LoadCurrentLevel();
+            Messenger.Broadcast(EventKey.LOAD_CURRENT_LEVEL);
         }
     }
 

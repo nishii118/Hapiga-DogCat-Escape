@@ -1233,8 +1233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMove: 0
-  aDestination: {fileID: 0}
-  bDestination: {fileID: 0}
+  waypoints: []
   rb: {fileID: 7491904494910960288}
   moveSpeed: 3.5
   animator: {fileID: 1588339790252802263}
@@ -3967,7 +3966,6 @@ GameObject:
   - component: {fileID: 3253177010508783420}
   - component: {fileID: 7611631470433467350}
   - component: {fileID: 7631393451695559900}
-  - component: {fileID: 340176048870096164}
   m_Layer: 0
   m_Name: CatDetectionArea
   m_TagString: Untagged
@@ -4054,19 +4052,6 @@ SphereCollider:
   m_Radius: 0.2
   m_Center: {x: 0.45, y: 0, z: 0.12}
 --- !u!114 &7631393451695559900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7748143133988260802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa17985b8d4a1e54da78622635ced716, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1588339790252802263}
---- !u!114 &340176048870096164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
