@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class LevelManager : Singleton<LevelManager>
 {
-    private int currentLevelIndex = 10;
+    private int currentLevelIndex ;
     
     [SerializeField] private GameObject levelContainer;
     private GameObject currentLevelInstance; // Lưu trữ instance thực tế
 
     void Awake()
     {
+        currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
+
+        
     }
 
     void OnEnable()
@@ -30,6 +33,7 @@ public class LevelManager : Singleton<LevelManager>
     {
         currentLevelIndex++;
         StartCoroutine(DestroyAndLoadLevel());
+        PlayerPrefs.SetInt("CurrentLevel", currentLevelIndex);
     }
 
     IEnumerator DestroyAndLoadLevel()
