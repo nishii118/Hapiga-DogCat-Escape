@@ -9,12 +9,14 @@ public class Electricity : MonoBehaviour
     private bool electricityState = false;
     void OnEnable()
     {
-        Messenger.AddListener(EventKey.TURN_ON_ELECTRICITY, TurnOnElectricity);
+        EButton.onClickEButton+= TurnOnElectricity;
+        // Messenger.AddListener(EventKey.TURN_ON_ELECTRICITY, TurnOnElectricity);
     }
 
     void OnDisable()
     {
-        Messenger.RemoveListener(EventKey.TURN_ON_ELECTRICITY, TurnOnElectricity);
+        EButton.onClickEButton-= TurnOnElectricity;
+        // Messenger.RemoveListener(EventKey.TURN_ON_ELECTRICITY, TurnOnElectricity);
     }
     void Start()
     {

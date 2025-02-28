@@ -11,6 +11,7 @@ public class LevelManager : Singleton<LevelManager>
 
     void Awake()
     {
+        // PlayerPrefs.SetInt("CurrentLevel", 7);
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
 
@@ -19,14 +20,14 @@ public class LevelManager : Singleton<LevelManager>
 
     void OnEnable()
     {
-        Messenger.AddListener(EventKey.LOAD_NEXT_LEVEL, LoadNextLevel);
-        Messenger.AddListener(EventKey.LOAD_CURRENT_LEVEL, LoadCurrentLevel);
+        Player.onPlayerEnterSuccessSpot+= LoadNextLevel;
+        CatDetection.onDetectCat+= LoadCurrentLevel;
     }
 
     void OnDisable()
     {
-        Messenger.RemoveListener(EventKey.LOAD_NEXT_LEVEL, LoadNextLevel);
-        Messenger.RemoveListener(EventKey.LOAD_CURRENT_LEVEL, LoadCurrentLevel);
+        Player.onPlayerEnterSuccessSpot-= LoadNextLevel;
+        CatDetection.onDetectCat-= LoadCurrentLevel;
     }
 
     void LoadNextLevel()

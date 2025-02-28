@@ -1,10 +1,10 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class CatDetection : MonoBehaviour
 {
+    public static event Action onDetectCat;
     [SerializeField] private Animator animator;
     private bool canDetect = true;
 
@@ -36,12 +36,10 @@ public class CatDetection : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Player detected");
-            // animator.SetBool("detected", true);
-            // Time.timeScale = 0f;
+          
             StartCoroutine(DetectDog());
-            // GameManager.Instance.ReloadCurrentScene();
-            // LevelManager.Instance.LoadCurrentLevel();
-            Messenger.Broadcast(EventKey.LOAD_CURRENT_LEVEL);
+          
+            onDetectCat?.Invoke();
         }
     }
 

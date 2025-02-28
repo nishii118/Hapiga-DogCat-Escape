@@ -29,8 +29,7 @@ public class Police : MonoBehaviour
     }
     void Start()
     {
-        // if(aDestination != null) targetPoint = aDestination;
-        // canMove = true;
+    
 
 
         //init

@@ -1,20 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class CatFood : MonoBehaviour
 {
+    public static event Action catFoodEaten;
+
+
     [SerializeField] private Animator catFoodAnimator;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -25,7 +29,8 @@ public class CatFood : MonoBehaviour
             StartCoroutine(PlayEatenAnimation());
             gameObject.SetActive(false);
             Messenger.Broadcast(EventKey.UNSHIELD_WALL);
-            Messenger.Broadcast(EventKey.PLAYER_SCALE_UP);
+            // Messenger.Broadcast(EventKey.PLAYER_SCALE_UP);
+            catFoodEaten?.Invoke();
         }
     }
 

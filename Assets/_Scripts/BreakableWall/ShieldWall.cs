@@ -8,12 +8,14 @@ public class ShieldWall : MonoBehaviour
 
     void OnEnable()
     {
-        Messenger.AddListener(EventKey.UNSHIELD_WALL, UnShieldWall);
+        CatFood.catFoodEaten+= UnShieldWall;
+        // Messenger.AddListener(EventKey.UNSHIELD_WALL, UnShieldWall);
     }
 
     void OnDisable()
     {
-        Messenger.RemoveListener(EventKey.UNSHIELD_WALL, UnShieldWall);
+        CatFood.catFoodEaten-= UnShieldWall;
+        // Messenger.RemoveListener(EventKey.UNSHIELD_WALL, UnShieldWall);
     }
 
     void UnShieldWall()

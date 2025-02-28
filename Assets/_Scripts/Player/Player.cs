@@ -1,18 +1,19 @@
 
+using System;
 using System.Collections;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    public static event Action onPlayerEnterSuccessSpot;
     void OnEnable()
     {
-        Messenger.AddListener(EventKey.PLAYER_SCALE_UP, PlayerScaleUp);
+        CatFood.catFoodEaten += PlayerScaleUp;
     }
 
     void OnDisable()
     {
-        Messenger.RemoveListener(EventKey.PLAYER_SCALE_UP, PlayerScaleUp);
+        CatFood.catFoodEaten -= PlayerScaleUp;
     }
 
     void Start()
@@ -24,25 +25,14 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("SuccessSpot"))
-        {
-            // GameManager.Instance.LoadNextScene();
-
-            // Messenger.Broadcast(EventKey.LOAD_NEXT_LEVEL);
-            
-        }
-    }
+    
 
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("SuccessSpot"))
         {
-            // GameManager.Instance.LoadNextScene();
-            Messenger.Broadcast(EventKey.LOAD_NEXT_LEVEL);
-
-            // Debug.Log("Load Next Level");
+            
+            onPlayerEnterSuccessSpot?.Invoke();
         }
     }
 

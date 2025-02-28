@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EButton : MonoBehaviour
 {
+    public static event Action onClickEButton;
     [SerializeField] GameObject onButtonObject;
     // Start is called before the first frame update
     private bool objectState = false;
@@ -26,7 +28,8 @@ public class EButton : MonoBehaviour
             objectState = !objectState;
             onButtonObject.SetActive(objectState);
 
-            Messenger.Broadcast(EventKey.TURN_ON_ELECTRICITY);            
+            // Messenger.Broadcast(EventKey.TURN_ON_ELECTRICITY);   
+            onClickEButton?.Invoke();         
         }
     }
 }
