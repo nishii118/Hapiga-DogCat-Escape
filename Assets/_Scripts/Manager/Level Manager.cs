@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelManager : Singleton<LevelManager>
 {
-    private int currentLevelIndex = 1;
+    private int currentLevelIndex = 10;
     
     [SerializeField] private GameObject levelContainer;
     private GameObject currentLevelInstance; // Lưu trữ instance thực tế

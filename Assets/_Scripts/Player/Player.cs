@@ -30,7 +30,19 @@ public class Player : MonoBehaviour
         {
             // GameManager.Instance.LoadNextScene();
 
+            // Messenger.Broadcast(EventKey.LOAD_NEXT_LEVEL);
+            
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("SuccessSpot"))
+        {
+            // GameManager.Instance.LoadNextScene();
             Messenger.Broadcast(EventKey.LOAD_NEXT_LEVEL);
+
+            // Debug.Log("Load Next Level");
         }
     }
 

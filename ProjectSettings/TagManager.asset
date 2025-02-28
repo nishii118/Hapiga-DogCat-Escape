@@ -8,6 +8,9 @@ TagManager:
   - Success
   - SuccessSpot
   - Police
+  - BreakableWallBlock
+  - BulletCanPass
+  - BreakableWallVisionBlock
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - SuccessSpot
   - Helper
   - Police
-  - 
+  - PoliceDoor
   - 
   - 
   - 
