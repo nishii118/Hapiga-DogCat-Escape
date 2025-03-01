@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Electricity : MonoBehaviour
 {
+    public static event Action onElectrized;
     [SerializeField] private GameObject electricityActivatableObject;
 
     private bool electricityState = false;
@@ -52,6 +54,7 @@ public class Electricity : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player entered electricity area");
+            onElectrized?.Invoke();
             // Messenger.Broadcast(EventKey.TURN_ON_ELECTRICITY);
 
         }

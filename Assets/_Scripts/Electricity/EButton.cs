@@ -22,14 +22,19 @@ public class EButton : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("Police"))
         {
             Debug.Log("Player entered E Button area");
             objectState = !objectState;
             onButtonObject.SetActive(objectState);
 
             // Messenger.Broadcast(EventKey.TURN_ON_ELECTRICITY);   
-            onClickEButton?.Invoke();         
+            onClickEButton?.Invoke();
         }
+
+        // if (other.CompareTag("PoliceDoor"))
+        // {
+            
+        // }
     }
 }
