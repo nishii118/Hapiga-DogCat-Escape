@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6083260922185412780}
   - component: {fileID: 6126149780402548216}
   - component: {fileID: 5282537019165060091}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 6162559898742584264}
   - component: {fileID: 855072358942629295}
   - component: {fileID: 5694069365938413552}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 5265525507349556105}
   - component: {fileID: 7591454813750765668}
   - component: {fileID: 5835425589449718098}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 2103441359194940590}
   - component: {fileID: 2086040348047851908}
   - component: {fileID: 8559880631723609334}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7899853732739114654}
   - component: {fileID: 698839846043061817}
-  m_Layer: 26
+  m_Layer: 0
   m_Name: Trigger
   m_TagString: BulletCanPass
   m_Icon: {fileID: 0}
@@ -577,7 +577,7 @@ GameObject:
   - component: {fileID: 6681547272041611095}
   - component: {fileID: 3225134733675053953}
   - component: {fileID: 8768154838233827771}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -683,7 +683,7 @@ GameObject:
   - component: {fileID: 1323086470183120974}
   - component: {fileID: 8438562433525125648}
   - component: {fileID: 2266206207586557097}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 8157486680047732692}
   - component: {fileID: 2462424273481262633}
   - component: {fileID: 6051874457715599629}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B (1)
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 2771386660888601841}
   - component: {fileID: 6443165070017368908}
   - component: {fileID: 7124959952916488978}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 3887522191434075260}
   - component: {fileID: 544257748108376468}
   - component: {fileID: 6997157285094475401}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -1189,7 +1189,7 @@ GameObject:
   - component: {fileID: 6223706432665631925}
   - component: {fileID: 5651436263261076588}
   - component: {fileID: 1188643108261909173}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -1295,7 +1295,7 @@ GameObject:
   - component: {fileID: 957672173141707471}
   - component: {fileID: 6323567504496988523}
   - component: {fileID: 2090946268264172752}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -1463,7 +1463,7 @@ GameObject:
   - component: {fileID: 3925851803094509990}
   - component: {fileID: 3402100121540433126}
   - component: {fileID: 9171083554380740337}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -1596,7 +1596,7 @@ GameObject:
   - component: {fileID: 3395522457574421701}
   - component: {fileID: 7510044142713477869}
   - component: {fileID: 5203683785731703946}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -1702,7 +1702,7 @@ GameObject:
   - component: {fileID: 6834402758565528300}
   - component: {fileID: 5668373265481331142}
   - component: {fileID: 4935451858718096849}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -1869,7 +1869,7 @@ GameObject:
   - component: {fileID: 8725827730100816466}
   - component: {fileID: 8587954446650313378}
   - component: {fileID: 4613659782513928808}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: B
   m_TagString: BulletCanPass
   m_Icon: {fileID: 0}
@@ -1974,7 +1974,7 @@ GameObject:
   - component: {fileID: 5221391533027892188}
   - component: {fileID: 3052429067516791257}
   - component: {fileID: 521164903797417336}
-  m_Layer: 29
+  m_Layer: 0
   m_Name: F
   m_TagString: BulletCanPass
   m_Icon: {fileID: 0}
@@ -2079,7 +2079,7 @@ GameObject:
   - component: {fileID: 2338851106501206248}
   - component: {fileID: 3748648634930409022}
   - component: {fileID: 764814044587512841}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -2185,7 +2185,7 @@ GameObject:
   - component: {fileID: 2352429177565871015}
   - component: {fileID: 5467318328176437649}
   - component: {fileID: 7266476814939629527}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 7088458985606969887}
   - component: {fileID: 6470853079878102200}
   - component: {fileID: 808498675775310265}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -2458,7 +2458,7 @@ GameObject:
   - component: {fileID: 6461610513943403781}
   - component: {fileID: 4669511842397384466}
   - component: {fileID: 7710345080440775471}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -2592,7 +2592,7 @@ GameObject:
   - component: {fileID: 8170368715050035486}
   - component: {fileID: 6226332012807495197}
   - component: {fileID: 4851690960933103380}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B (1)
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -2761,7 +2761,7 @@ GameObject:
   - component: {fileID: 8273555187422175933}
   - component: {fileID: 486521423223087359}
   - component: {fileID: 6984921346238307358}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -2866,7 +2866,7 @@ GameObject:
   - component: {fileID: 2407031243083086844}
   - component: {fileID: 2020132819451777021}
   - component: {fileID: 289563206586749780}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -2971,7 +2971,7 @@ GameObject:
   - component: {fileID: 366834015400580720}
   - component: {fileID: 1152795305231622578}
   - component: {fileID: 6067860246943783582}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -3076,7 +3076,7 @@ GameObject:
   - component: {fileID: 327959258338482020}
   - component: {fileID: 3775344724635777914}
   - component: {fileID: 3298423639881094136}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -3182,7 +3182,7 @@ GameObject:
   - component: {fileID: 8677441102685533346}
   - component: {fileID: 3245774980396757784}
   - component: {fileID: 5486561510636099421}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -3347,7 +3347,7 @@ GameObject:
   - component: {fileID: 5922228292356019790}
   - component: {fileID: 5709034217290357097}
   - component: {fileID: 6484147033144043592}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -3453,7 +3453,7 @@ GameObject:
   - component: {fileID: 8178269729711401883}
   - component: {fileID: 6249527002827471479}
   - component: {fileID: 1166385406970281780}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -3633,7 +3633,7 @@ GameObject:
   - component: {fileID: 8444028054719223247}
   - component: {fileID: 5581880533240172171}
   - component: {fileID: 6226035221674177442}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -3766,7 +3766,7 @@ GameObject:
   - component: {fileID: 4439997576544583804}
   - component: {fileID: 4298338284826276273}
   - component: {fileID: 3641670641437551850}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -3872,7 +3872,7 @@ GameObject:
   - component: {fileID: 8974804677004228229}
   - component: {fileID: 5638051502786312526}
   - component: {fileID: 4841991506687233698}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -4039,7 +4039,7 @@ GameObject:
   - component: {fileID: 6084426186206540107}
   - component: {fileID: 5528849408834353796}
   - component: {fileID: 6007133477259863451}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -4144,7 +4144,7 @@ GameObject:
   - component: {fileID: 2103277816397768641}
   - component: {fileID: 8905975087761138496}
   - component: {fileID: 1374920223504525348}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: L
   m_TagString: BulletCanPass
   m_Icon: {fileID: 0}
@@ -4313,7 +4313,7 @@ GameObject:
   - component: {fileID: 4033165872285680080}
   - component: {fileID: 7066461865532656558}
   - component: {fileID: 8329066885467380240}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: F
   m_TagString: BulletCanPass
   m_Icon: {fileID: 0}
@@ -4494,7 +4494,7 @@ GameObject:
   - component: {fileID: 4709634849448319376}
   - component: {fileID: 6690021065153511632}
   - component: {fileID: 3945683623640714056}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -4600,7 +4600,7 @@ GameObject:
   - component: {fileID: 7137686527341212533}
   - component: {fileID: 4462732860999848247}
   - component: {fileID: 7568044912413693582}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -4733,7 +4733,7 @@ GameObject:
   - component: {fileID: 656986363429717138}
   - component: {fileID: 4847632742962138918}
   - component: {fileID: 4901279785012428409}
-  m_Layer: 29
+  m_Layer: 0
   m_Name: B
   m_TagString: BulletCanPass
   m_Icon: {fileID: 0}
@@ -4872,7 +4872,7 @@ GameObject:
   - component: {fileID: 3289558205632028988}
   - component: {fileID: 2365863536061993824}
   - component: {fileID: 9071934829305827560}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -4978,7 +4978,7 @@ GameObject:
   - component: {fileID: 7755029545771862154}
   - component: {fileID: 4217737434859872493}
   - component: {fileID: 2922058347005821270}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -5112,7 +5112,7 @@ GameObject:
   - component: {fileID: 7182822980221571883}
   - component: {fileID: 279273596302407324}
   - component: {fileID: 4135022707205818098}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -5245,7 +5245,7 @@ GameObject:
   - component: {fileID: 5675160703298268442}
   - component: {fileID: 7758566712690260525}
   - component: {fileID: 6001941198775958390}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -5351,7 +5351,7 @@ GameObject:
   - component: {fileID: 3280385465525185}
   - component: {fileID: 8754945288243716534}
   - component: {fileID: 4634860597666189000}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B (1)
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -5530,7 +5530,7 @@ GameObject:
   - component: {fileID: 5115578831568200738}
   - component: {fileID: 8808533793681978223}
   - component: {fileID: 7153764419854941928}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -5635,7 +5635,7 @@ GameObject:
   - component: {fileID: 2178672941212415892}
   - component: {fileID: 7828946424620057363}
   - component: {fileID: 5968230507901907935}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -5740,7 +5740,7 @@ GameObject:
   - component: {fileID: 1097041864034452638}
   - component: {fileID: 6374523369776867586}
   - component: {fileID: 8055385984691517132}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -5972,7 +5972,7 @@ GameObject:
   - component: {fileID: 4155685602143683118}
   - component: {fileID: 1464067898807138321}
   - component: {fileID: 6705326341943871733}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -6105,7 +6105,7 @@ GameObject:
   - component: {fileID: 7693336679495698551}
   - component: {fileID: 6404469396874766965}
   - component: {fileID: 2620000820124072081}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -6211,7 +6211,7 @@ GameObject:
   - component: {fileID: 5480139330943288869}
   - component: {fileID: 1666371262035314467}
   - component: {fileID: 2868250459811482858}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -6344,7 +6344,7 @@ GameObject:
   - component: {fileID: 1196242664724711726}
   - component: {fileID: 1031232013892415680}
   - component: {fileID: 5914838466985448810}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -6449,7 +6449,7 @@ GameObject:
   - component: {fileID: 6509723057939610551}
   - component: {fileID: 4600744790575913900}
   - component: {fileID: 234331473587778983}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: VisionBlock
   m_TagString: BreakableWallVisionBlock
   m_Icon: {fileID: 0}
@@ -6555,7 +6555,7 @@ GameObject:
   - component: {fileID: 5284305688159193555}
   - component: {fileID: 3596378345120329014}
   - component: {fileID: 1079797355788612964}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_B (1)
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -6688,7 +6688,7 @@ GameObject:
   - component: {fileID: 3733515285144488776}
   - component: {fileID: 7662095706064707715}
   - component: {fileID: 5226886210135293442}
-  m_Layer: 28
+  m_Layer: 0
   m_Name: L
   m_TagString: BulletCanPass
   m_Icon: {fileID: 0}
@@ -6794,7 +6794,7 @@ GameObject:
   - component: {fileID: 382074669637743892}
   - component: {fileID: 924425353215214788}
   - component: {fileID: 1285249522781707930}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}
@@ -6928,7 +6928,7 @@ GameObject:
   - component: {fileID: 3959601239498289635}
   - component: {fileID: 2042013765201767992}
   - component: {fileID: 7003918020135091576}
-  m_Layer: 27
+  m_Layer: 0
   m_Name: BreakableWallPart_A
   m_TagString: BreakableWallBlock
   m_Icon: {fileID: 0}

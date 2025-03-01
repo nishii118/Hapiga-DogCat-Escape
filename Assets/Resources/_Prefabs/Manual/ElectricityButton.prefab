@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6288510697946016419}
   - component: {fileID: 876199305489767925}
   - component: {fileID: 3168355665343273510}
-  m_Layer: 26
+  m_Layer: 11
   m_Name: ElectricityButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 1743195524954661662}
   - component: {fileID: 7970154187566616630}
   - component: {fileID: 1385273178544622135}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 672634032223217800}
   - component: {fileID: 7994228056909150432}
   - component: {fileID: 2674813663956148312}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: On
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194820260790285968}
   - component: {fileID: 5942379142081076981}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 2625682054688336801}
   - component: {fileID: 1583019071143890148}
   - component: {fileID: 7402352167453065862}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}

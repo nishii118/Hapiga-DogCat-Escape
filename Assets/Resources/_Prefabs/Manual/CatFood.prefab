@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4060810634531418783}
   - component: {fileID: 1160095133433021334}
   - component: {fileID: 8247437850674022044}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: CatFoodBowl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5838652494370283235}
   - component: {fileID: 51320207131530551}
-  m_Layer: 26
+  - component: {fileID: 1864044149228605757}
+  m_Layer: 14
   m_Name: CatFood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,6 +140,19 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.25, z: 0}
+--- !u!114 &1864044149228605757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917370297975647473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cc83071c77d7c4f8d86115c245cb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catFoodAnimator: {fileID: 3717801873932414659}
 --- !u!1 &2281293188628798337
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +164,7 @@ GameObject:
   - component: {fileID: 3194205938553133008}
   - component: {fileID: 8923508681201948661}
   - component: {fileID: 7618838403797769817}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: IdleFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2498,7 +2512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5300718176770518387}
   - component: {fileID: 3717801873932414659}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2553,7 +2567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3931276547675209459}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2671,7 +2685,7 @@ GameObject:
   - component: {fileID: 421576051371292833}
   - component: {fileID: 4442820357848751406}
   - component: {fileID: 5082937845702789194}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: CatFood
   m_TagString: Untagged
   m_Icon: {fileID: 0}

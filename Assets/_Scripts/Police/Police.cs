@@ -16,6 +16,8 @@ public class Police : MonoBehaviour
     
     [SerializeField] private bool canBeTriggeredByDoor = false;
 
+    [SerializeField] private GameObject policeDetector;
+
     private int currentWayPointIndex;
 
     void OnEnable()
@@ -100,5 +102,13 @@ public class Police : MonoBehaviour
         canMove = false;
         animator.SetBool("canMove", false);
         rb.velocity = Vector3.zero;
+
+
+        // disactive police detector
+        DisactivePoliceDetector();
+    }
+
+    void DisactivePoliceDetector() {
+        policeDetector.SetActive(false);
     }
 }

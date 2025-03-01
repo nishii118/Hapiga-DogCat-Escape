@@ -3263,34 +3263,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 917370297975647473, guid: 59faf0de0d746aa4da11699be51c4682, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6496499094262613411}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59faf0de0d746aa4da11699be51c4682, type: 3}
---- !u!1 &108586362006858370 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 917370297975647473, guid: 59faf0de0d746aa4da11699be51c4682, type: 3}
-  m_PrefabInstance: {fileID: 953322573881132659}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &6496499094262613411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108586362006858370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58cc83071c77d7c4f8d86115c245cb95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  catFoodAnimator: {fileID: 4513355384488863920}
---- !u!95 &4513355384488863920 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3717801873932414659, guid: 59faf0de0d746aa4da11699be51c4682, type: 3}
-  m_PrefabInstance: {fileID: 953322573881132659}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6646730678898022544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5838652494370283235, guid: 59faf0de0d746aa4da11699be51c4682, type: 3}

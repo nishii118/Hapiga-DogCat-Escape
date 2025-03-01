@@ -1238,6 +1238,7 @@ MonoBehaviour:
   moveSpeed: 3.5
   animator: {fileID: 1588339790252802263}
   canBeTriggeredByDoor: 1
+  policeDetector: {fileID: 405473016818337336}
 --- !u!1 &6190199208049759564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3966,7 +3967,7 @@ GameObject:
   - component: {fileID: 3253177010508783420}
   - component: {fileID: 7611631470433467350}
   - component: {fileID: 7631393451695559900}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CatDetectionArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
