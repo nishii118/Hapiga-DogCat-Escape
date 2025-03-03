@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -5,6 +6,7 @@ using UnityEngine;
 
 public class Police : MonoBehaviour
 {
+    // public static event Action onPoliceBeElectrized;
     [SerializeField] private bool canMove = false;
     [SerializeField] private bool canRotateWhenIdling = false;
     // [SerializeField] private Transform aDestination;

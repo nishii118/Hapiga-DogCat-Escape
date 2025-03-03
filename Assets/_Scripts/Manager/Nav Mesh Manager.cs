@@ -10,11 +10,13 @@ public class NavMeshManager : MonoBehaviour
     void OnEnable()
     {
         Level.onLevelBeLoaded += UpdateNavMesh;
+        Electricity.onPoliceBeElectrized += UpdateNavMesh;
     }
 
     void OnDisable()
     {
         Level.onLevelBeLoaded -= UpdateNavMesh;
+        Electricity.onPoliceBeElectrized -= UpdateNavMesh;
     }
 
     void UpdateNavMesh() {

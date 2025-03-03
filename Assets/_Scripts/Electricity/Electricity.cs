@@ -6,6 +6,7 @@ using UnityEngine;
 public class Electricity : MonoBehaviour
 {
     public static event Action onElectrized;
+    public static event Action onPoliceBeElectrized;
     [SerializeField] private GameObject electricityActivatableObject;
     [SerializeField] private BoxCollider electricityCollider;
 
@@ -48,6 +49,8 @@ public class Electricity : MonoBehaviour
             Police police = other.GetComponent<Police>();
             police.PlayElectrizedAnimation();
             police.StopPoliceMovement();
+            onPoliceBeElectrized?.Invoke();
+
         }
 
         if (other.CompareTag("Player"))
