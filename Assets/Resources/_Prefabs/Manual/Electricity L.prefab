@@ -14750,6 +14750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   electricityActivatableObject: {fileID: 7110767269380666210}
+  electricityCollider: {fileID: 1570312841142916745}
 --- !u!1 &4210640799131730820
 GameObject:
   m_ObjectHideFlags: 0

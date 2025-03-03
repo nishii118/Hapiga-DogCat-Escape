@@ -7,8 +7,13 @@ public class Electricity : MonoBehaviour
 {
     public static event Action onElectrized;
     [SerializeField] private GameObject electricityActivatableObject;
+    [SerializeField] private BoxCollider electricityCollider;
 
     private bool electricityState = false;
+    void Start()
+    {
+        electricityCollider.enabled = electricityState;
+    }
     void OnEnable()
     {
         EButton.onClickEButton+= TurnOnElectricity;
@@ -20,24 +25,18 @@ public class Electricity : MonoBehaviour
         EButton.onClickEButton-= TurnOnElectricity;
         // Messenger.RemoveListener(EventKey.TURN_ON_ELECTRICITY, TurnOnElectricity);
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void TurnOnElectricity() {
+        Debug.Log("TurnOnElectricity");
         electricityState = !electricityState;
+        electricityCollider.enabled = electricityState;
         electricityActivatableObject.SetActive(electricityState);
     }
 
     void OnTriggerEnter(Collider other)
     { 
+        Debug.Log("electricityState: " + electricityState);
         if (electricityState == false) return;
         if (other.CompareTag("Police"))
         {
@@ -58,5 +57,7 @@ public class Electricity : MonoBehaviour
             // Messenger.Broadcast(EventKey.TURN_ON_ELECTRICITY);
 
         }
+
+
     }
 }

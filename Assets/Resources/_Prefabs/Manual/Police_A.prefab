@@ -1239,6 +1239,8 @@ MonoBehaviour:
   animator: {fileID: 1588339790252802263}
   canBeTriggeredByDoor: 1
   policeDetector: {fileID: 405473016818337336}
+  detectArea: {fileID: 7748143133988260802}
+  capsuleCollider: {fileID: 3343869202485595434}
 --- !u!1 &6190199208049759564
 GameObject:
   m_ObjectHideFlags: 0

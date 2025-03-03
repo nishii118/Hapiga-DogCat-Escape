@@ -17,6 +17,8 @@ public class Police : MonoBehaviour
     [SerializeField] private bool canBeTriggeredByDoor = false;
 
     [SerializeField] private GameObject policeDetector;
+    [SerializeField] private GameObject detectArea;
+    [SerializeField] private CapsuleCollider capsuleCollider;
 
     private int currentWayPointIndex;
 
@@ -110,5 +112,7 @@ public class Police : MonoBehaviour
 
     void DisactivePoliceDetector() {
         policeDetector.SetActive(false);
+        detectArea.SetActive(false);
+        capsuleCollider.enabled = false;
     }
 }
