@@ -11,6 +11,7 @@ TagManager:
   - BreakableWallBlock
   - BulletCanPass
   - BreakableWallVisionBlock
+  - BulletLaserWall
   layers:
   - Default
   - TransparentFX
@@ -27,8 +28,8 @@ TagManager:
   - Cat Detection
   - Electricity
   - Cat Food
-  - 
-  - 
+  - Player
+  - Kitty
   - 
   - 
   - 

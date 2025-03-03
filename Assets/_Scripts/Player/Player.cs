@@ -6,9 +6,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public static event Action onPlayerEnterSuccessSpot;
+    public static event Action<Transform> onPlayerBeSpawned;
     void OnEnable()
     {
         CatFood.catFoodEaten += PlayerScaleUp;
+
+        onPlayerBeSpawned?.Invoke(transform);
     }
 
     void OnDisable()
