@@ -11,7 +11,7 @@ public class LevelManager : Singleton<LevelManager>
 
     void Awake()
     {
-        PlayerPrefs.SetInt("CurrentLevel", 18);
+        PlayerPrefs.SetInt("CurrentLevel", 19);
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
 
