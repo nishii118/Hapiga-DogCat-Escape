@@ -1,12 +1,13 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
     public static event Action onCollisionEnterLaser;
     [SerializeField] private GameObject laserActivatableObject;
+    
+    private bool laserState = true;
 
 
     void OnEnable()
@@ -21,15 +22,20 @@ public class Laser : MonoBehaviour
     
 
     void TurnOnLaser() {
-        laserActivatableObject.SetActive(!laserActivatableObject.activeSelf);
+        laserState = !laserState;
+        Debug.Log("Laser state: " + laserState);
+        laserActivatableObject.SetActive(laserState);
     }
 
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Player entered laser area");
-            onCollisionEnterLaser?.Invoke();
-        }
-    }
+    // void OnTriggerEnter(Collider other)
+    // {
+    //     Debug.Log("other: " + other.gameObject.name);
+    //     if (other.gameObject.CompareTag("Player") && laserState == true)
+    //     {
+    //         Debug.Log("Player entered laser area");
+    //         onCollisionEnterLaser?.Invoke();
+    //     }
+    // }
+
+    
 }

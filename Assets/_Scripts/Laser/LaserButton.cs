@@ -1,6 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class LaserButton : MonoBehaviour
@@ -8,14 +7,15 @@ public class LaserButton : MonoBehaviour
     public static event Action onClickLaserButton;
 
     [SerializeField] private GameObject objectButtonOn;
-    private bool buttonState = true;
+    [SerializeField]private bool buttonState = true;
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("Police"))
         {
             buttonState = !buttonState;
             objectButtonOn.SetActive(buttonState);
             onClickLaserButton?.Invoke();
         }
+        
     }
 }

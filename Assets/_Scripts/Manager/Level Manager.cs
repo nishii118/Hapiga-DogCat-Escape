@@ -11,7 +11,7 @@ public class LevelManager : Singleton<LevelManager>
 
     void Awake()
     {
-        PlayerPrefs.SetInt("CurrentLevel", 17);
+        PlayerPrefs.SetInt("CurrentLevel", 18);
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
 
@@ -24,6 +24,7 @@ public class LevelManager : Singleton<LevelManager>
         CatDetection.onDetectCat+= LoadCurrentLevel;
         Laser.onCollisionEnterLaser+= LoadCurrentLevel;
         Electricity.onElectrized+= LoadCurrentLevel;
+        LaserWireCollider.onCollisionEnterLaser+= LoadCurrentLevel;
     }
 
     void OnDisable()
@@ -32,6 +33,7 @@ public class LevelManager : Singleton<LevelManager>
         CatDetection.onDetectCat-= LoadCurrentLevel;
         Laser.onCollisionEnterLaser-= LoadCurrentLevel;
         Electricity.onElectrized-= LoadCurrentLevel;
+        LaserWireCollider.onCollisionEnterLaser-= LoadCurrentLevel;
     }
 
     void LoadNextLevel()
