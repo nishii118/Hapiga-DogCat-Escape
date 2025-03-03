@@ -49,7 +49,7 @@ public class Police : MonoBehaviour
 
     void Update()
     {
-        OnRotateWhenIdling();
+        if(canRotateWhenIdling) OnRotateWhenIdling();
         OnRotateWhenRunning();
     }
 
