@@ -6,6 +6,7 @@ using UnityEngine;
 public class Police : MonoBehaviour
 {
     [SerializeField] private bool canMove = false;
+    [SerializeField] private bool canRotateWhenIdling = false;
     // [SerializeField] private Transform aDestination;
     // [SerializeField] private Transform bDestination;
     [SerializeField] private List<Transform> waypoints;
@@ -13,7 +14,7 @@ public class Police : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Animator animator;
     private Transform targetPoint;
-    
+
     [SerializeField] private bool canBeTriggeredByDoor = false;
 
     [SerializeField] private GameObject policeDetector;
@@ -21,6 +22,8 @@ public class Police : MonoBehaviour
     [SerializeField] private CapsuleCollider capsuleCollider;
 
     private int currentWayPointIndex;
+
+    private bool isRotating = false;
 
     void OnEnable()
     {
@@ -33,7 +36,7 @@ public class Police : MonoBehaviour
     }
     void Start()
     {
-    
+
 
 
         //init
@@ -46,20 +49,16 @@ public class Police : MonoBehaviour
 
     void Update()
     {
-        if (!canMove || waypoints.Count == 0) return;
-
-        // Xoay nhân vật theo hướng di chuyển
-        Vector3 direction = (targetPoint.position - transform.position).normalized;
-        direction.y = 0; // Đảm bảo không bị thay đổi chiều cao khi xoay
-
-        if (direction.magnitude > 0.1f) // Tránh xoay liên tục khi không di chuyển
-        {
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
-        }
+        OnRotateWhenIdling();
+        OnRotateWhenRunning();
     }
 
     void FixedUpdate()
+    {
+        OnRun();
+    }
+
+    void OnRun()
     {
         if (!canMove || waypoints.Count == 0) return;
 
@@ -81,26 +80,77 @@ public class Police : MonoBehaviour
         }
     }
 
+    void OnRotateWhenRunning()
+    {
+        if (!canMove || waypoints.Count == 0) return;
 
-    void OnCabinetDoorOpen() {
-        if (canBeTriggeredByDoor) {
+        // Xoay nhân vật theo hướng di chuyển
+        Vector3 direction = (targetPoint.position - transform.position).normalized;
+        direction.y = 0; // Đảm bảo không bị thay đổi chiều cao khi xoay
+
+        if (direction.magnitude > 0.1f) // Tránh xoay liên tục khi không di chuyển
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
+        }
+    }
+
+    void OnRotateWhenIdling()
+    {
+
+
+        if (!isRotating) StartCoroutine(RotateWhenIdlingCoroutine());
+
+
+    }
+
+    IEnumerator RotateWhenIdlingCoroutine()
+    {
+        isRotating = true;
+
+        Vector3 direction = (targetPoint.position - transform.position).normalized;
+        direction.y = 0;
+
+        Quaternion targetRotation = Quaternion.LookRotation(direction);
+        while (Quaternion.Angle(transform.rotation, targetRotation) > 0.1f)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
+            yield return null; // Chờ 1 frame
+        }
+        yield return null;
+        transform.rotation = targetRotation;
+
+        yield return new WaitForSeconds(1f);
+
+        currentWayPointIndex = (currentWayPointIndex + 1) % waypoints.Count;
+        targetPoint = waypoints[currentWayPointIndex];
+
+        isRotating = false;
+    }
+    void OnCabinetDoorOpen()
+    {
+        if (canBeTriggeredByDoor)
+        {
             canMove = true;
             animator.SetBool("canMove", true);
         }
     }
 
-    public void PlayElectrizedAnimation() {
+    public void PlayElectrizedAnimation()
+    {
         StartCoroutine(PlayElectrizedAnimationCoroutine());
     }
 
-    IEnumerator PlayElectrizedAnimationCoroutine() {
+    IEnumerator PlayElectrizedAnimationCoroutine()
+    {
         animator.CrossFade("Electrized", 0.1f);
         yield return null;
         // yield return new WaitForSeconds(1f);
         // animator.CrossFade("Idle", 0.1f);
     }
 
-    public void StopPoliceMovement() {
+    public void StopPoliceMovement()
+    {
         canMove = false;
         animator.SetBool("canMove", false);
         rb.velocity = Vector3.zero;
@@ -110,7 +160,8 @@ public class Police : MonoBehaviour
         DisactivePoliceDetector();
     }
 
-    void DisactivePoliceDetector() {
+    void DisactivePoliceDetector()
+    {
         policeDetector.SetActive(false);
         detectArea.SetActive(false);
         capsuleCollider.enabled = false;
