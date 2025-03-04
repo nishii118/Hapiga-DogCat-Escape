@@ -5,7 +5,7 @@ using UnityEngine;
 public class JoystickMove : Singleton<JoystickMove>
 {
     [SerializeField] private Joystick movementJoystick;
-    public float playerSpeed;
+    [SerializeField] private float playerSpeed = 5f;
     [SerializeField] private Rigidbody rb;
     void Start()
     {
@@ -26,7 +26,7 @@ public class JoystickMove : Singleton<JoystickMove>
 
     void PlayerMovement()
     {
-        Vector3 moveDirection = new Vector3(movementJoystick.Direction.x, 0, movementJoystick.Direction.y);
+        Vector3 moveDirection = new Vector3(movementJoystick.Direction.x, 0, movementJoystick.Direction.y).normalized;
 
         if (moveDirection.magnitude > 0.1f) // Kiểm tra nếu có đầu vào từ joystick
         {
