@@ -1,39 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class LevelManager : Singleton<LevelManager>
+public class LevelManager : MonoBehaviour
 {
-    private int currentLevelIndex ;
-    
-    [SerializeField] private GameObject levelContainer;
-    private GameObject currentLevelInstance; // Lưu trữ instance thực tế
+    private int currentLevelIndex;
 
+    [SerializeField] private GameObject levelContainer;
+    [SerializeField] private GameObject currentLevelInstance; // Lưu trữ instance thực tế
+
+    [SerializeField] private TextMeshProUGUI levelText;
+    private bool isLoading = false;
     void Awake()
     {
-        PlayerPrefs.SetInt("CurrentLevel", 5);
+        // PlayerPrefs.SetInt("CurrentLevel", 22);
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
+        levelText.text = "Level " + currentLevelIndex;
 
-        
     }
 
     void OnEnable()
     {
-        Player.onPlayerEnterSuccessSpot+= LoadNextLevel;
-        CatDetection.onDetectCat+= LoadCurrentLevel;
-        Laser.onCollisionEnterLaser+= LoadCurrentLevel;
-        Electricity.onElectrized+= LoadCurrentLevel;
-        LaserWireCollider.onCollisionEnterLaser+= LoadCurrentLevel;
+        Player.onPlayerEnterSuccessSpot += LoadNextLevel;
+        CatDetection.onDetectCat += LoadCurrentLevel;
+        Laser.onCollisionEnterLaser += LoadCurrentLevel;
+        Electricity.onElectrized += LoadCurrentLevel;
+        LaserWireCollider.onCollisionEnterLaser += LoadCurrentLevel;
     }
 
     void OnDisable()
     {
-        Player.onPlayerEnterSuccessSpot-= LoadNextLevel;
-        CatDetection.onDetectCat-= LoadCurrentLevel;
-        Laser.onCollisionEnterLaser-= LoadCurrentLevel;
-        Electricity.onElectrized-= LoadCurrentLevel;
-        LaserWireCollider.onCollisionEnterLaser-= LoadCurrentLevel;
+        Player.onPlayerEnterSuccessSpot -= LoadNextLevel;
+        CatDetection.onDetectCat -= LoadCurrentLevel;
+        Laser.onCollisionEnterLaser -= LoadCurrentLevel;
+        Electricity.onElectrized -= LoadCurrentLevel;
+        LaserWireCollider.onCollisionEnterLaser -= LoadCurrentLevel;
     }
 
     void LoadNextLevel()
@@ -41,20 +44,26 @@ public class LevelManager : Singleton<LevelManager>
         currentLevelIndex++;
         StartCoroutine(DestroyAndLoadLevel());
         PlayerPrefs.SetInt("CurrentLevel", currentLevelIndex);
+
+        levelText.text = "Level " + currentLevelIndex;
     }
 
     IEnumerator DestroyAndLoadLevel()
     {
         Debug.Log("Destroying current level");
+        Debug.Log("currentLevelInstance: " + currentLevelInstance);
         // Xóa level cũ nếu nó tồn tại
         if (currentLevelInstance != null)
         {
+            Debug.Log("Destroying current level");
             Destroy(currentLevelInstance);
-            yield return null; 
+            yield return new WaitForEndOfFrame();
+            LoadLevel(currentLevelIndex);
+            yield return null;
+            isLoading = false;
         }
 
         // Load level mới
-        LoadLevel(currentLevelIndex);
     }
 
     void LoadLevel(int levelIndex)
@@ -73,8 +82,10 @@ public class LevelManager : Singleton<LevelManager>
         Debug.Log("Level Loaded: " + currentLevelInstance.name);
     }
 
-     void LoadCurrentLevel()
+    void LoadCurrentLevel()
     {
+        if (isLoading) return;
+        isLoading = true;
         Debug.Log("Loading current level");
         StartCoroutine(DestroyAndLoadLevel());
     }

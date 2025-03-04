@@ -38,7 +38,7 @@ public class CatDetection : MonoBehaviour
         {
             Debug.Log("Player detected");
           
-            StartCoroutine(DetectDog());
+            // StartCoroutine(DetectDog());
           
             onDetectCat?.Invoke();
         }
