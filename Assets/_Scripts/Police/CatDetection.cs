@@ -10,14 +10,14 @@ public class CatDetection : MonoBehaviour
 
     void OnEnable()
     {
-        Messenger.AddListener(EventKey.SAFE_AREA_ENTER, OnSafeAreaEnter);
-        Messenger.AddListener(EventKey.SAFE_AREA_EXIT, OnSafeAreaExit);
+        SafeArea.onSafeAreaEnter += OnSafeAreaEnter;
+        SafeArea.onSafeAreaExit += OnSafeAreaExit;
     }
 
     void OnDisable()
     {
-        Messenger.RemoveListener(EventKey.SAFE_AREA_ENTER, OnSafeAreaEnter);
-        Messenger.RemoveListener(EventKey.SAFE_AREA_EXIT, OnSafeAreaExit);
+        SafeArea.onSafeAreaEnter -= OnSafeAreaEnter;
+        SafeArea.onSafeAreaExit -= OnSafeAreaExit;  
     }
     // Start is called before the first frame update
     void Start()
@@ -33,7 +33,8 @@ public class CatDetection : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        
+        if (other.gameObject.CompareTag("Player") && canDetect)
         {
             Debug.Log("Player detected");
           

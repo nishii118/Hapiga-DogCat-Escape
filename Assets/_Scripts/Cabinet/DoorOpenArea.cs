@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorOpenArea : MonoBehaviour
 {
+    public static event Action onOpenDoor;
     [SerializeField] private Animator doorAnimator;
 
 
@@ -14,8 +16,8 @@ public class DoorOpenArea : MonoBehaviour
             Debug.Log("Player entered door open area");
             // doorAnimator.SetBool("Open", true);
             doorAnimator.CrossFade("Opened", 0.1f);
-
-            Messenger.Broadcast(EventKey.CABINET_DOOR_OPEN);
+            onOpenDoor?.Invoke();
+            // Messenger.Broadcast(EventKey.CABINET_DOOR_OPEN);
         }
     }
 

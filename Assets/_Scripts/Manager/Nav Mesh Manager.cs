@@ -9,17 +9,18 @@ public class NavMeshManager : MonoBehaviour
     [SerializeField] NavMeshSurface navMeshSurface;
     void OnEnable()
     {
-        Level.onLevelBeLoaded += UpdateNavMesh;
+        Level.OnLevelBeLoaded += UpdateNavMesh;
         Electricity.onPoliceBeElectrized += UpdateNavMesh;
     }
 
     void OnDisable()
     {
-        Level.onLevelBeLoaded -= UpdateNavMesh;
+        Level.OnLevelBeLoaded -= UpdateNavMesh;
         Electricity.onPoliceBeElectrized -= UpdateNavMesh;
     }
 
     void UpdateNavMesh() {
+        Debug.Log("Update NavMesh");
         navMeshSurface.BuildNavMesh();
     }
 }

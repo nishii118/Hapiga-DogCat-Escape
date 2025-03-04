@@ -767,6 +767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771ef8fc54da88f4491d859fe42b5e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  haveNavMesh: 0
 --- !u!1 &4115109827926576278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2066,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 7748143133988260802, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7823253652685995033, guid: 8482ae59cc324464d9a8305f7fdb3a18, type: 3}
       propertyPath: m_Layer
       value: 9
@@ -2560,6 +2565,14 @@ PrefabInstance:
     - target: {fileID: 1899231448971531171, guid: ddead0affd5043e48adf9145790c28f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406322844187409247, guid: ddead0affd5043e48adf9145790c28f0, type: 3}
+      propertyPath: m_Size.x
+      value: 6.711335
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406322844187409247, guid: ddead0affd5043e48adf9145790c28f0, type: 3}
+      propertyPath: m_Center.x
+      value: -2.8556678
       objectReference: {fileID: 0}
     - target: {fileID: 6413702588008960768, guid: ddead0affd5043e48adf9145790c28f0, type: 3}
       propertyPath: m_Name

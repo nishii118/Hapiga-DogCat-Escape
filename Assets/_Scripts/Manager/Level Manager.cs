@@ -11,7 +11,7 @@ public class LevelManager : Singleton<LevelManager>
 
     void Awake()
     {
-        PlayerPrefs.SetInt("CurrentLevel", 25);
+        PlayerPrefs.SetInt("CurrentLevel", 14   );
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
 
@@ -68,7 +68,9 @@ public class LevelManager : Singleton<LevelManager>
         }
 
         Debug.Log("Loading Level: " + levelIndex);
+        Debug.Log("Level Prefab: " + levelPrefab.name);
         currentLevelInstance = Instantiate(levelPrefab, levelContainer.transform);
+        Debug.Log("Level Loaded: " + currentLevelInstance.name);
     }
 
      void LoadCurrentLevel()

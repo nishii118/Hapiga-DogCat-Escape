@@ -29,12 +29,16 @@ public class Police : MonoBehaviour
 
     void OnEnable()
     {
-        Messenger.AddListener(EventKey.CABINET_DOOR_OPEN, OnCabinetDoorOpen);
+        DoorOpenArea.onOpenDoor += OnCabinetDoorOpen;
+        // SafeArea.onSafeAreaEnter += OnStopDetectCollider;
+        // Messenger.AddListener(EventKey.CABINET_DOOR_OPEN, OnCabinetDoorOpen);
     }
 
     void OnDisable()
     {
-        Messenger.RemoveListener(EventKey.CABINET_DOOR_OPEN, OnCabinetDoorOpen);
+        DoorOpenArea.onOpenDoor -= OnCabinetDoorOpen;
+        // SafeArea.onSafeAreaEnter -= OnStopDetectCollider;
+        // Messenger.RemoveListener(EventKey.CABINET_DOOR_OPEN, OnCabinetDoorOpen);
     }
     void Start()
     {
@@ -46,7 +50,7 @@ public class Police : MonoBehaviour
         if (waypoints.Count > 0) targetPoint = waypoints[currentWayPointIndex];
         if (canMove == true) animator.SetBool("canMove", true);
 
-        Debug.Log("canMove: " + canMove);
+        // Debug.Log("canMove: " + canMove);
     }
 
     void Update()
@@ -74,11 +78,11 @@ public class Police : MonoBehaviour
         // Kiểm tra khoảng cách để đổi hướng
         if (Vector3.Distance(rb.position, targetPoint.position) < 0.5f)
         {
-            Debug.Log("Change direction");
+            // Debug.Log("Change direction");
             // targetPoint = (targetPoint == aDestination) ? bDestination : aDestination;
             currentWayPointIndex = (currentWayPointIndex + 1) % waypoints.Count;
             targetPoint = waypoints[currentWayPointIndex];
-            Debug.Log(currentWayPointIndex);
+            // Debug.Log(currentWayPointIndex);
         }
     }
 
@@ -131,8 +135,10 @@ public class Police : MonoBehaviour
     }
     void OnCabinetDoorOpen()
     {
+        if (canMove) return;
         if (canBeTriggeredByDoor)
         {
+            Debug.Log("Police can move");
             canMove = true;
             animator.SetBool("canMove", true);
         }
@@ -168,4 +174,10 @@ public class Police : MonoBehaviour
         detectArea.SetActive(false);
         capsuleCollider.enabled = false;
     }
+
+    // void OnStopDetectCollider()
+    // {
+    //     // DisactivePoliceDetector();
+    //     capsuleCollider.enabled = false;
+    // }
 }
