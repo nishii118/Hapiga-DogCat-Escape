@@ -7,6 +7,7 @@ public class JoystickMove : Singleton<JoystickMove>
     [SerializeField] private Joystick movementJoystick;
     [SerializeField] private float playerSpeed = 5f;
     [SerializeField] private Rigidbody rb;
+    [SerializeField] private float rotationSpeed = 5f;
     void Start()
     {
 
@@ -31,13 +32,17 @@ public class JoystickMove : Singleton<JoystickMove>
         if (moveDirection.magnitude > 0.1f) // Kiểm tra nếu có đầu vào từ joystick
         {
             // Cập nhật vận tốc
-            rb.velocity = moveDirection * playerSpeed;
 
             // Xác định góc quay mong muốn
-            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            rb.velocity = moveDirection * playerSpeed;
 
-            // Xoay từ từ để hướng về mục tiêu một cách mượt mà
-            rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, Time.deltaTime * 10f);
+            // Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+
+            // rb.rotation = Quaternion.Slerp(rb.rotation, targetRotation, Time.deltaTime * rotationSpeed);
+            Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
+            rb.rotation = Quaternion.RotateTowards(rb.rotation,
+                targetRotation, 1080 * Time.deltaTime);
+
         }
         else
         {

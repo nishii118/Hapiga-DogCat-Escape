@@ -57,6 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771ef8fc54da88f4491d859fe42b5e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  haveNavMesh: 0
 --- !u!1 &150797288689575535
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,7 +109,7 @@ GameObject:
   - component: {fileID: 5797138414300498917}
   - component: {fileID: 1229079296332526677}
   - component: {fileID: 7351551753044603480}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +347,7 @@ GameObject:
   - component: {fileID: 4061025145869920270}
   - component: {fileID: 5277001179736059999}
   - component: {fileID: 6378313485626216532}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1596,7 +1597,7 @@ GameObject:
   - component: {fileID: 4615221025077013807}
   - component: {fileID: 5411067017586856321}
   - component: {fileID: 3118940054854450023}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

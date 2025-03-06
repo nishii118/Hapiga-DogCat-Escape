@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JoyController : MonoBehaviour
+public class GameplayPanel : Panel
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,9 @@ public class JoyController : MonoBehaviour
     void Update()
     {
         
+    }
+    
+    public void OnClickSettingButton() {
+        Debug.Log("Setting button clicked");
     }
 }

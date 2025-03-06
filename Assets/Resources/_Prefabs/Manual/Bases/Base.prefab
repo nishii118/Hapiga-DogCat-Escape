@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 2505483922505433899}
   - component: {fileID: 7456478004497823963}
   - component: {fileID: 2734897352598223848}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: L-Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,8 +920,8 @@ Transform:
   m_GameObject: {fileID: 3091192142783498409}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.976, y: 2.7567, z: -2.3271}
-  m_LocalScale: {x: 0.32805967, y: 1.1334, z: 15.624966}
+  m_LocalPosition: {x: -4.976, y: 2.429, z: -2.3271}
+  m_LocalScale: {x: 0.32805967, y: 1.7229947, z: 15.624966}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3147425641718014090}
@@ -1181,7 +1181,7 @@ GameObject:
   - component: {fileID: 1313630489277715352}
   - component: {fileID: 2475424305193154523}
   - component: {fileID: 1046920322116477863}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: 'R-Wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1197,8 +1197,8 @@ Transform:
   m_GameObject: {fileID: 6652967143203516655}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.8262, y: 2.7883, z: -2.3129}
-  m_LocalScale: {x: 0.2378526, y: 1.1967937, z: 15.653479}
+  m_LocalPosition: {x: 4.8262, y: 2.477, z: -2.3129}
+  m_LocalScale: {x: 0.2378526, y: 1.8193657, z: 15.653479}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3147425641718014090}

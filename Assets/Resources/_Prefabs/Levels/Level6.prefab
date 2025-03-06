@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 8038193091112371029}
   - component: {fileID: 9091470064097439485}
   - component: {fileID: 5483647877973556301}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: L-Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1174,7 +1174,7 @@ GameObject:
   - component: {fileID: 4143702333124182276}
   - component: {fileID: 8364749476550504820}
   - component: {fileID: 1352229787838705070}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Mid-Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1490,7 @@ GameObject:
   - component: {fileID: 4981812044103284258}
   - component: {fileID: 1429672917191565646}
   - component: {fileID: 6115393046950705612}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: 'R-Wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1934,7 +1934,7 @@ GameObject:
   - component: {fileID: 9149045284224460631}
   - component: {fileID: 6215556295015373713}
   - component: {fileID: 1468938038659938649}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Mid-Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2093,7 +2093,7 @@ GameObject:
   - component: {fileID: 104058590449692504}
   - component: {fileID: 8487715443623663570}
   - component: {fileID: 8048406730166461382}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Mid-Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}

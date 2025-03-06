@@ -13,6 +13,7 @@ public class FloatingJoystick : Joystick
 
     public override void OnPointerDown(PointerEventData eventData)
     {
+        // if (isPointerOverUIObject()) return;
         background.anchoredPosition = ScreenPointToAnchoredPosition(eventData.position);
         background.gameObject.SetActive(true);
         base.OnPointerDown(eventData);
@@ -22,5 +23,14 @@ public class FloatingJoystick : Joystick
     {
         background.gameObject.SetActive(false);
         base.OnPointerUp(eventData);
+    }
+
+    private bool isPointerOverUIObject() {
+        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+        pointerEventData.position = Input.mousePosition;
+
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerEventData, results);
+        return results.Count > 0;
     }
 }

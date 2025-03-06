@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 8116392915874342509}
   - component: {fileID: 8368960613047533230}
   - component: {fileID: 6225787648330823886}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: 'M-Wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 6006551131562735510}
   - component: {fileID: 3531968578370838994}
   - component: {fileID: 8684481280135662071}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: 'M-Wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +781,7 @@ GameObject:
   - component: {fileID: 8428884313197470691}
   - component: {fileID: 6038180028919565129}
   - component: {fileID: 2166789373690278702}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: R-Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1152,7 +1152,7 @@ GameObject:
   - component: {fileID: 9112309429423029854}
   - component: {fileID: 1331732883243917186}
   - component: {fileID: 3764035997516432219}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: R-Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 630863304254738949}
   - component: {fileID: 8007653894799356629}
   - component: {fileID: 8736108714921783119}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1835,6 +1835,10 @@ PrefabInstance:
     - target: {fileID: 7575213582687520384, guid: fbea8712664447a40bff5661269c0510, type: 3}
       propertyPath: m_Name
       value: Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575213582687520384, guid: fbea8712664447a40bff5661269c0510, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2441,6 +2445,10 @@ PrefabInstance:
     - target: {fileID: 7575213582687520384, guid: fbea8712664447a40bff5661269c0510, type: 3}
       propertyPath: m_Name
       value: Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7575213582687520384, guid: fbea8712664447a40bff5661269c0510, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

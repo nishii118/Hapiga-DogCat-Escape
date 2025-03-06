@@ -1116,7 +1116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1899231448971531171}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

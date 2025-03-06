@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
@@ -14,7 +15,7 @@ public class LevelManager : MonoBehaviour
     private bool isLoading = false;
     void Awake()
     {
-        // PlayerPrefs.SetInt("CurrentLevel", 22);
+        // PlayerPrefs.SetInt("CurrentLevel", );
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
         levelText.text = "Level " + currentLevelIndex;
@@ -24,19 +25,21 @@ public class LevelManager : MonoBehaviour
     void OnEnable()
     {
         Player.onPlayerEnterSuccessSpot += LoadNextLevel;
-        CatDetection.onDetectCat += LoadCurrentLevel;
+        // CatDetection.onDetectCat += LoadCurrentLevel;
         Laser.onCollisionEnterLaser += LoadCurrentLevel;
         Electricity.onElectrized += LoadCurrentLevel;
         LaserWireCollider.onCollisionEnterLaser += LoadCurrentLevel;
+        FieldOfView.onFieldOfViewDetectPlayer += LoadCurrentLevel;
     }
 
     void OnDisable()
     {
         Player.onPlayerEnterSuccessSpot -= LoadNextLevel;
-        CatDetection.onDetectCat -= LoadCurrentLevel;
+        // CatDetection.onDetectCat -= LoadCurrentLevel;
         Laser.onCollisionEnterLaser -= LoadCurrentLevel;
         Electricity.onElectrized -= LoadCurrentLevel;
         LaserWireCollider.onCollisionEnterLaser -= LoadCurrentLevel;
+        FieldOfView.onFieldOfViewDetectPlayer -= LoadCurrentLevel;
     }
 
     void LoadNextLevel()
