@@ -59,6 +59,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771ef8fc54da88f4491d859fe42b5e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  haveNavMesh: 0
 --- !u!1 &319051320190429057
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,7 +73,7 @@ GameObject:
   - component: {fileID: 1197670640810214624}
   - component: {fileID: 3998086260386440935}
   - component: {fileID: 330248901975559318}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: R-Wall  (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +485,7 @@ GameObject:
   - component: {fileID: 6449629791950328236}
   - component: {fileID: 4629254258127865223}
   - component: {fileID: 6519062738236052311}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: L-Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +782,7 @@ GameObject:
   - component: {fileID: 8262663103836188419}
   - component: {fileID: 7389340616950326562}
   - component: {fileID: 2359162332798064455}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: R-Wall  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -914,7 +915,7 @@ GameObject:
   - component: {fileID: 3602942581309901662}
   - component: {fileID: 3032760976822403308}
   - component: {fileID: 8885876257167269039}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: L-Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1047,7 +1048,7 @@ GameObject:
   - component: {fileID: 2995983876556678823}
   - component: {fileID: 8135270083483215458}
   - component: {fileID: 7115190187504679273}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: R-Wall  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1180,7 +1181,7 @@ GameObject:
   - component: {fileID: 6915721467472622392}
   - component: {fileID: 2024813621570199388}
   - component: {fileID: 6474711449424565682}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: R-Wall  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1834,7 +1835,7 @@ GameObject:
   - component: {fileID: 1924177770490388187}
   - component: {fileID: 888147545770372844}
   - component: {fileID: 550015047562212204}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: 'M-Wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

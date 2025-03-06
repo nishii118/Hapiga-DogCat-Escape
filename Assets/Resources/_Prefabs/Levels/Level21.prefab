@@ -54,6 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771ef8fc54da88f4491d859fe42b5e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  haveNavMesh: 0
 --- !u!1 &466967015987896514
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +172,7 @@ GameObject:
   - component: {fileID: 5335873996719014881}
   - component: {fileID: 5148536939706316839}
   - component: {fileID: 2315572992660041712}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +277,7 @@ GameObject:
   - component: {fileID: 4846936842407867126}
   - component: {fileID: 3563858496774580064}
   - component: {fileID: 8008542014125981527}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +488,7 @@ GameObject:
   - component: {fileID: 8039143421069387135}
   - component: {fileID: 44242977883710441}
   - component: {fileID: 7916148561568736885}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: L-Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +620,7 @@ GameObject:
   - component: {fileID: 954605322392930186}
   - component: {fileID: 4382918413661126057}
   - component: {fileID: 2558083910560395758}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -861,7 +862,7 @@ GameObject:
   - component: {fileID: 4658926948621990972}
   - component: {fileID: 7238292720887066523}
   - component: {fileID: 6212209043633508240}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: 'M-Wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1366,7 +1367,7 @@ GameObject:
   - component: {fileID: 3797701773218427976}
   - component: {fileID: 6076857866279319786}
   - component: {fileID: 8291523325529632470}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1748,7 +1749,7 @@ GameObject:
   - component: {fileID: 6346285466373141937}
   - component: {fileID: 3646474834454079499}
   - component: {fileID: 729490000333033221}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

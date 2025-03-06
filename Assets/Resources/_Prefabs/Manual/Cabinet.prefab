@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8018970419314623510}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: OpenFeedback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 5967852052406396531}
   - component: {fileID: 4406322844187409247}
   - component: {fileID: 4207122754263068748}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: SafeArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 996671656144389987}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.187, y: 0.125, z: 0.051}
+  m_LocalPosition: {x: -0.042, y: 0.125, z: 0.051}
   m_LocalScale: {x: 0.13929579, y: 1, z: 1.3632}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -84,8 +84,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.3357835, y: 1, z: 1.1038569}
-  m_Center: {x: -2.6678917, y: 0.5, z: 0.0042835595}
+  m_Size: {x: 1.609054, y: 1, z: 1.1038569}
+  m_Center: {x: 0.37797934, y: 0.5, z: 0.0042835595}
 --- !u!114 &4207122754263068748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 479529847729398443}
   - component: {fileID: 6740689792654048480}
   - component: {fileID: 2570481464603238241}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: CollisionR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 955460410650443345}
   - component: {fileID: 4242077170853354011}
   - component: {fileID: 4363889717903497}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: CollisionT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 3187825437722833203}
   - component: {fileID: 475133240679901242}
   - component: {fileID: 8699914593851362807}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: VisionBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,7 +422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4195214646770563995}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: CloseFeedback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   - component: {fileID: 7805159295590559911}
   - component: {fileID: 8103442438904121200}
   - component: {fileID: 4321901687640601407}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: VisionBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 4426492184786907692}
   - component: {fileID: 6324403528537917876}
   - component: {fileID: 855782733473374174}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 2580842084850025104}
   - component: {fileID: 7815866879855434666}
   - component: {fileID: 9044169024860607277}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: CollisionL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 662491756850398852}
   - component: {fileID: 4432670620362570740}
   - component: {fileID: 2419892870064621678}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -950,7 +950,7 @@ GameObject:
   - component: {fileID: 6359155184655171576}
   - component: {fileID: 2374019857010089931}
   - component: {fileID: 25555612134698749}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: door2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 4701338080584453317}
   - component: {fileID: 8854028540348568977}
   - component: {fileID: 5710211161459815690}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: door1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,7 +1133,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.404, y: 0, z: -5.15}
-  m_LocalScale: {x: 1, y: 1.1, z: 1.5}
+  m_LocalScale: {x: 1.2, y: 1.1, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4846581762954750063}
@@ -1153,7 +1153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5498369478001710623}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1187,7 +1187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8379317878838687690}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 9046962539871184540}
   - component: {fileID: 1873415342226255163}
   - component: {fileID: 7030296305614554837}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: CollisionB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1328,7 +1328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4846581762954750063}
   - component: {fileID: 8141910496754992170}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}

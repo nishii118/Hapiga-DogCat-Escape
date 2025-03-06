@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 771ef8fc54da88f4491d859fe42b5e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  haveNavMesh: 0
 --- !u!1 &107986247904769903
 GameObject:
   m_ObjectHideFlags: 0
@@ -64,7 +65,7 @@ GameObject:
   - component: {fileID: 1909585709434344269}
   - component: {fileID: 4893827454561668824}
   - component: {fileID: 3897977580838681856}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: RT-Wall   (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +303,7 @@ GameObject:
   - component: {fileID: 5598028093969323646}
   - component: {fileID: 8752849728788732699}
   - component: {fileID: 7253251664976581176}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: RT-Wall   (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1219,7 +1220,7 @@ GameObject:
   - component: {fileID: 5237214423012884633}
   - component: {fileID: 5399431067217037340}
   - component: {fileID: 300718040656834018}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: RT-Wall   (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

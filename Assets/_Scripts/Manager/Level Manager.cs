@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
     private bool isLoading = false;
     void Awake()
     {
-        // PlayerPrefs.SetInt("CurrentLevel", );
+        PlayerPrefs.SetInt("CurrentLevel", 4);
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
         levelText.text = "Level " + currentLevelIndex;
