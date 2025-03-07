@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
-    public static event Action OnLevelBeLoaded;
+    public static event Action OnLevelBeLoaded; // build navmesh
+    public static event Action OnLevelBeLoaded2; // active player's movement
     [SerializeField] private bool haveNavMesh = false;
     // [SerializeField] NavMeshSurface navMeshSurface;
 
@@ -16,14 +17,19 @@ public class Level : MonoBehaviour
         //     Debug.Log("NavMesh is enabled");
         //     OnLevelBeLoaded?.Invoke();
         // }
+        Debug.Log("Level loaded");
+        OnLevelBeLoaded2?.Invoke();
     }
 
     void Start()
     {
-        if (haveNavMesh == true) {
-            Debug.Log("NavMesh is enabled");
+        if (haveNavMesh == true)
+        {
+            // Debug.Log("NavMesh is enabled");
             OnLevelBeLoaded?.Invoke();
+
+            Debug.Log("Level loaded");
         }
-        
+
     }
 }

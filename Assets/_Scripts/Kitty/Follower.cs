@@ -10,12 +10,12 @@ public class Follower : MonoBehaviour
     [SerializeField] private bool isCaged = true;
     void OnEnable()
     {
-        Player.onPlayerBeSpawned += SetPlayer;
+        Player.OnPlayerBeSpawned += SetPlayer;
     }
 
     void OnDisable()
     {
-        Player.onPlayerBeSpawned -= SetPlayer;
+        Player.OnPlayerBeSpawned -= SetPlayer;
     }
     void Start()
     {

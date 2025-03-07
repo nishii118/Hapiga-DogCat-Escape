@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public static event Action onPlayerEnterSuccessSpot;
-    public static event Action<Transform> onPlayerBeSpawned;
+    public static event Action OnPlayerEnterSuccessSpot;
+    public static event Action<Transform> OnPlayerBeSpawned;
 
     [SerializeField] private Rigidbody rb;
     [SerializeField] private Animator playerAnim;
@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     {
         CatFood.catFoodEaten += PlayerScaleUp;
 
-        onPlayerBeSpawned?.Invoke(transform);
+        OnPlayerBeSpawned?.Invoke(transform);
     }
 
     void OnDisable()
@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         if(other.gameObject.CompareTag("SuccessSpot"))
         {
             
-            onPlayerEnterSuccessSpot?.Invoke();
+            OnPlayerEnterSuccessSpot?.Invoke();
         }
     }
 
@@ -64,7 +64,9 @@ public class Player : MonoBehaviour
     }
 
 
-
+    public void PlayElectrizedAnimation() {
+        playerAnim.CrossFade("Electrized", 0.1f);
+    }
 
 
 

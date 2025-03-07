@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class Electricity : MonoBehaviour
 {
-    public static event Action onElectrized;
-    public static event Action onPoliceBeElectrized;
+    public static event Action OnElectrized;
+    public static event Action OnPoliceBeElectrized;
+    public static event Action OnPlayerBeElectrized;
     [SerializeField] private GameObject electricityActivatableObject;
     [SerializeField] private BoxCollider electricityCollider;
 
@@ -49,18 +50,31 @@ public class Electricity : MonoBehaviour
             Police police = other.GetComponent<Police>();
             police.PlayElectrizedAnimation();
             police.StopPoliceMovement();
-            onPoliceBeElectrized?.Invoke();
+            OnPoliceBeElectrized?.Invoke();
 
         }
 
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player entered electricity area");
-            onElectrized?.Invoke();
+            Player player = other.GetComponent<Player>();
+            Debug.Log("Player: " + player);
+
+            OnPlayerBeElectrized?.Invoke();
+            StartCoroutine(PlayPlayerElectrizedAnimation(player));
             // Messenger.Broadcast(EventKey.TURN_ON_ELECTRICITY);
 
         }
 
+        IEnumerator PlayPlayerElectrizedAnimation(Player player)
+        {
+            player.PlayElectrizedAnimation();
+            Debug.Log("PlayPlayerElectrizedAnimation");
+            yield return new WaitForSeconds(1f);
+            // player.StopPlayerMovement();
+            OnElectrized?.Invoke();
+
+        }
 
     }
 }

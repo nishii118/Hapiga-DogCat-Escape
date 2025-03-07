@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour
 {
-    public static event Action onCollisionEnterLaser;
+    public static event Action OnCollisionEnterLaser;
     [SerializeField] private GameObject laserActivatableObject;
     
     private bool laserState = true;

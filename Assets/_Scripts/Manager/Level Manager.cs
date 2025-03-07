@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
     private bool isLoading = false;
     void Awake()
     {
-        PlayerPrefs.SetInt("CurrentLevel", 1);
+        PlayerPrefs.SetInt("CurrentLevel", 25);
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
         levelText.text = "Level " + currentLevelIndex;
@@ -24,21 +24,21 @@ public class LevelManager : MonoBehaviour
 
     void OnEnable()
     {
-        Player.onPlayerEnterSuccessSpot += LoadNextLevel;
+        Player.OnPlayerEnterSuccessSpot += LoadNextLevel;
         // CatDetection.onDetectCat += LoadCurrentLevel;
-        Laser.onCollisionEnterLaser += LoadCurrentLevel;
-        Electricity.onElectrized += LoadCurrentLevel;
-        LaserWireCollider.onCollisionEnterLaser += LoadCurrentLevel;
+        Laser.OnCollisionEnterLaser += LoadCurrentLevel;
+        Electricity.OnElectrized += LoadCurrentLevel;
+        LaserWireCollider.OnCollisionEnterLaser += LoadCurrentLevel;
         FieldOfView.onFieldOfViewDetectPlayer += LoadCurrentLevel;
     }
 
     void OnDisable()
     {
-        Player.onPlayerEnterSuccessSpot -= LoadNextLevel;
+        Player.OnPlayerEnterSuccessSpot -= LoadNextLevel;
         // CatDetection.onDetectCat -= LoadCurrentLevel;
-        Laser.onCollisionEnterLaser -= LoadCurrentLevel;
-        Electricity.onElectrized -= LoadCurrentLevel;
-        LaserWireCollider.onCollisionEnterLaser -= LoadCurrentLevel;
+        Laser.OnCollisionEnterLaser -= LoadCurrentLevel;
+        Electricity.OnElectrized -= LoadCurrentLevel;
+        LaserWireCollider.OnCollisionEnterLaser -= LoadCurrentLevel;
         FieldOfView.onFieldOfViewDetectPlayer -= LoadCurrentLevel;
     }
 
@@ -53,12 +53,12 @@ public class LevelManager : MonoBehaviour
 
     IEnumerator DestroyAndLoadLevel()
     {
-        Debug.Log("Destroying current level");
-        Debug.Log("currentLevelInstance: " + currentLevelInstance);
+        // Debug.Log("Destroying current level");
+        // Debug.Log("currentLevelInstance: " + currentLevelInstance);
         // Xóa level cũ nếu nó tồn tại
         if (currentLevelInstance != null)
         {
-            Debug.Log("Destroying current level");
+            // Debug.Log("Destroying current level");
             Destroy(currentLevelInstance);
             yield return new WaitForEndOfFrame();
             LoadLevel(currentLevelIndex);
@@ -75,21 +75,21 @@ public class LevelManager : MonoBehaviour
 
         if (levelPrefab == null)
         {
-            Debug.LogError("Level " + levelIndex + " not found in Resources!");
+            // Debug.LogError("Level " + levelIndex + " not found in Resources!");
             return;
         }
 
-        Debug.Log("Loading Level: " + levelIndex);
-        Debug.Log("Level Prefab: " + levelPrefab.name);
+        // Debug.Log("Loading Level: " + levelIndex);
+        // Debug.Log("Level Prefab: " + levelPrefab.name);
         currentLevelInstance = Instantiate(levelPrefab, levelContainer.transform);
-        Debug.Log("Level Loaded: " + currentLevelInstance.name);
+        // Debug.Log("Level Loaded: " + currentLevelInstance.name);
     }
 
     void LoadCurrentLevel()
     {
         if (isLoading) return;
         isLoading = true;
-        Debug.Log("Loading current level");
+        // Debug.Log("Loading current level");
         StartCoroutine(DestroyAndLoadLevel());
     }
 }

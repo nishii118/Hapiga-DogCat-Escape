@@ -9,6 +9,20 @@ public class JoystickMove : Singleton<JoystickMove>
     [SerializeField] private Rigidbody rb;
     [SerializeField] private float rotationSpeed = 5f;
     [SerializeField] private Animator playerAnim;
+
+    private bool canMove = true;
+
+    void OnEnable()
+    {
+        Electricity.OnPlayerBeElectrized += () => canMove = false;
+        Level.OnLevelBeLoaded2 += () => canMove = true;
+    }
+
+    void OnDisable()
+    {
+        Electricity.OnPlayerBeElectrized -= () => canMove = false;
+        Level.OnLevelBeLoaded2 -= () => canMove = true;
+    }
     void Start()
     {
 
@@ -18,7 +32,7 @@ public class JoystickMove : Singleton<JoystickMove>
     void Update()
     {
         if (rb == null && playerAnim == null) return;
-        PlayerMovement();
+        if(canMove) PlayerMovement();
     }
 
     public void SetRigidbody(Rigidbody rigidbody)
@@ -59,4 +73,12 @@ public class JoystickMove : Singleton<JoystickMove>
             playerAnim.SetFloat("MoveSpeed", 0);
         }
     }
+
+    void StopPlayerMovement()
+    {
+        canMove = false;
+        rb.velocity = Vector3.zero;
+        playerAnim.SetFloat("MoveSpeed", 0);
+    }
+
 }
