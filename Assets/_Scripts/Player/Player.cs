@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
 {
     public static event Action onPlayerEnterSuccessSpot;
     public static event Action<Transform> onPlayerBeSpawned;
+
+    [SerializeField] private Rigidbody rb;
+    [SerializeField] private Animator playerAnim;
     void OnEnable()
     {
         CatFood.catFoodEaten += PlayerScaleUp;
@@ -24,7 +27,8 @@ public class Player : MonoBehaviour
         // rb = GetComponent<Rigidbody>();
         if (JoystickMove.Instance != null)
         {
-            JoystickMove.Instance.SetRigidbody(GetComponent<Rigidbody>());
+            JoystickMove.Instance.SetRigidbody(rb);
+            JoystickMove.Instance.SetPlayerAnim(playerAnim);
         }
     }
 
