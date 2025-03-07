@@ -720,6 +720,7 @@ MonoBehaviour:
   playerSpeed: 5
   rb: {fileID: 0}
   rotationSpeed: 25
+  playerAnim: {fileID: 0}
 --- !u!114 &1190204114 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8135886326569738823, guid: 56fae09712773584fb63896d473a98ee, type: 3}
@@ -1501,6 +1502,7 @@ MonoBehaviour:
   playerSpeed: 5.5
   rb: {fileID: 0}
   rotationSpeed: 25
+  playerAnim: {fileID: 0}
 --- !u!222 &8170153793166716672
 CanvasRenderer:
   m_ObjectHideFlags: 0

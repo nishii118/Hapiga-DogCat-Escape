@@ -7,12 +7,14 @@ public class Player : MonoBehaviour
 {
     public static event Action OnPlayerEnterSuccessSpot;
     public static event Action<Transform> OnPlayerBeSpawned;
+    public static event Action OnPlayerBeCaught;
 
     [SerializeField] private Rigidbody rb;
     [SerializeField] private Animator playerAnim;
     void OnEnable()
     {
         CatFood.catFoodEaten += PlayerScaleUp;
+        FieldOfView.OnFieldOfViewDetectPlayer += PlayPlayerBeCaughtAnimation;
 
         OnPlayerBeSpawned?.Invoke(transform);
     }
@@ -20,6 +22,7 @@ public class Player : MonoBehaviour
     void OnDisable()
     {
         CatFood.catFoodEaten -= PlayerScaleUp;
+        FieldOfView.OnFieldOfViewDetectPlayer -= PlayPlayerBeCaughtAnimation;
     }
 
     void Start()
@@ -69,5 +72,18 @@ public class Player : MonoBehaviour
     }
 
 
+    void PlayPlayerBeCaughtAnimation()
+    {
+        StartCoroutine(PlayPlayerBeCaughtAnimationCoroutine());
+        // playerAnim.CrossFade("Caught", 0.1f);
+    }
 
+    IEnumerator PlayPlayerBeCaughtAnimationCoroutine()
+    {
+        // rb.velocity = Vector3.zero;
+        OnPlayerBeCaught?.Invoke();
+        playerAnim.CrossFade("Catched", 0.1f);
+        yield return new WaitForSeconds(1.2f);
+
+    }
 }

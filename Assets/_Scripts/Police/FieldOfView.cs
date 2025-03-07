@@ -5,7 +5,7 @@ using System;
 
 public class FieldOfView : MonoBehaviour
 {
-    public static event Action onFieldOfViewDetectPlayer;
+    public static event Action OnFieldOfViewDetectPlayer;
 
     private bool canDetect = true;
 
@@ -77,7 +77,7 @@ public class FieldOfView : MonoBehaviour
                 {
                     visibleTargets.Add(target);
 
-                    if(canDetect)onFieldOfViewDetectPlayer?.Invoke();
+                    if(canDetect)OnFieldOfViewDetectPlayer?.Invoke();
                 }
             }
         }

@@ -16,12 +16,14 @@ public class JoystickMove : Singleton<JoystickMove>
     {
         Electricity.OnPlayerBeElectrized += () => canMove = false;
         Level.OnLevelBeLoaded2 += () => canMove = true;
+        Player.OnPlayerBeCaught += () => canMove = false;
     }
 
     void OnDisable()
     {
         Electricity.OnPlayerBeElectrized -= () => canMove = false;
         Level.OnLevelBeLoaded2 -= () => canMove = true;
+        Player.OnPlayerBeCaught -= () => canMove = false;
     }
     void Start()
     {
