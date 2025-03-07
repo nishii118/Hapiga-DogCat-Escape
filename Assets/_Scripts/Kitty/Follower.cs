@@ -20,7 +20,7 @@ public class Follower : MonoBehaviour
     }
     void Start()
     {
-        agent.speed = 3f;
+        agent.speed = 4.3f;
     }
 
     // Update is called once per frame

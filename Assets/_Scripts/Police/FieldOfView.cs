@@ -6,8 +6,11 @@ using System;
 public class FieldOfView : MonoBehaviour
 {
     public static event Action OnFieldOfViewDetectPlayer;
+    public static event Action OnPoliceCatchPlayer;
+
 
     private bool canDetect = true;
+    [SerializeField] private Animator policeAnimator;
 
     void OnEnable()
     {
@@ -77,7 +80,11 @@ public class FieldOfView : MonoBehaviour
                 {
                     visibleTargets.Add(target);
 
-                    if(canDetect)OnFieldOfViewDetectPlayer?.Invoke();
+                    if (canDetect)
+                    {
+                        OnCatchPlayer();
+                        OnFieldOfViewDetectPlayer?.Invoke();
+                    }
                 }
             }
         }
@@ -233,5 +240,21 @@ public class FieldOfView : MonoBehaviour
     void OnSafeAreaExit()
     {
         canDetect = true;
+    }
+
+
+    void OnCatchPlayer()
+    {
+        StartCoroutine(PlayCatchPlayerAnimation());
+    }
+
+    IEnumerator PlayCatchPlayerAnimation()
+    {
+        // rb.velocity = Vector3.zero;
+        // canMove = false;
+        policeAnimator.CrossFade("Catch", 0.1f);
+        yield return new WaitForSeconds(1.2f);
+
+        OnPoliceCatchPlayer?.Invoke();
     }
 }

@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec51c41cfa9a3d40afb2659b2a2adb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  policeAnimator: {fileID: 1588339790252802263}
   viewRadius: 2.14
   viewAngle: 101
   targetMask:
@@ -468,6 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ec51c41cfa9a3d40afb2659b2a2adb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  policeAnimator: {fileID: 0}
   viewRadius: 2.45
   viewAngle: 109
   targetMask:

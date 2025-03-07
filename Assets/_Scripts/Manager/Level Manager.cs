@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
     private bool isLoading = false;
     void Awake()
     {
-        PlayerPrefs.SetInt("CurrentLevel", 11);
+        // PlayerPrefs.SetInt("CurrentLevel", 11);
         currentLevelIndex = PlayerPrefs.GetInt("CurrentLevel", 1);
         LoadLevel(currentLevelIndex);
         levelText.text = "Level " + currentLevelIndex;
@@ -30,7 +30,7 @@ public class LevelManager : MonoBehaviour
         Electricity.OnElectrized += LoadCurrentLevel;
         LaserWireCollider.OnCollisionEnterLaser += LoadCurrentLevel;
         // FieldOfView.OnFieldOfViewDetectPlayer += LoadCurrentLevel;
-        Police.OnPoliceCatchPlayer += LoadCurrentLevel;
+        FieldOfView.OnPoliceCatchPlayer += LoadCurrentLevel;
     }
 
     void OnDisable()
@@ -41,7 +41,7 @@ public class LevelManager : MonoBehaviour
         Electricity.OnElectrized -= LoadCurrentLevel;
         LaserWireCollider.OnCollisionEnterLaser -= LoadCurrentLevel;
         // FieldOfView.OnFieldOfViewDetectPlayer -= LoadCurrentLevel;
-        Police.OnPoliceCatchPlayer -= LoadCurrentLevel;
+        FieldOfView.OnPoliceCatchPlayer -= LoadCurrentLevel;
     }
 
     void LoadNextLevel()

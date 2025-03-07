@@ -7,7 +7,6 @@ using UnityEngine;
 public class Police : MonoBehaviour
 {
     // public static event Action onPoliceBeElectrized;
-    public static event Action OnPoliceCatchPlayer;
     [SerializeField] private bool canMove = false;
     [SerializeField] private bool canRotateWhenIdling = false;
     // [SerializeField] private Transform aDestination;
@@ -31,13 +30,13 @@ public class Police : MonoBehaviour
     void OnEnable()
     {
         DoorOpenArea.onOpenDoor += OnCabinetDoorOpen;
-        FieldOfView.OnFieldOfViewDetectPlayer += OnCatchPlayer;
+        FieldOfView.OnFieldOfViewDetectPlayer += () => canMove = false;
     }
 
     void OnDisable()
     {
         DoorOpenArea.onOpenDoor -= OnCabinetDoorOpen;
-        FieldOfView.OnFieldOfViewDetectPlayer -= OnCatchPlayer;
+        FieldOfView.OnFieldOfViewDetectPlayer -= () => canMove = false;
     }
     void Start()
     {
@@ -179,18 +178,18 @@ public class Police : MonoBehaviour
     //     // DisactivePoliceDetector();
     //     capsuleCollider.enabled = false;
     // }
-    void OnCatchPlayer() {
-        StartCoroutine(PlayCatchPlayerAnimation());
-    }
+    // void OnCatchPlayer() {
+    //     StartCoroutine(PlayCatchPlayerAnimation());
+    // }
 
-    IEnumerator PlayCatchPlayerAnimation()
-    {
-        rb.velocity = Vector3.zero;
-        canMove = false;
-        animator.CrossFade("Catch", 0.1f);
-        yield return new WaitForSeconds(1.2f);
+    // IEnumerator PlayCatchPlayerAnimation()
+    // {
+    //     rb.velocity = Vector3.zero;
+    //     canMove = false;
+    //     animator.CrossFade("Catch", 0.1f);
+    //     yield return new WaitForSeconds(1.2f);
         
-        OnPoliceCatchPlayer?.Invoke();
-    }
+    //     OnPoliceCatchPlayer?.Invoke();
+    // }
     
 }
