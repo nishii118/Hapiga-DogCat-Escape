@@ -8,6 +8,7 @@ public class Follower : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private NavMeshAgent agent;
     [SerializeField] private bool isCaged = true;
+    [SerializeField] private Animator animator;
     void OnEnable()
     {
         Player.OnPlayerBeSpawned += SetPlayer;
@@ -19,20 +20,24 @@ public class Follower : MonoBehaviour
     }
     void Start()
     {
-
+        agent.speed = 3f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isCaged) agent.destination = new Vector3(player.transform.position.x , transform.position.y, player.transform.position.z - 0.1f);
+        if (!isCaged)
+        {
+            agent.destination = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z - 0.1f);
+            animator.SetFloat("IdleRunSpeed", agent.velocity.magnitude);
+        }
     }
 
     void SetPlayer(Transform playerTransform)
     {
         player = playerTransform.gameObject;
     }
-    
+
     public void SetIsCaged(bool value)
     {
         isCaged = value;

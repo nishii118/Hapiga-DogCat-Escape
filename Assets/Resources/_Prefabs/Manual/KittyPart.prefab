@@ -333,6 +333,7 @@ MonoBehaviour:
   player: {fileID: 0}
   agent: {fileID: 1278038546861921870}
   isCaged: 1
+  animator: {fileID: 299873105391446252}
 --- !u!65 &1517193071215751521
 BoxCollider:
   m_ObjectHideFlags: 0
